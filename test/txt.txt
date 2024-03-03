@@ -1,0 +1,78 @@
+La simulation du modèle SIR (Susceptible-Infectious-Recovered):
+
+
+Initialisation des Variables
+
+La simulation commence par définir trois catégories principales d'individus dans la population :
+
+- Susceptibles (S): Ce sont les utilisateurs qui n'ont pas encore été exposés à la fausse nouvelle ou qui l'ont été mais n'y croient pas encore. 
+                    Initialement, tous les utilisateurs sauf ceux directement exposés à la fausse nouvelle (à travers les likes, commentaires et 
+                    partages des publications marquées comme de fausses nouvelles) sont considérés comme susceptibles.
+  
+- Infectious (I): Ce sont les utilisateurs qui ont été exposés à la fausse nouvelle et contribuent à sa propagation. Le nombre initial d'infectieux 
+                  est déterminé par le niveau d'engagement des publications contenant des fausses nouvelles.
+
+- Recovered (R): Ce sont les utilisateurs qui étaient auparavant exposés à la fausse nouvelle mais qui ont depuis soit appris qu'elle était fausse, 
+                 soit ont choisi de ne plus la propager. Initialement, il n'y a pas de récupérés puisque la simulation commence au moment de l'introduction 
+                 de la fausse nouvelle.
+
+
+Paramètres de la Simulation
+
+- Beta (β): Le taux de transmission, représentant la probabilité qu'un susceptible devienne infectieux après avoir été exposé à la fausse nouvelle. 
+            Il est influencé par le niveau d'interaction entre les utilisateurs et les publications contenant des fausses nouvelles.
+
+- Gamma (γ): Le taux de récupération, indiquant la vitesse à laquelle les infectieux cessent de propager la fausse nouvelle et deviennent récupérés.
+             Cela peut représenter l'efficacité des efforts de vérification des faits ou la perte d'intérêt naturelle pour la nouvelle.
+
+
+Boucle de Simulation
+
+La simulation se déroule sur une période définie (par exemple, 50 jours) 
+
+1. Calcul des Nouvelles Infections: À chaque étape, le script calcule le nombre de nouvelles infections en utilisant la formule `new_infections = (β * S * I) / N`,
+                                    où `N` est la population totale. Cela reflète l'idée que plus il y a d'interactions entre les susceptibles et les infectieux, 
+                                    plus le nombre de nouvelles infections est élevé.
+
+2. Calcul des Nouvelles Récupérations*: Le nombre de nouvelles récupérations est calculé comme `new_recoveries = γ * I`, ce qui représente le pourcentage des infectieux
+                                        qui cessent de propager la fausse nouvelle à chaque étape.
+
+3. Mise à Jour des Populations: Les populations de S, I, et R sont mises à jour en soustrayant les nouvelles infections de S, en ajoutant les nouvelles infections à I 
+                                et en soustrayant les nouvelles récupérations de I, puis en ajoutant les nouvelles récupérations à R.
+
+Visualisation
+
+À la fin de la simulation, les trajectoires de S, I, et R sont tracées sur un graphique pour visualiser la dynamique de la propagation des fausses nouvelles au fil 
+du temps. Cela permet d'observer comment la fausse nouvelle se répand initialement rapidement, atteint un pic lorsque le nombre d'infectieux est maximal,
+ puis décline à mesure que de plus en plus d'utilisateurs cessent de la propager, soit parce qu'ils ont été corrigés, soit parce qu'ils ont perdu l'intérêt.
+
+Cette simulation simplifiée donne un aperçu de la manière dont les fausses nouvelles peuvent se propager dans une population et souligne l'importance des facteurs 
+tels que le taux de transmission et le taux de récupération dans la détermination de la rapidité et de l'ampleur de cette propagation.
+
+
+
+Il y a trois courbes qui représentent les trois compartiments du modèle SIR :
+
+- La courbe bleue (Susceptible): Elle commence à un niveau élevé, ce qui indique que la majorité de la population est initialement 
+                                 susceptible d'être "infectée" par les fausses nouvelles. Dans le contexte des fausses nouvelles, 
+                                 cela signifierait que beaucoup de gens sont initialement exposés et peuvent potentiellement croire et
+                                  partager les fausses nouvelles. Sur le graphique, cette courbe reste relativement stable, ce qui suggérerait 
+                                  que dans cette simulation, la majorité des utilisateurs restent susceptibles et ne sont pas "infectés"
+                                   par la fausse nouvelle.
+
+- La courbe orange (Infectious): Elle commence à un niveau bas, indiquant qu'il y a peu d'utilisateurs qui partagent activement la fausse 
+                                 nouvelle au début. Cette courbe augmente légèrement, indiquant que quelques utilisateurs supplémentaires 
+                                 deviennent "infectés" et commencent à partager la fausse nouvelle. Cependant, elle redescend rapidement, 
+                                 ce qui pourrait suggérer que les utilisateurs cessent de partager la fausse nouvelle assez rapidement, 
+                                 peut-être en raison de la prise de conscience ou de la correction de l'information.
+
+- La courbe verte (Recovered): Elle commence à zéro, ce qui est attendu puisque personne n'est encore "récupéré" au début de la simulation. 
+                               Cette courbe augmente avec le temps, ce qui suggère que les utilisateurs infectés cessent de croire ou de 
+                               partager la fausse nouvelle avec le temps. Dans le contexte de la désinformation, cela pourrait signifier 
+                               que les utilisateurs apprennent la vérité ou perdent simplement l'intérêt pour la fausse nouvelle.
+
+En résumé, le graphique montre une propagation limitée de la fausse nouvelle parmi la population avec un nombre relativement 
+faible de personnes devenant "infectées". Ensuite, ces "infectés" récupèrent assez rapidement, ce qui pourrait suggérer une 
+efficacité des mécanismes de vérification des faits ou une tendance naturelle des nouvelles à devenir moins intéressantes avec le temps. 
+La courbe des susceptibles qui reste élevée indique que la majorité de la population n'a pas été affectée par la fausse nouvelle, ce qui 
+est une issue positive dans le contexte de la lutte contre la désinformation.
