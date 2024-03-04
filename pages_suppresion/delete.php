@@ -41,6 +41,7 @@ if (isset($_POST['confirm_delete'])) { // Vérifier si le formulaire a été sou
 <head>
     <meta charset="UTF-8">
     <title>Confirmation de Suppression</title>
+    <link rel="stylesheet" href="delete.css">
 </head>
 <body>
     <h1>Êtes-vous sûr de vouloir supprimer cet utilisateur ?</h1>
