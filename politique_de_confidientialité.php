@@ -35,7 +35,7 @@
     </section>
     <section id="Identité-du-responsable-de-traitement">
         <h2>Identité du responsable de traitement</h2>
-        <p>Benoît CHAVAGNAC, délégué à la protection des données à Bordeaux INP, contactable par mail à benoit.chavagnac@bordeaux-inp.fr agit en qualité de responsable de traitement à l'égard des données personnelles collectées sur le site. Pour toute question relative au traitement des données, vous pouvez également nous contacter via l'adresse mail suivante : projetsix51@gmail.com</p>
+        <p>Benoît CHAVAGNAC, délégué à la protection des données à Bordeaux INP, contactable par mail à benoit.chavagnac@bordeaux-inp.fr et Philippe MONIEZ, contactable par mail à Philippe.Moniez@enseirb-matmeca.fr agissent en qualité de responsables de traitement à l'égard des données personnelles collectées sur le site. Pour toute question relative au traitement des données, vous pouvez également nous contacter via l'adresse mail suivante : projetsix51@gmail.com</p>
     </section>
     <section id="Les-informations-que-nous-recueillons">
         <h2>Les informations que nous recueillons</h2>
@@ -126,7 +126,7 @@
         <p>Tout lien hypertexte présent sur notre site menant à des sites web tiers et à des informations les concernant ne garantit en rien la politique de confidentialité sur ces sites sur lesquels nous n'avons aucun contrôle, et nous ne sommes pas responsables de leurs politiques de confidentialité ni de leurs pratiques.</p>
     </section>
     <section id="Cookies">
-        <h2>Modification de cette politique de confidentialité</h2>
+        <h2>Cookies</h2>
         <p>Notre site web utilise des cookies. Un cookie est un fichier contenant un identifiant envoyé par un serveur web vers un navigateur web et stocké par le navigateur. L'identifiant est alors renvoyé au serveur à chaque fois que le navigateur demande une page au serveur. Les cookies peuvent être « persistants » ou « de session » : un cookie persistant est stocké par le navigateur et reste valide jusqu’à sa date d’expiration, à moins d’être supprimé par l’utilisateur avant cette date d’expiration. Un cookie de session, quant à lui, expire à la fin de la session utilisateur, lors de la fermeture du navigateur. Les cookies ne contiennent en général aucune information permettant d'identifier personnellement un utilisateur, mais les informations personnelles que nous stockons à votre sujet peuvent être liées aux informations stockées dans les cookies et obtenues par les cookies.</p>
         <p>Ceux-ci peuvent permettre de reconnaître un ordinateur lorsqu'un utilisateur consulte le site web.</p>
         <p>La plupart des navigateurs vous permettent de refuser ou d'accepter les cookies. Cependant, bloquer tous les cookies aura un impact négatif sur l'utilisation de notre site web. Si vous bloquez les cookies, vous ne pourrez pas utiliser toutes les fonctionnalités de notre site web.</p>
