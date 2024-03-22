@@ -1,0 +1,12 @@
+{
+    "utilisateurs": [
+      {"id": 1, "etat": "susceptible", "abonnes": 150},
+      {"id": 2, "etat": "infecte", "abonnes": 5000},
+      {"id": 3, "etat": "retabli", "abonnes": 300}
+    ],
+    "publications": [
+      {"id_user": 2, "likes": 300, "commentaires": 50, "partages": 20},
+      {"id_user": 2, "likes": 150, "commentaires": 20, "partages": 5}
+    ]
+  }
+  
