@@ -1,0 +1,8 @@
+{
+    "utilisateurs": [
+      {"id": 1, "credibilite": 0.5, "etat": "susceptible"},
+      {"id": 2, "credibilite": 0.9, "etat": "infecte"},
+      {"id": 3, "credibilite": 0.7, "etat": "retabli"}
+    ]
+  }
+  
