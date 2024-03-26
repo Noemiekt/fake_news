@@ -1,8 +1,9 @@
 <?php
 header('Content-Type: application/json');
 
-// Nombre total d'utilisateurs
-$totalUsers = 8;
+// Récupération du nombre d'utilisateurs à partir du paramètre 'n' dans l'URL
+$totalUsers = isset($_GET['n']) ? (int)$_GET['n'] : 8; // Par défaut à 8 si non spécifié
+
 $users = [];
 $posts = [];
 
