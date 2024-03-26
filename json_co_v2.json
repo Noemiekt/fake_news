@@ -1,0 +1,1274 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "username": "user1",
+            "followers": [
+                {
+                    "username": "user4"
+                },
+                {
+                    "username": "user8"
+                }
+            ],
+            "followers_count": 0
+        },
+        {
+            "user_id": 2,
+            "username": "user2",
+            "followers": [
+                {
+                    "username": "user1"
+                },
+                {
+                    "username": "user4"
+                },
+                {
+                    "username": "user5"
+                },
+                {
+                    "username": "user6"
+                },
+                {
+                    "username": "user8"
+                }
+            ],
+            "followers_count": 1
+        },
+        {
+            "user_id": 3,
+            "username": "user3",
+            "followers": [
+                {
+                    "username": "user1"
+                },
+                {
+                    "username": "user2"
+                },
+                {
+                    "username": "user4"
+                }
+            ],
+            "followers_count": 2
+        },
+        {
+            "user_id": 4,
+            "username": "user4",
+            "followers": [
+                {
+                    "username": "user3"
+                },
+                {
+                    "username": "user7"
+                },
+                {
+                    "username": "user8"
+                }
+            ],
+            "followers_count": 1
+        },
+        {
+            "user_id": 5,
+            "username": "user5",
+            "followers": [
+                {
+                    "username": "user1"
+                },
+                {
+                    "username": "user2"
+                },
+                {
+                    "username": "user3"
+                },
+                {
+                    "username": "user4"
+                }
+            ],
+            "followers_count": 4
+        },
+        {
+            "user_id": 6,
+            "username": "user6",
+            "followers": [
+                {
+                    "username": "user3"
+                },
+                {
+                    "username": "user4"
+                },
+                {
+                    "username": "user5"
+                }
+            ],
+            "followers_count": 3
+        },
+        {
+            "user_id": 7,
+            "username": "user7",
+            "followers": [
+                {
+                    "username": "user2"
+                },
+                {
+                    "username": "user3"
+                },
+                {
+                    "username": "user4"
+                },
+                {
+                    "username": "user8"
+                }
+            ],
+            "followers_count": 3
+        },
+        {
+            "user_id": 7,
+            "username": "user7",
+            "followers": [
+                {
+                    "username": "user2"
+                },
+                {
+                    "username": "user3"
+                },
+                {
+                    "username": "user4"
+                },
+                {
+                    "username": "user8"
+                }
+            ],
+            "followers_count": 3
+        }
+    ],
+    "posts": [
+        {
+            "post_id": 1,
+            "user_id": 1,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                },
+                {
+                    "username": "user4",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user1"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 3
+        },
+        {
+            "post_id": 2,
+            "user_id": 1,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user1"
+                        }
+                    ]
+                },
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user4"
+                        }
+                    ]
+                },
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user1"
+                        }
+                    ]
+                },
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user1"
+                        }
+                    ]
+                },
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                },
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 6
+        },
+        {
+            "post_id": 3,
+            "user_id": 1,
+            "is_fake_news": false,
+            "shares": [],
+            "shares_count": 0
+        },
+        {
+            "post_id": 4,
+            "user_id": 2,
+            "is_fake_news": false,
+            "shares": [],
+            "shares_count": 0
+        },
+        {
+            "post_id": 5,
+            "user_id": 2,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user4",
+                    "to": [
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user4"
+                        }
+                    ]
+                },
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user6"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 7
+        },
+        {
+            "post_id": 6,
+            "user_id": 2,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user6"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        },
+        {
+            "post_id": 7,
+            "user_id": 2,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 3
+        },
+        {
+            "post_id": 8,
+            "user_id": 2,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 1
+        },
+        {
+            "post_id": 9,
+            "user_id": 3,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user3"
+                        }
+                    ]
+                },
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        },
+        {
+            "post_id": 10,
+            "user_id": 4,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 1
+        },
+        {
+            "post_id": 11,
+            "user_id": 4,
+            "is_fake_news": false,
+            "shares": [],
+            "shares_count": 0
+        },
+        {
+            "post_id": 12,
+            "user_id": 4,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                },
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        },
+        {
+            "post_id": 13,
+            "user_id": 5,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user4"
+                        }
+                    ]
+                },
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user4"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 5
+        },
+        {
+            "post_id": 14,
+            "user_id": 5,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user4"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                },
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 6
+        },
+        {
+            "post_id": 15,
+            "user_id": 5,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                },
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                },
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 4
+        },
+        {
+            "post_id": 16,
+            "user_id": 5,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 1
+        },
+        {
+            "post_id": 17,
+            "user_id": 6,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user6"
+                        }
+                    ]
+                },
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user6"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        },
+        {
+            "post_id": 18,
+            "user_id": 6,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user6",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        },
+        {
+            "post_id": 19,
+            "user_id": 7,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 1
+        },
+        {
+            "post_id": 20,
+            "user_id": 7,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user4",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user3",
+                    "to": [
+                        {
+                            "username": "user2"
+                        }
+                    ]
+                },
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 3
+        },
+        {
+            "post_id": 21,
+            "user_id": 7,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user1"
+                        }
+                    ]
+                },
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 4
+        },
+        {
+            "post_id": 22,
+            "user_id": 7,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        }
+                    ]
+                },
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user4"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user2",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 4
+        },
+        {
+            "post_id": 23,
+            "user_id": 7,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user1",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                },
+                {
+                    "username": "user5",
+                    "to": [
+                        {
+                            "username": "user1"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        },
+        {
+            "post_id": 24,
+            "user_id": 7,
+            "is_fake_news": false,
+            "shares": [
+                {
+                    "username": "user7",
+                    "to": [
+                        {
+                            "username": "user2"
+                        },
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user5"
+                        }
+                    ]
+                },
+                {
+                    "username": "user4",
+                    "to": [
+                        {
+                            "username": "user3"
+                        },
+                        {
+                            "username": "user5"
+                        },
+                        {
+                            "username": "user6"
+                        },
+                        {
+                            "username": "user7"
+                        },
+                        {
+                            "username": "user7"
+                        }
+                    ]
+                }
+            ],
+            "shares_count": 2
+        }
+    ]
+}
