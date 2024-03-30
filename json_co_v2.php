@@ -2,13 +2,14 @@
 header('Content-Type: application/json');
 
 // Récupération du nombre d'utilisateurs à partir du paramètre 'n' dans l'URL
-$totalUsers = isset($_GET['n']) ? (int)$_GET['n'] : 8; // Par défaut à 8 si non spécifié
+$totalUsers = isset($_GET['n']) ? (int)$_GET['n'] : 3; // Par défaut à 8 si non spécifié
 
 $users = [];
 $posts = [];
 
 // Création des utilisateurs
-for ($i = 1; $i <= $totalUsers; $i++) {
+for ($i = 1; $i <=$totalUsers; $i++) {
+    
     $users[] = [
         'user_id' => $i,
         'username' => 'user'.$i,
@@ -19,6 +20,7 @@ for ($i = 1; $i <= $totalUsers; $i++) {
 // Assignation aléatoire des followings
 foreach ($users as &$user) {
     $followingsCount = rand(1, $totalUsers - 1);
+    $user['followers_count'] = $followingsCount ;
     $followings = [];
 
     while (count($followings) < $followingsCount) {
@@ -30,12 +32,11 @@ foreach ($users as &$user) {
         }
     }
 
-    $user['followers_count'] = count($user['followers']);
 }
 
 // Création des publications et des partages de manière aléatoire
-foreach ($users as $user) {
-    $postsCount = rand(1, 5); // Chaque utilisateur peut avoir entre 1 et 5 posts
+foreach ($users as &$user) {
+    $postsCount = rand(1, 2); // Nombre de post random
 
     for ($j = 0; $j < $postsCount; $j++) {
         $postId = count($posts) + 1;
