@@ -4,9 +4,10 @@ header('Content-Type: application/json');
 
 
 // Récupération du nombre d'utilisateurs à partir du paramètre 'n' dans l'URL
-$totalInstructors = isset($_GET['i']) ? (int)$_GET['i'] : 20;
-$totalStudents = isset($_GET['s']) ? (int)$_GET['s'] : 20; 
+$totalInstructors = isset($_GET['i']) ? (int)$_GET['i'] : 10;
+$totalStudents = isset($_GET['s']) ? (int)$_GET['s'] : 10; 
 $totalUsers = $totalInstructors + $totalStudents;
+$maxtime = isset($_GET['t']) ? (int)$_GET['t'] : 10;
 
 $instructors = [];
 $students = [];
@@ -14,6 +15,7 @@ $posts = [];
 $nb_students = $totalStudents;
 $inst_stud_co = [];
 $stud_stud_co = [];
+$timeStep = [];
 $proba_persu = [];
 $proba_corrupt = [];
 
@@ -128,7 +130,9 @@ foreach ($instructors as $instructor) {
 
                 foreach ($sharedToUserKeys as $key) {
                     if ($key != $sharingUserKey) {
-                        $share['to'][] = ['username' => $students[$key]['username']];
+                        $share['to'][] = [
+                            'username' => $students[$key]['username'],
+                            'time' => rand(0, $maxtime/2)];
                     }
                 }
 
@@ -191,6 +195,21 @@ foreach ($students as $student) {
 
 $stud_stud_co = floor($totalfollowersS/$totalStudents);
 
+// Calcul du nombre de time step
+
+$totalSteps = 0;
+
+foreach ($posts as $post) {
+    foreach ($post['shares'] as $share) {
+        foreach ($share['to'] as $to) {
+            $totalTimeSteps += $to['time'];
+        }
+    }
+}
+
+$timeStep = floor($totalTimeSteps/($maxtime*$totalStudents));
+
+
 // Calcul de la proba de persuasion
 $totalLikes = 0;
 
@@ -215,16 +234,31 @@ foreach ($posts as $post) {
 
 $proba_corrupt = $totalSharesForFakeNews / ($fakeNewsCount * $totalUsers);
 
-// Aggrégation des données dans une structure unique
+// Préparation du contenu pour data.php
+$dataToWrite = "<?php\n";
+$dataToWrite .= "header('Content-Type: application/json');\n"; // Correctement ajouté au début
+$dataToWrite .= "\$data = [\n";
+$dataToWrite .= "    'number_students' => " . $nb_students . ",\n";
+$dataToWrite .= "    'instructor-students_co' => " . $inst_stud_co . ",\n";
+$dataToWrite .= "    'students-students_co' => " . $stud_stud_co . ",\n";
+$dataToWrite .= "    'timesteps' => " . $timeStep . ",\n";
+$dataToWrite .= "    'proba_persu' => " . $proba_persu . ",\n";
+$dataToWrite .= "    'proba_corrupt' => " . $proba_corrupt . ",\n";
+$dataToWrite .= "];\n";
+$dataToWrite .= "\$jsonData = json_encode(\$data, JSON_PRETTY_PRINT);\n"; // Assurez-vous de mettre des variables PHP en chaîne correctement
+$dataToWrite .= "echo \$jsonData;\n"; // Les variables doivent être échappées correctement
+// Enlever la ligne suivante, car elle tenterait d'écrire dans un fichier depuis le fichier lui-même, ce qui n'est pas logique dans ce contexte
+// $dataToWrite .= "file_put_contents(\$filePath, \$jsonData);\n";
+$dataToWrite .= "?>";
+
+// Écriture des données dans `data.php`
+file_put_contents(__DIR__ . '/data.php', $dataToWrite);
+
+// Aggrégation des autres données dans une structure unique pour JSON
 $data = [
     'students' => $students,
     'instructors' => $instructors,
     'posts' => $posts,
-    'number_students' => $nb_students,
-    'instructor-students_co' => $inst_stud_co,
-    'students-students_co' => $stud_stud_co,
-    'proba_persu' => $proba_persu,
-    'proba_corrupt'=> $proba_corrupt,
 ];
 
 // Génération du JSON
@@ -234,7 +268,7 @@ $jsonData = json_encode($data, JSON_PRETTY_PRINT);
 echo $jsonData;
 
 // Chemin du fichier où vous souhaitez enregistrer le JSON
-$filePath = './json_co_v2.json';
+$filePath = __DIR__ . '/json_co_v3.json'; // Utilisez __DIR__ pour le chemin absolu
 
 // Écriture du JSON dans le fichier
 file_put_contents($filePath, $jsonData);
