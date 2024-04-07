@@ -25,7 +25,12 @@ def propagate_information(user_id, post_id, is_fake_news, colors, share_count):
     for follow in data['follows']:
         if follow['follower_user_id'] == user_id:
             followed_user_id = follow['following_user_id']
-            if followed_user_id != 1 and  followed_user_id != 2 and followed_user_id != 7 and followed_user_id != 10:
+            is_influenceur = False
+            for i in data['posts']:
+                if i['user_id'] == followed_user_id:
+                    is_influenceur = True
+                    
+            if is_influenceur is False:
                 if colors[followed_user_id] is None:
                     if share_count < data['posts'][post_id - 1]['shares']:
                         colors[followed_user_id] = 'red' if is_fake_news else 'blue'
@@ -45,10 +50,11 @@ def propagate_information(user_id, post_id, is_fake_news, colors, share_count):
 
 def initialize_colors():
     data_colors = {user['user_id']: None for user in data['users']}
-    data_colors[1] = 'purple'
-    data_colors[7] = 'purple'
-    data_colors[2] = 'yellow'
-    data_colors[10] = 'yellow'
+    for i in data['posts']:
+        if i['is_fake_news'] is True:
+            data_colors[i['user_id']] = 'purple'
+        else:
+            data_colors[i['user_id']] = 'yellow'
     return data_colors
 
 def propagate_post(post, colors):

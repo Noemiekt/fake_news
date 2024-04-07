@@ -1,0 +1,42 @@
+{
+  "users": [
+    {"user_id": 1, "username": "user1", "followers_count": 100},
+    {"user_id": 2, "username": "user2", "followers_count": 150},
+    {"user_id": 3, "username": "user3", "followers_count": 200},
+    {"user_id": 4, "username": "user4", "followers_count": 250},
+    {"user_id": 5, "username": "user5", "followers_count": 300},
+    {"user_id": 6, "username": "user6", "followers_count": 350},
+    {"user_id": 7, "username": "user7", "followers_count": 400},
+    {"user_id": 8, "username": "user8", "followers_count": 450},
+    {"user_id": 9, "username": "user9", "followers_count": 500},
+    {"user_id": 10, "username": "user10", "followers_count": 550}
+  ],
+  "posts": [
+    {"post_id": 1, "user_id": 1, "content": "Fake health news", "is_fake_news": true, "likes": 10, "comments": 5, "shares": 3},
+    {"post_id": 2, "user_id": 2, "content": "Real health news", "is_fake_news": false, "likes": 15, "comments": 8, "shares": 4},
+    {"post_id": 3, "user_id": 7, "content": "Fake health news", "is_fake_news": true, "likes": 20, "comments": 10, "shares": 5},
+    {"post_id": 4, "user_id": 10, "content": "Real health news", "is_fake_news": false, "likes": 25, "comments": 12, "shares": 6}
+  ],
+  "follows": [
+    {"follower_user_id": 1, "following_user_id": 2},
+    {"follower_user_id": 1, "following_user_id": 3},
+    {"follower_user_id": 2, "following_user_id": 3},
+    {"follower_user_id": 2, "following_user_id": 4},
+    {"follower_user_id": 3, "following_user_id": 4},
+    {"follower_user_id": 3, "following_user_id": 5},
+    {"follower_user_id": 4, "following_user_id": 5},
+    {"follower_user_id": 4, "following_user_id": 6},
+    {"follower_user_id": 5, "following_user_id": 6},
+    {"follower_user_id": 5, "following_user_id": 7},
+    {"follower_user_id": 6, "following_user_id": 7},
+    {"follower_user_id": 6, "following_user_id": 8},
+    {"follower_user_id": 7, "following_user_id": 8},
+    {"follower_user_id": 7, "following_user_id": 9},
+    {"follower_user_id": 8, "following_user_id": 9},
+    {"follower_user_id": 8, "following_user_id": 10},
+    {"follower_user_id": 9, "following_user_id": 10},
+    {"follower_user_id": 9, "following_user_id": 1},
+    {"follower_user_id": 10, "following_user_id": 1},
+    {"follower_user_id": 10, "following_user_id": 2}
+  ]
+}
