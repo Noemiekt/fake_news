@@ -1,0 +1,1374 @@
+{
+    "students": [
+        {
+            "student_id": 1,
+            "username": "student1",
+            "followers": [
+                "student20",
+                "student4",
+                "student8",
+                "student13",
+                "student10",
+                "student16"
+            ],
+            "followers_count": 6
+        },
+        {
+            "student_id": 2,
+            "username": "student2",
+            "followers": [
+                "student18",
+                "student14",
+                "student7",
+                "student16",
+                "student10",
+                "student12",
+                "student5"
+            ],
+            "followers_count": 7
+        },
+        {
+            "student_id": 3,
+            "username": "student3",
+            "followers": [
+                "student5",
+                "student8",
+                "student20",
+                "student18",
+                "student11",
+                "student10",
+                "student17",
+                "student15",
+                "student1",
+                "student9",
+                "student6"
+            ],
+            "followers_count": 11
+        },
+        {
+            "student_id": 4,
+            "username": "student4",
+            "followers": [
+                "student9",
+                "student6",
+                "student19",
+                "student18",
+                "student20"
+            ],
+            "followers_count": 5
+        },
+        {
+            "student_id": 5,
+            "username": "student5",
+            "followers": [
+                "student11",
+                "student18",
+                "student6",
+                "student15",
+                "student19",
+                "student16",
+                "student1",
+                "student4",
+                "student13",
+                "student9",
+                "student12",
+                "student17",
+                "student7",
+                "student10",
+                "student8",
+                "student3"
+            ],
+            "followers_count": 16
+        },
+        {
+            "student_id": 6,
+            "username": "student6",
+            "followers": [
+                "student15",
+                "student20",
+                "student17",
+                "student1",
+                "student14",
+                "student19",
+                "student5",
+                "student8",
+                "student12",
+                "student16",
+                "student9",
+                "student2",
+                "student4",
+                "student13",
+                "student7",
+                "student3",
+                "student18",
+                "student11",
+                "student10"
+            ],
+            "followers_count": 19
+        },
+        {
+            "student_id": 7,
+            "username": "student7",
+            "followers": [
+                "student4"
+            ],
+            "followers_count": 1
+        },
+        {
+            "student_id": 8,
+            "username": "student8",
+            "followers": [
+                "student14",
+                "student20",
+                "student13",
+                "student16",
+                "student10",
+                "student4",
+                "student18",
+                "student9",
+                "student19",
+                "student2",
+                "student6",
+                "student15",
+                "student1",
+                "student11"
+            ],
+            "followers_count": 14
+        },
+        {
+            "student_id": 9,
+            "username": "student9",
+            "followers": [
+                "student14",
+                "student7",
+                "student19",
+                "student5",
+                "student16",
+                "student15",
+                "student17",
+                "student8",
+                "student18",
+                "student3",
+                "student11",
+                "student20"
+            ],
+            "followers_count": 12
+        },
+        {
+            "student_id": 10,
+            "username": "student10",
+            "followers": [
+                "student20",
+                "student2",
+                "student12",
+                "student18"
+            ],
+            "followers_count": 4
+        },
+        {
+            "student_id": 11,
+            "username": "student11",
+            "followers": [
+                "student15",
+                "student19",
+                "student9",
+                "student14",
+                "student7",
+                "student16",
+                "student12",
+                "student5",
+                "student18",
+                "student6",
+                "student8",
+                "student2",
+                "student4"
+            ],
+            "followers_count": 13
+        },
+        {
+            "student_id": 12,
+            "username": "student12",
+            "followers": [
+                "student17",
+                "student9",
+                "student20",
+                "student19",
+                "student11",
+                "student13",
+                "student6",
+                "student14",
+                "student7",
+                "student10",
+                "student16",
+                "student3",
+                "student2",
+                "student18",
+                "student15",
+                "student1",
+                "student8",
+                "student4"
+            ],
+            "followers_count": 18
+        },
+        {
+            "student_id": 13,
+            "username": "student13",
+            "followers": [
+                "student18",
+                "student15",
+                "student4",
+                "student17",
+                "student5",
+                "student20",
+                "student19",
+                "student9",
+                "student7",
+                "student16",
+                "student1",
+                "student12",
+                "student6",
+                "student3",
+                "student2",
+                "student10",
+                "student14"
+            ],
+            "followers_count": 17
+        },
+        {
+            "student_id": 14,
+            "username": "student14",
+            "followers": [
+                "student10"
+            ],
+            "followers_count": 1
+        },
+        {
+            "student_id": 15,
+            "username": "student15",
+            "followers": [
+                "student7",
+                "student16",
+                "student2",
+                "student10",
+                "student8",
+                "student5",
+                "student18",
+                "student4",
+                "student12",
+                "student9",
+                "student11",
+                "student6",
+                "student3",
+                "student1",
+                "student20",
+                "student17"
+            ],
+            "followers_count": 16
+        },
+        {
+            "student_id": 16,
+            "username": "student16",
+            "followers": [
+                "student10",
+                "student3",
+                "student17",
+                "student14",
+                "student18",
+                "student20",
+                "student1"
+            ],
+            "followers_count": 7
+        },
+        {
+            "student_id": 17,
+            "username": "student17",
+            "followers": [
+                "student4",
+                "student10",
+                "student5",
+                "student12",
+                "student2",
+                "student14",
+                "student7",
+                "student13",
+                "student6",
+                "student19",
+                "student18",
+                "student20",
+                "student1",
+                "student15",
+                "student3",
+                "student9",
+                "student16"
+            ],
+            "followers_count": 17
+        },
+        {
+            "student_id": 18,
+            "username": "student18",
+            "followers": [
+                "student20",
+                "student2",
+                "student11",
+                "student4",
+                "student1",
+                "student13"
+            ],
+            "followers_count": 6
+        },
+        {
+            "student_id": 19,
+            "username": "student19",
+            "followers": [
+                "student2",
+                "student20",
+                "student6",
+                "student9",
+                "student11",
+                "student3"
+            ],
+            "followers_count": 6
+        },
+        {
+            "student_id": 20,
+            "username": "student20",
+            "followers": [
+                "student3",
+                "student18",
+                "student5"
+            ],
+            "followers_count": 3
+        }
+    ],
+    "influencers": [
+        {
+            "influencer_id": 1,
+            "username": "influencer1",
+            "credibility": 4,
+            "activity_rate": 10,
+            "reliability": 10,
+            "verified": true,
+            "interaction": 3,
+            "followers": [
+                {
+                    "username": "student19"
+                }
+            ],
+            "followers_count": 1,
+            "proba_persu": 5.6,
+            "proba_corrupt": 0.03571428571428571
+        },
+        {
+            "influencer_id": 2,
+            "username": "influencer2",
+            "credibility": 4,
+            "activity_rate": 6,
+            "reliability": 2,
+            "verified": true,
+            "interaction": 4,
+            "followers": [
+                {
+                    "username": "student14"
+                },
+                {
+                    "username": "student2"
+                },
+                {
+                    "username": "student8"
+                },
+                {
+                    "username": "student9"
+                },
+                {
+                    "username": "student3"
+                },
+                {
+                    "username": "student16"
+                },
+                {
+                    "username": "student11"
+                },
+                {
+                    "username": "student5"
+                },
+                {
+                    "username": "student1"
+                },
+                {
+                    "username": "student20"
+                },
+                {
+                    "username": "student10"
+                },
+                {
+                    "username": "student18"
+                },
+                {
+                    "username": "student7"
+                },
+                {
+                    "username": "student19"
+                }
+            ],
+            "followers_count": 14,
+            "proba_persu": 3.4,
+            "proba_corrupt": 0.5
+        },
+        {
+            "influencer_id": 3,
+            "username": "influencer3",
+            "credibility": 8,
+            "activity_rate": 8,
+            "reliability": 9,
+            "verified": false,
+            "interaction": 4,
+            "followers": [
+                {
+                    "username": "student20"
+                },
+                {
+                    "username": "student19"
+                },
+                {
+                    "username": "student9"
+                },
+                {
+                    "username": "student16"
+                },
+                {
+                    "username": "student17"
+                },
+                {
+                    "username": "student8"
+                },
+                {
+                    "username": "student13"
+                },
+                {
+                    "username": "student6"
+                },
+                {
+                    "username": "student4"
+                },
+                {
+                    "username": "student15"
+                },
+                {
+                    "username": "student12"
+                },
+                {
+                    "username": "student1"
+                },
+                {
+                    "username": "student3"
+                },
+                {
+                    "username": "student2"
+                },
+                {
+                    "username": "student7"
+                },
+                {
+                    "username": "student14"
+                },
+                {
+                    "username": "student5"
+                },
+                {
+                    "username": "student18"
+                }
+            ],
+            "followers_count": 18,
+            "proba_persu": 5.8,
+            "proba_corrupt": 0.6428571428571429
+        },
+        {
+            "influencer_id": 4,
+            "username": "influencer4",
+            "credibility": 7,
+            "activity_rate": 1,
+            "reliability": 6,
+            "verified": false,
+            "interaction": 2,
+            "followers": [
+                {
+                    "username": "student3"
+                },
+                {
+                    "username": "student11"
+                },
+                {
+                    "username": "student12"
+                },
+                {
+                    "username": "student19"
+                },
+                {
+                    "username": "student7"
+                },
+                {
+                    "username": "student2"
+                },
+                {
+                    "username": "student13"
+                },
+                {
+                    "username": "student17"
+                },
+                {
+                    "username": "student5"
+                },
+                {
+                    "username": "student8"
+                },
+                {
+                    "username": "student16"
+                },
+                {
+                    "username": "student18"
+                },
+                {
+                    "username": "student15"
+                },
+                {
+                    "username": "student4"
+                }
+            ],
+            "followers_count": 14,
+            "proba_persu": 3.2,
+            "proba_corrupt": 0.5
+        },
+        {
+            "influencer_id": 5,
+            "username": "influencer5",
+            "credibility": 2,
+            "activity_rate": 9,
+            "reliability": 8,
+            "verified": true,
+            "interaction": 1,
+            "followers": [
+                {
+                    "username": "student13"
+                },
+                {
+                    "username": "student2"
+                },
+                {
+                    "username": "student1"
+                },
+                {
+                    "username": "student12"
+                },
+                {
+                    "username": "student16"
+                },
+                {
+                    "username": "student3"
+                },
+                {
+                    "username": "student8"
+                },
+                {
+                    "username": "student19"
+                }
+            ],
+            "followers_count": 8,
+            "proba_persu": 4.2,
+            "proba_corrupt": 0.2857142857142857
+        }
+    ],
+    "posts": [
+        {
+            "post_id": 1,
+            "influencer_id": 1,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "student2",
+                    "user_id": 2,
+                    "to": [
+                        {
+                            "username": "student2"
+                        },
+                        {
+                            "username": "student5"
+                        },
+                        {
+                            "username": "student10"
+                        },
+                        {
+                            "username": "student14"
+                        },
+                        {
+                            "username": "student19"
+                        },
+                        {
+                            "username": "student20"
+                        }
+                    ]
+                },
+                {
+                    "username": "student3",
+                    "user_id": 3,
+                    "to": [
+                        {
+                            "username": "student6"
+                        },
+                        {
+                            "username": "student8"
+                        },
+                        {
+                            "username": "student9"
+                        },
+                        {
+                            "username": "student12"
+                        },
+                        {
+                            "username": "student13"
+                        },
+                        {
+                            "username": "student15"
+                        }
+                    ]
+                },
+                {
+                    "username": "student18",
+                    "user_id": 18,
+                    "to": [
+                        {
+                            "username": "student1"
+                        },
+                        {
+                            "username": "student7"
+                        },
+                        {
+                            "username": "student16"
+                        }
+                    ]
+                },
+                {
+                    "username": "student20",
+                    "user_id": 20,
+                    "to": [
+                        {
+                            "username": "student4"
+                        },
+                        {
+                            "username": "student18"
+                        }
+                    ]
+                }
+            ],
+            "likes": [
+                {
+                    "username": "student1",
+                    "user_id": 1
+                },
+                {
+                    "username": "student2",
+                    "user_id": 2
+                },
+                {
+                    "username": "student3",
+                    "user_id": 3
+                },
+                {
+                    "username": "student4",
+                    "user_id": 4
+                },
+                {
+                    "username": "student5",
+                    "user_id": 5
+                },
+                {
+                    "username": "student6",
+                    "user_id": 6
+                },
+                {
+                    "username": "student7",
+                    "user_id": 7
+                },
+                {
+                    "username": "student8",
+                    "user_id": 8
+                },
+                {
+                    "username": "student9",
+                    "user_id": 9
+                },
+                {
+                    "username": "student10",
+                    "user_id": 10
+                },
+                {
+                    "username": "student11",
+                    "user_id": 11
+                },
+                {
+                    "username": "student12",
+                    "user_id": 12
+                },
+                {
+                    "username": "student13",
+                    "user_id": 13
+                },
+                {
+                    "username": "student14",
+                    "user_id": 14
+                },
+                {
+                    "username": "student17",
+                    "user_id": 17
+                },
+                {
+                    "username": "student18",
+                    "user_id": 18
+                },
+                {
+                    "username": "student19",
+                    "user_id": 19
+                },
+                {
+                    "username": "student20",
+                    "user_id": 20
+                }
+            ],
+            "shares_count": 4,
+            "likes_count": 18
+        },
+        {
+            "post_id": 2,
+            "influencer_id": 2,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "student4",
+                    "user_id": 4,
+                    "to": [
+                        {
+                            "username": "student1"
+                        },
+                        {
+                            "username": "student3"
+                        },
+                        {
+                            "username": "student4"
+                        },
+                        {
+                            "username": "student9"
+                        },
+                        {
+                            "username": "student10"
+                        },
+                        {
+                            "username": "student14"
+                        },
+                        {
+                            "username": "student15"
+                        },
+                        {
+                            "username": "student16"
+                        }
+                    ]
+                },
+                {
+                    "username": "student6",
+                    "user_id": 6,
+                    "to": [
+                        {
+                            "username": "student5"
+                        },
+                        {
+                            "username": "student8"
+                        },
+                        {
+                            "username": "student11"
+                        },
+                        {
+                            "username": "student13"
+                        },
+                        {
+                            "username": "student17"
+                        },
+                        {
+                            "username": "student18"
+                        },
+                        {
+                            "username": "student19"
+                        }
+                    ]
+                },
+                {
+                    "username": "student9",
+                    "user_id": 9,
+                    "to": [
+                        {
+                            "username": "student6"
+                        }
+                    ]
+                },
+                {
+                    "username": "student16",
+                    "user_id": 16,
+                    "to": [
+                        {
+                            "username": "student7"
+                        },
+                        {
+                            "username": "student12"
+                        }
+                    ]
+                },
+                {
+                    "username": "student18",
+                    "user_id": 18,
+                    "to": [
+                        {
+                            "username": "student2"
+                        }
+                    ]
+                }
+            ],
+            "likes": [
+                {
+                    "username": "student12",
+                    "user_id": 12
+                },
+                {
+                    "username": "student15",
+                    "user_id": 15
+                },
+                {
+                    "username": "student16",
+                    "user_id": 16
+                },
+                {
+                    "username": "student17",
+                    "user_id": 17
+                },
+                {
+                    "username": "student18",
+                    "user_id": 18
+                }
+            ],
+            "shares_count": 5,
+            "likes_count": 5
+        },
+        {
+            "post_id": 3,
+            "influencer_id": 3,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "student2",
+                    "user_id": 2,
+                    "to": [
+                        {
+                            "username": "student1"
+                        },
+                        {
+                            "username": "student3"
+                        },
+                        {
+                            "username": "student5"
+                        },
+                        {
+                            "username": "student7"
+                        },
+                        {
+                            "username": "student9"
+                        },
+                        {
+                            "username": "student12"
+                        },
+                        {
+                            "username": "student14"
+                        },
+                        {
+                            "username": "student17"
+                        },
+                        {
+                            "username": "student19"
+                        }
+                    ]
+                },
+                {
+                    "username": "student7",
+                    "user_id": 7,
+                    "to": [
+                        {
+                            "username": "student8"
+                        },
+                        {
+                            "username": "student11"
+                        },
+                        {
+                            "username": "student13"
+                        },
+                        {
+                            "username": "student16"
+                        }
+                    ]
+                },
+                {
+                    "username": "student8",
+                    "user_id": 8,
+                    "to": [
+                        {
+                            "username": "student6"
+                        },
+                        {
+                            "username": "student20"
+                        }
+                    ]
+                },
+                {
+                    "username": "student13",
+                    "user_id": 13,
+                    "to": [
+                        {
+                            "username": "student15"
+                        }
+                    ]
+                },
+                {
+                    "username": "student20",
+                    "user_id": 20,
+                    "to": [
+                        {
+                            "username": "student4"
+                        },
+                        {
+                            "username": "student10"
+                        }
+                    ]
+                }
+            ],
+            "likes": [
+                {
+                    "username": "student5",
+                    "user_id": 5
+                },
+                {
+                    "username": "student10",
+                    "user_id": 10
+                },
+                {
+                    "username": "student20",
+                    "user_id": 20
+                }
+            ],
+            "shares_count": 5,
+            "likes_count": 3
+        },
+        {
+            "post_id": 4,
+            "influencer_id": 4,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "student1",
+                    "user_id": 1,
+                    "to": [
+                        {
+                            "username": "student6"
+                        },
+                        {
+                            "username": "student17"
+                        }
+                    ]
+                },
+                {
+                    "username": "student12",
+                    "user_id": 12,
+                    "to": [
+                        {
+                            "username": "student2"
+                        }
+                    ]
+                },
+                {
+                    "username": "student13",
+                    "user_id": 13,
+                    "to": [
+                        {
+                            "username": "student9"
+                        },
+                        {
+                            "username": "student15"
+                        }
+                    ]
+                },
+                {
+                    "username": "student17",
+                    "user_id": 17,
+                    "to": [
+                        {
+                            "username": "student1"
+                        },
+                        {
+                            "username": "student3"
+                        },
+                        {
+                            "username": "student4"
+                        },
+                        {
+                            "username": "student12"
+                        },
+                        {
+                            "username": "student13"
+                        },
+                        {
+                            "username": "student16"
+                        }
+                    ]
+                }
+            ],
+            "likes": [
+                {
+                    "username": "student1",
+                    "user_id": 1
+                },
+                {
+                    "username": "student2",
+                    "user_id": 2
+                },
+                {
+                    "username": "student3",
+                    "user_id": 3
+                },
+                {
+                    "username": "student5",
+                    "user_id": 5
+                },
+                {
+                    "username": "student8",
+                    "user_id": 8
+                },
+                {
+                    "username": "student11",
+                    "user_id": 11
+                },
+                {
+                    "username": "student14",
+                    "user_id": 14
+                },
+                {
+                    "username": "student16",
+                    "user_id": 16
+                },
+                {
+                    "username": "student19",
+                    "user_id": 19
+                }
+            ],
+            "shares_count": 4,
+            "likes_count": 9
+        },
+        {
+            "post_id": 5,
+            "influencer_id": 4,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "student7",
+                    "user_id": 7,
+                    "to": [
+                        {
+                            "username": "student1"
+                        },
+                        {
+                            "username": "student2"
+                        },
+                        {
+                            "username": "student3"
+                        },
+                        {
+                            "username": "student7"
+                        },
+                        {
+                            "username": "student10"
+                        },
+                        {
+                            "username": "student13"
+                        },
+                        {
+                            "username": "student17"
+                        },
+                        {
+                            "username": "student20"
+                        }
+                    ]
+                },
+                {
+                    "username": "student8",
+                    "user_id": 8,
+                    "to": [
+                        {
+                            "username": "student5"
+                        },
+                        {
+                            "username": "student15"
+                        },
+                        {
+                            "username": "student16"
+                        }
+                    ]
+                },
+                {
+                    "username": "student11",
+                    "user_id": 11,
+                    "to": [
+                        {
+                            "username": "student4"
+                        },
+                        {
+                            "username": "student6"
+                        },
+                        {
+                            "username": "student11"
+                        },
+                        {
+                            "username": "student12"
+                        },
+                        {
+                            "username": "student19"
+                        }
+                    ]
+                },
+                {
+                    "username": "student13",
+                    "user_id": 13,
+                    "to": [
+                        {
+                            "username": "student14"
+                        },
+                        {
+                            "username": "student18"
+                        }
+                    ]
+                },
+                {
+                    "username": "student14",
+                    "user_id": 14,
+                    "to": [
+                        {
+                            "username": "student9"
+                        }
+                    ]
+                }
+            ],
+            "likes": [
+                {
+                    "username": "student1",
+                    "user_id": 1
+                },
+                {
+                    "username": "student4",
+                    "user_id": 4
+                },
+                {
+                    "username": "student6",
+                    "user_id": 6
+                },
+                {
+                    "username": "student7",
+                    "user_id": 7
+                },
+                {
+                    "username": "student11",
+                    "user_id": 11
+                },
+                {
+                    "username": "student13",
+                    "user_id": 13
+                },
+                {
+                    "username": "student14",
+                    "user_id": 14
+                },
+                {
+                    "username": "student15",
+                    "user_id": 15
+                },
+                {
+                    "username": "student16",
+                    "user_id": 16
+                },
+                {
+                    "username": "student18",
+                    "user_id": 18
+                },
+                {
+                    "username": "student19",
+                    "user_id": 19
+                },
+                {
+                    "username": "student20",
+                    "user_id": 20
+                }
+            ],
+            "shares_count": 5,
+            "likes_count": 12
+        },
+        {
+            "post_id": 6,
+            "influencer_id": 5,
+            "is_fake_news": true,
+            "shares": [
+                {
+                    "username": "student2",
+                    "user_id": 2,
+                    "to": [
+                        {
+                            "username": "student5"
+                        }
+                    ]
+                },
+                {
+                    "username": "student3",
+                    "user_id": 3,
+                    "to": [
+                        {
+                            "username": "student2"
+                        },
+                        {
+                            "username": "student6"
+                        },
+                        {
+                            "username": "student7"
+                        },
+                        {
+                            "username": "student10"
+                        },
+                        {
+                            "username": "student12"
+                        },
+                        {
+                            "username": "student13"
+                        },
+                        {
+                            "username": "student16"
+                        },
+                        {
+                            "username": "student19"
+                        },
+                        {
+                            "username": "student20"
+                        }
+                    ]
+                },
+                {
+                    "username": "student6",
+                    "user_id": 6,
+                    "to": [
+                        {
+                            "username": "student4"
+                        },
+                        {
+                            "username": "student9"
+                        },
+                        {
+                            "username": "student11"
+                        },
+                        {
+                            "username": "student15"
+                        },
+                        {
+                            "username": "student17"
+                        }
+                    ]
+                },
+                {
+                    "username": "student14",
+                    "user_id": 14,
+                    "to": [
+                        {
+                            "username": "student14"
+                        },
+                        {
+                            "username": "student18"
+                        }
+                    ]
+                },
+                {
+                    "username": "student17",
+                    "user_id": 17,
+                    "to": [
+                        {
+                            "username": "student8"
+                        }
+                    ]
+                }
+            ],
+            "likes": [
+                {
+                    "username": "student1",
+                    "user_id": 1
+                },
+                {
+                    "username": "student2",
+                    "user_id": 2
+                },
+                {
+                    "username": "student3",
+                    "user_id": 3
+                },
+                {
+                    "username": "student4",
+                    "user_id": 4
+                },
+                {
+                    "username": "student5",
+                    "user_id": 5
+                },
+                {
+                    "username": "student6",
+                    "user_id": 6
+                },
+                {
+                    "username": "student8",
+                    "user_id": 8
+                },
+                {
+                    "username": "student9",
+                    "user_id": 9
+                },
+                {
+                    "username": "student11",
+                    "user_id": 11
+                },
+                {
+                    "username": "student12",
+                    "user_id": 12
+                },
+                {
+                    "username": "student14",
+                    "user_id": 14
+                },
+                {
+                    "username": "student16",
+                    "user_id": 16
+                },
+                {
+                    "username": "student17",
+                    "user_id": 17
+                },
+                {
+                    "username": "student18",
+                    "user_id": 18
+                },
+                {
+                    "username": "student19",
+                    "user_id": 19
+                },
+                {
+                    "username": "student20",
+                    "user_id": 20
+                }
+            ],
+            "shares_count": 5,
+            "likes_count": 16
+        }
+    ]
+}
