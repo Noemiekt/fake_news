@@ -8,15 +8,6 @@ from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import ConfusionMatrixDisplay
 
-# Charger le fichier CSV
-df = pd.read_csv('crisis_dataset.csv')
-
-# Supprimer la première colonne
-df = df.iloc[:, 1:]  # iloc[:, 1:] sélectionne toutes les lignes et les colonnes à partir de la deuxième
-
-# Sauvegarder le nouveau DataFrame dans un nouveau fichier CSV
-df.to_csv('crisis_dataset.csv', index=False)
-
 df = pd.read_csv('health_dataset.csv')
 df['Hyperlinks_exist'] = df['Hyperlinks_exist'].map({'no': 0, 'yes': 1})
 df['Media_exists'] = df['Media_exists'].map({'no': 0, 'yes': 1})
@@ -34,8 +25,12 @@ train = df_melange[:taille_premiere_moitie]
 test = df_melange[taille_premiere_moitie:]
 
 # Convertir tab en DataFrame pandas
+# X_train = pd.DataFrame(train, columns=[
+#     'ID','Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
+# ])
+
 X_train = pd.DataFrame(train, columns=[
-    'ID','Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count','Replies count'
 ])
 
 
@@ -48,9 +43,13 @@ y_train = pd.DataFrame(train, columns= [
 ])
 
 # Convertir tab en DataFrame pandas
+# X_test = pd.DataFrame(test, columns= [
+#     'ID','Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
+# ])
 X_test = pd.DataFrame(test, columns= [
-    'ID','Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Replies count'
 ])
+
 # Enregistrer df_tab dans un fichier CSV
 chemin_fichier_test_csv = './test_health_datatest.csv'  # Ajustez le chemin selon vos besoins
 X_test.to_csv(chemin_fichier_test_csv, index=False, sep=',')
@@ -103,11 +102,16 @@ for vote in votes:
 
 
 # TEST
-df_tab_actual_test = pd.read_csv('health_datatest.csv')
+# df_tab_actual_test = pd.read_csv('health_datatest.csv')
+df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
 
+# X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
+#     'ID','Hyperlinks_exist', 'Media_exists', 'Subjectivity', 'Favorites_count', 'Retweet_count', 'Replies count'
+# ])
 X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-    'ID','Hyperlinks_exist', 'Media_exists', 'Subjectivity', 'Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Replies count'
 ])
+
 X_actual_test_scaled = scaler.transform(X_actual_test)
 
 # Generate predictions for each vote type and store in the predictions dictionary
@@ -123,4 +127,4 @@ predictions_df.insert(0, 'ID', df_tab_actual_test['ID'])
 print(predictions_df.head())
 
 # Exportation des prédictions en CSV
-predictions_df.to_csv('final_predictions.csv', index=False)
+predictions_df.to_csv('final_predictions_top_insta.csv', index=False)
