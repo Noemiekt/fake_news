@@ -1,2 +1,12 @@
-ID,Classification
-1,0
+ID,Classification,Sentiment,Total_Score
+hugodecrypte,1,2,6
+hugodecrypte,1,2,6
+hugodecrypte,1,2,6
+le_gorafi,0,2,2
+demotivateur,1,2,6
+secretmagoff,0,2,2
+le_gorafi,1,1,5
+demotivateur,1,1,5
+demotivateur,0,1,1
+konbini,1,1,5
+konbini,1,1,5

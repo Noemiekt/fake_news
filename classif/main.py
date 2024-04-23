@@ -12,7 +12,7 @@ df = pd.read_csv('health_dataset.csv')
 df['Hyperlinks_exist'] = df['Hyperlinks_exist'].map({'no': 0, 'yes': 1})
 df['Media_exists'] = df['Media_exists'].map({'no': 0, 'yes': 1})
 df['Classification'] = df['Classification'].map({'Misinformation': 0, 'Information': 1})
-df['Subjectivity'] = df['Subjectivity'].map({'negative': 0, 'neutral': 1, 'positive': 2})
+df['Sentiment'] = df['Sentiment'].map({'negative': 0, 'neutral': 1, 'positive': 2})
 
 # Mélanger aléatoirement les lignes du DataFrame
 df_melange = df.sample(frac=1).reset_index(drop=True)
@@ -25,13 +25,13 @@ train = df_melange[:taille_premiere_moitie]
 test = df_melange[taille_premiere_moitie:]
 
 # Convertir tab en DataFrame pandas
-# X_train = pd.DataFrame(train, columns=[
-#     'ID','Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
-# ])
-
 X_train = pd.DataFrame(train, columns=[
-    'Favorites_count','Replies count'
+    'Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
 ])
+
+# X_train = pd.DataFrame(train, columns=[
+#     'Favorites_count','Replies count'
+# ])
 
 
 # Enregistrer df_tab dans un fichier CSV
@@ -39,23 +39,23 @@ chemin_fichier_train_csv = './train_health_dataset.csv'  # Ajustez le chemin sel
 X_train.to_csv(chemin_fichier_train_csv, index=False, sep=',')
 
 y_train = pd.DataFrame(train, columns= [
-    'Classification', 'Subjectivity'
+    'Classification', 'Sentiment'
 ])
 
 # Convertir tab en DataFrame pandas
-# X_test = pd.DataFrame(test, columns= [
-#     'ID','Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
-# ])
 X_test = pd.DataFrame(test, columns= [
-    'Favorites_count', 'Replies count'
+    'Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
 ])
+# X_test = pd.DataFrame(test, columns= [
+#     'Favorites_count', 'Replies count'
+# ])
 
 # Enregistrer df_tab dans un fichier CSV
 chemin_fichier_test_csv = './test_health_datatest.csv'  # Ajustez le chemin selon vos besoins
 X_test.to_csv(chemin_fichier_test_csv, index=False, sep=',')
 
 y_test = pd.DataFrame(test, columns= [
-    'Classification','Subjectivity'
+    'Classification','Sentiment'
 ])
 
 
@@ -69,7 +69,7 @@ X_test_scaled = scaler.transform(X_test)
 
 
 # Define the vote types you want to train separate models for
-votes = ['Classification'] # Rename the repeated seizure_vote to something unique
+votes = ['Classification','Sentiment'] # Rename the repeated seizure_vote to something unique
 models = {}  
 confusion_matrices = {} 
 
@@ -102,15 +102,15 @@ for vote in votes:
 
 
 # TEST
-# df_tab_actual_test = pd.read_csv('health_datatest.csv')
-df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
+df_tab_actual_test = pd.read_csv('health_datatest.csv')
+# df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
 
-# X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-#     'ID','Hyperlinks_exist', 'Media_exists', 'Subjectivity', 'Favorites_count', 'Retweet_count', 'Replies count'
-# ])
 X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-    'Favorites_count', 'Replies count'
+    'Hyperlinks_exist', 'Media_exists', 'Subjectivity', 'Favorites_count', 'Retweet_count', 'Replies count'
 ])
+# X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
+#     'Favorites_count', 'Replies count'
+# ])
 
 X_actual_test_scaled = scaler.transform(X_actual_test)
 
@@ -123,8 +123,40 @@ for vote, model in models.items():
 predictions_df = pd.DataFrame(predictions)
 predictions_df.insert(0, 'ID', df_tab_actual_test['ID'])
 
-# Affichage des premières lignes pour vérification
-print(predictions_df.head())
+def calculate_total(row):
+    if row['Classification'] == 1:
+        return row['Classification'] + row['Sentiment'] + 3
+    else:
+        return row['Classification'] + row['Sentiment']
+
+predictions_df['Total_Score'] = predictions_df.apply(calculate_total, axis=1)
+
 
 # Exportation des prédictions en CSV
 predictions_df.to_csv('final_predictions_top_insta.csv', index=False)
+
+
+
+# Sélection d'une observation de référence (utilisation de la moyenne pour les autres colonnes)
+reference = X_train.mean()
+n_points = 100
+favorites_range = np.linspace(X_train['Favorites_count'].min(), X_train['Favorites_count'].max(), n_points)
+
+predictions = []
+for fav in favorites_range:
+    temp = reference.copy()
+    temp['Favorites_count'] = fav
+    temp_scaled = scaler.transform([temp])
+    prediction = models['Classification'].predict_proba(temp_scaled)[0][1]  # prédiction pour la classe positive
+    predictions.append(prediction)
+
+# Tracé de la courbe
+plt.figure(figsize=(10, 6))
+plt.plot(favorites_range, predictions, label='Probabilité de Classification')
+plt.xlabel('Favorites_count')
+plt.ylabel('Probabilité de Classification')
+plt.title('Impact de Favorites_count sur la prédiction de Classification')
+plt.legend()
+plt.show()
+
+# direction@enseirb-matmeca.fr
