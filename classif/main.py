@@ -121,6 +121,7 @@ for vote, model in models.items():
     
 # Création du DataFrame avec les prédictions
 predictions_df = pd.DataFrame(predictions)
+predictions_df.insert(0, 'Channel Name', df_tab_actual_test['Channel Name'])
 predictions_df.insert(0, 'ID', df_tab_actual_test['ID'])
 
 def calculate_total(row):
