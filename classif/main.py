@@ -121,8 +121,15 @@ for vote, model in models.items():
     
 # Création du DataFrame avec les prédictions
 predictions_df = pd.DataFrame(predictions)
-predictions_df.insert(0, 'Channel Name', df_tab_actual_test['Channel Name'])
-predictions_df.insert(0, 'ID', df_tab_actual_test['ID'])
+
+predictions_df.insert(0, 'is_verified', df_tab_actual_test['Media_exists'])
+predictions_df.insert(0, 'posts_count', df_tab_actual_test['Posts'])
+predictions_df.insert(0, 'comments_count', df_tab_actual_test['Replies count'])
+predictions_df.insert(0, 'shares_count', df_tab_actual_test['Retweet_count'])
+predictions_df.insert(0, 'likes_count', df_tab_actual_test['Favorite_count'])
+predictions_df.insert(0, 'followers_count', df_tab_actual_test['Followers'])
+predictions_df.insert(0, 'username', df_tab_actual_test['Channel Name'])
+predictions_df.insert(0, 'influencer_id', df_tab_actual_test['ID'])
 
 def calculate_total(row):
     if row['Classification'] == 1:
