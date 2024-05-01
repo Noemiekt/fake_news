@@ -22,5 +22,5 @@ with open(source_file, 'r', encoding='utf-8') as source_csv, \
         # Créer un dictionnaire contenant uniquement les colonnes spécifiées
         filtered_row = {key: row[key] for key in columns_to_extract}
         # Renommer la colonne is_a_fake_news en classif
-        filtered_row['is_a_fake_news'] = 2 - int(filtered_row.pop('total'))
+        filtered_row['is_a_fake_news'] = 9 - int(filtered_row.pop('total'))
         writer.writerow(filtered_row)

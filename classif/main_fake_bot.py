@@ -164,3 +164,4 @@ for parameter in parameters:
     plt.title(f'Impact de {parameter} sur la prédiction de Classification')
     plt.legend()
     plt.show()
+
