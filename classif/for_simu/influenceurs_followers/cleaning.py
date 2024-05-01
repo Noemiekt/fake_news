@@ -1,7 +1,7 @@
 import csv
 
 # Chemin du fichier CSV d'origine
-input_file = 'secretmagoff.csv'
+input_file = 'demotivateur.csv'
 # Chemin du fichier CSV de sortie sans doublons
 output_file = 'output.csv'
 

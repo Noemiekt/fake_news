@@ -10,8 +10,8 @@ from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.feature_extraction.text import TfidfVectorizer
 from googletrans import Translator, LANGUAGES
 
-df = pd.read_csv('health_datatest.csv')
-df['Text'] = df['Tweet content']
+df = pd.read_csv('final_prediction_total.csv')
+df['Text'] = df['post_content']
 
 vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
 
@@ -23,12 +23,12 @@ train, test = df_melange[:len(df_melange) // 2], df_melange[len(df_melange) // 2
 train = train.reset_index(drop=True)
 test = test.reset_index(drop=True)
 
-tweet_content_train = train['Tweet content']
-tweet_content_test = test['Tweet content']
+tweet_content_train = train['post_content']
+tweet_content_test = test['post_content']
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'Hyperlinks_exist', 'Media_exists','Favorites_count', 'Retweet_count', 'Replies count','Followers','Posts','Engagement Rate (60 Days)'
+    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','is_verified'
 ])
 
 # Enregistrer df_tab dans un fichier CSV
@@ -36,12 +36,12 @@ chemin_fichier_train_csv = './train.csv'  # Ajustez le chemin selon vos besoins
 X_train.to_csv(chemin_fichier_train_csv, index=False, sep=',')
 
 y_train = pd.DataFrame(train, columns= [
-    'Classification'
+    'total'
 ])
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'Hyperlinks_exist', 'Media_exists','Favorites_count', 'Retweet_count', 'Replies count','Followers','Posts','Engagement Rate (60 Days)'
+    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','is_verified'
 ])
 
 scaler = StandardScaler()
@@ -66,7 +66,7 @@ chemin_fichier_test_csv = './test.csv'  # Ajustez le chemin selon vos besoins
 X_test.to_csv(chemin_fichier_test_csv, index=False, sep=',')
 
 y_test = pd.DataFrame(test, columns= [
-    'Classification'
+    'total'
 ])
 y_test = y_test.reset_index(drop=True)
 
@@ -78,7 +78,7 @@ y_test = y_test.reset_index(drop=True)
 
 
 # Define the vote types you want to train separate models for
-votes = ['Classification'] # Rename the repeated seizure_vote to something unique
+votes = ['total'] # Rename the repeated seizure_vote to something unique
 models = {}  
 confusion_matrices = {} 
 
@@ -108,51 +108,52 @@ for vote in votes:
     plt.show()
 
 
-# # Sélection d'une observation de référence
-# reference = X_train.mean()
+# Sélection d'une observation de référence
+reference = X_train.mean()
 
-# # Définir les paramètres pour lesquels vous voulez étudier l'impact
-# parameters = ['Hyperlinks_exist', 'Media_exists','Favorites_count', 'Retweet_count', 'Replies count','Followers','Posts','Engagement Rate (60 Days)']
+# Définir les paramètres pour lesquels vous voulez étudier l'impact
+parameters = ['followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','is_verified']
 
-# # Boucle sur chaque paramètre
-# for parameter in parameters:
-#     # Générer une plage de valeurs pour le paramètre
-#     parameter_range = np.linspace(df[parameter].min(), df[parameter].max(), 5)
+# Boucle sur chaque paramètre
+for parameter in parameters:
+    # Générer une plage de valeurs pour le paramètre
+    parameter_range = np.linspace(df[parameter].min(), df[parameter].max(), 5)
 
-#     # Stocker les prédictions pour ce paramètre
-#     predictions = []
+    # Stocker les prédictions pour ce paramètre
+    predictions = []
 
-#     # Boucle sur chaque valeur de la plage du paramètre
-#     for value in parameter_range:
-#         # Créer une copie de la référence et définir la valeur du paramètre
-#         temp = reference.copy()
-#         temp[parameter] = value
+    # Boucle sur chaque valeur de la plage du paramètre
+    for value in parameter_range:
+        # Créer une copie de la référence et définir la valeur du paramètre
+        temp = reference.copy()
+        temp[parameter] = value
 
-#         # Ajouter des placeholders pour les caractéristiques de texte vectorisées
-#         temp_text_features = [0] * 5  # Placeholder pour les caractéristiques de texte vectorisées
-#         temp_full = np.concatenate([temp.values, temp_text_features])
+        # Ajouter des placeholders pour les caractéristiques de texte vectorisées
+        num_text_features = len(tweet_vectorized_train_df.columns)
+        temp_text_features = [0] * num_text_features
+        temp_full = np.concatenate([temp.values, temp_text_features])
 
-#         # Transformation avec StandardScaler
-#         temp_scaled = scaler.transform([temp_full])
+        # Transformation avec StandardScaler
+        temp_scaled = scaler.transform([temp_full])
 
-#         # Prédiction pour la classe positive
-#         prediction = models['Classification'].predict_proba(temp_scaled)[0][1]
-#         predictions.append(prediction)
+        # Prédiction pour la classe positive
+        prediction = models['total'].predict_proba(temp_scaled)[0][1]
+        predictions.append(prediction)
 
-#     # Tracé de la courbe pour ce paramètre
-#     plt.figure(figsize=(10, 6))
-#     plt.plot(parameter_range, predictions, label='Probabilité de Classification')
-#     plt.xlabel(parameter)
-#     plt.ylabel('Probabilité de Classification')
-#     plt.title(f'Impact de {parameter} sur la prédiction de Classification')
-#     plt.legend()
-#     plt.show()
+    # Tracé de la courbe pour ce paramètre
+    plt.figure(figsize=(10, 6))
+    plt.plot(parameter_range, predictions, label='Probabilité de Classification')
+    plt.xlabel(parameter)
+    plt.ylabel('Probabilité de Classification')
+    plt.title(f'Impact de {parameter} sur la prédiction de Classification')
+    plt.legend()
+    plt.show()
 
 
 # Affichage du classement des mots les plus utilisés lorsque la classification est égale à 0
-if 'Classification' in df.columns:
+if 'total' in df.columns:
     # Filtrer les prédictions où la classification est égale à 0
-    classification_0_df = df[df['Classification'] == 0]
+    classification_0_df = df[df['total'] == 1]
 
     # Concaténer tous les tweets lorsque la classification est égale à 0
     all_tweets_classification_0 = " ".join(classification_0_df['Text'])

@@ -26,7 +26,7 @@ test = df_melange[taille_premiere_moitie:]
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Retweet_count', 'Replies count'
 ])
 
 # X_train = pd.DataFrame(train, columns=[
@@ -44,7 +44,7 @@ y_train = pd.DataFrame(train, columns= [
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'Hyperlinks_exist', 'Media_exists','Subjectivity','Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Retweet_count', 'Replies count'
 ])
 # X_test = pd.DataFrame(test, columns= [
 #     'Favorites_count', 'Replies count'
@@ -106,7 +106,7 @@ df_tab_actual_test = pd.read_csv('health_datatest.csv')
 # df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
 
 X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-    'Hyperlinks_exist', 'Media_exists', 'Subjectivity', 'Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Retweet_count', 'Replies count'
 ])
 # X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
 #     'Favorites_count', 'Replies count'
@@ -124,10 +124,13 @@ predictions_df = pd.DataFrame(predictions)
 
 predictions_df.insert(0, 'is_verified', df_tab_actual_test['Media_exists'])
 predictions_df.insert(0, 'posts_count', df_tab_actual_test['Posts'])
+predictions_df.insert(0, 'engagement_rate', df_tab_actual_test['Engagement Rate'])
+predictions_df.insert(0, 'view_count', df_tab_actual_test['View_count'])
 predictions_df.insert(0, 'comments_count', df_tab_actual_test['Replies count'])
 predictions_df.insert(0, 'shares_count', df_tab_actual_test['Retweet_count'])
 predictions_df.insert(0, 'likes_count', df_tab_actual_test['Favorite_count'])
 predictions_df.insert(0, 'followers_count', df_tab_actual_test['Followers'])
+predictions_df.insert(0, 'post_content', df_tab_actual_test['Post content'])
 predictions_df.insert(0, 'username', df_tab_actual_test['Channel Name'])
 predictions_df.insert(0, 'influencer_id', df_tab_actual_test['ID'])
 
@@ -148,7 +151,7 @@ predictions_df.to_csv('final_predictions_top_insta.csv', index=False)
 reference = X_train.mean()
 
 # Paramètres à tester
-parameters = ['Hyperlinks_exist', 'Media_exists', 'Favorites_count', 'Retweet_count', 'Replies count']
+parameters = ['Favorites_count', 'Retweet_count', 'Replies count']
 
 # Boucle sur chaque paramètre
 for parameter in parameters:

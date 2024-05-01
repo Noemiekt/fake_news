@@ -3,7 +3,7 @@ import os
 from collections import defaultdict
 
 # Ouvrir le fichier CSV des prédictions finales des meilleurs influenceurs en lecture
-with open('../final_predictions_top_insta.csv', 'r', encoding='utf-8') as influencer_csv:
+with open('../final_prediction_total.csv', 'r', encoding='utf-8') as influencer_csv:
     reader_influencer = csv.DictReader(influencer_csv)
 
     # Créer un dictionnaire pour stocker les données des influenceurs

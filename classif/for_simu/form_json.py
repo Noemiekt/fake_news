@@ -34,6 +34,26 @@ for influenceur in influenceurs:
             post['post_id'] = idx
             influenceur['posts'].append(post)
 
+def csv_to_json(file_path):
+    users = {}  # Dictionnaire pour stocker les données des utilisateurs
+    with open(file_path, 'r', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            username = row['Nom d\'utilisateur']
+            if username in users:
+                # Si l'utilisateur existe déjà, mettre à jour les valeurs
+                users[username]['followed_influenceur_count'] += 1
+                users[username]['followed_influenceur'].append(row['followed_influenceur'])
+            else:
+                # Si c'est un nouvel utilisateur, ajouter ses données
+                users[username] = {
+                    'followed_influenceur_count': 1,
+                    'followed_influenceur': [row['followed_influenceur']]
+                }
+    return users
+
+users = csv_to_json('users.csv')             
+
 # Écrire les données combinées des influenceurs dans un fichier JSON
 with open('influenceur.json', 'w') as jsonfile:
     jsonfile.write(json.dumps(influenceurs, indent=4))

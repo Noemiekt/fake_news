@@ -1,21 +1,33 @@
-influencer_id,username,Translated_Tweet,followers_count,likes_count,shares_count,comments_count,posts_count,is_verified,Classification,Sentiment,Total_Score
-0,hugodecrypte,99% of the population contaminated by the poison of the century,3500000,155951,1437,856,2120,1,1,0,4
-1,hugodecrypte,Increase in cancers among - 50 years: this is why,3500000,82531,922,1025,2120,1,1,0,4
-2,hugodecrypte,"Here is the MRI the powerful of the world, created by the @cea_officiel and which will allow many discoveries on the brain",3500000,229810,918,773,2120,1,1,0,4
-3,le_gorafi,The owl of Duolingo sentenced to 2 years in prison for harassment,515000,51195,492,399,3185,1,1,0,4
-4,demotivateur,Burger King offers you a whopper if you have a baldness!,758000,34703,738,1412,7937,1,1,0,4
-5,secretmagoff,Elon Musk announced that the first human implemented with the Neuralink cerebral chip has completely recovered.The patient is now able to control a computer mouse through thought.🌟🖱️🧠😳 Your opinion on this new technology?🤔 Source: x Spaces #Flash #elonmusk #neuralink #neurones #neurons #News #info #secretmag #neuron #enechnology #technologies #technologies #awesome #puce #musk #FuTur #announced # #Human #World #Capacity #Brain #Ceveau,52100,445,9,6,5117,0,1,0,4
-6,le_gorafi,Obesity: the European Commission wishes to divide the diameter of the Breton Crepes by 2,515000,10126,158,210,3185,1,1,0,4
-7,demotivateur,"After a chemo, she learns that she has no cancer",758000,4703,39,141,7937,1,1,0,4
-8,demotivateur,This little Frenchwoman has an illness that only 6 other children have on earth ...,758000,7665,31,130,7937,1,1,0,4
-9,konbini,"Who can benefit from helping to die?This Wednesday, a bill on the IF of life is presented in the Council of Ministers and it mentions the conditions to use it.We explain to you",2700000,3938,63,38,17900,1,1,0,4
-10,konbini,"Eternal pollutants are the greatest pollution crisis that humanity has had to face in its history @camilleetienne_, an environmental activist, returns to the presence of dangerous substances in our daily products (Make -up food etc.): eternal or PFAS pollutants.These so -called “indestructible” chemical molecules appear in the composition of many products and are harmful to health and the planet.Camille Etienne's documentary “Pfas: how manufacturers poison us” is available on YouTube.",2700000,84735,5450,948,17900,1,1,0,4
-11,hugodecrypte,The vital card and the merged identity card?,3500000,59728,164,1208,2120,1,1,0,4
-12,epicurieux,Allergy or gluten intolerance?,614000,2399,55,45,1590,1,1,0,4
-13,konbini,"Charlotte Chopin has been a centenary and she has been practicing yoga for over forty years.We met her 2 years ago, she then gave 3 lessons per week to students of all ages, and explained to us how yoga helps her feel good in his body and in his head.",2700000,44645,926,262,17900,1,1,0,4
-14,rtl_france,Health: Consume certain emulsifiers increase the risk of becoming diabetic?Dr. Jimmy Mohamed Health Chronicle in #RTLMatin the full to listen to RTL.fr and the RTL application!#Jimmymohamed #docteur #diabetes #emulsifier #health,369000,117,3,0,11800,0,1,0,4
-15,dr.jimmy.mohamed,Is intermittent fasting really dangerous for health?,1300000,16656,231,520,682,0,1,0,4
-16,demotivateur,Kissing is good for health!,758000,26003,302,163,7937,1,1,0,4
-17,hugodecrypte,The registration of the freedom to abort in the Constitution adopted by the Parliament.,3500000,134619,2132,2919,2120,1,1,0,4
-18,hugodecrypte,A human has controlled a computer mouse through thought.Elon Musk's new project ⬆️,3500000,66055,584,269,2120,1,1,0,4
-19,le_gorafi,"The children who die of hunger thank Jules, 6, for having finished his puree",515000,40485,289,706,3185,1,1,0,4
+influencer_id,username,post_content,followers_count,likes_count,shares_count,comments_count,view_count,engagement_rate,posts_count,is_verified,Classification,Sentiment,Total_Score
+0,hugodecrypte,99% de la population contaminée par le poison du siècle,3500000,155951,1437,856,4600000.0,1.78,2120,1,1,1,5
+1,hugodecrypte,Augmentation des cancers chez les - de 50 ans : voici pourquoi,3500000,82531,922,1025,3600000.0,1.78,2120,1,1,1,5
+2,hugodecrypte,"Voici l'IRM le + puissant du monde, créé par le @cea_officiel et qui permettra de nombreuses découvertes sur le cerveau",3500000,229810,918,773,4600000.0,1.78,2120,1,1,1,5
+3,le_gorafi,La chouette de Duolingo condamnée à 2 ans de prison ferme pour harcèlement,515000,51195,492,399,705000.0,2.48,3185,1,0,1,1
+4,demotivateur,Burger King t'offre un Whopper si t'as une calvitie!,758000,34703,738,1412,2900000.0,0.54,7937,1,1,1,5
+5,secretmagoff,Elon Musk a annoncé que le premier humain implanté avec la puce cérébrale de Neuralink s'est complètement rétabli. Le patient est désormais capable de contrôler une souris d'ordinateur par la pensée. 🌟🖱️🧠😳 Votre avis sur cette nouvelle technologie ? 🤔 Source : X Spaces #flash #elonmusk #neuralink #neurones #neurons #news #info #secretmag #neuron #neuroscience #technology #technologies #technologie #awesome #puce #musk #future #futur #announced #announcement #incredible #human #humain #world #capacity #brain #cerveau,52100,445,9,6,41300.0,,5117,0,1,2,6
+6,le_gorafi,Obésité: la comission européenne souhaite diiser par 2 le diamètre des crepes bretonnes,515000,10126,158,210,355000.0,2.48,3185,1,1,2,6
+7,demotivateur,"Après une chimio, elle apprend qu'elle n'a pas de cancer",758000,4703,39,141,203000.0,0.54,7937,1,1,1,5
+8,demotivateur,Cette petite française a une maladie que seuls 6 autres enfants ont sur Terre...,758000,7665,31,130,369000.0,0.54,7937,1,1,1,5
+9,konbini,"Qui poura bénéficier de l'aide à mourir? Ce mercredi, un projet de loi sur la fi de vie est présenté en Conseil des ministres et il mentionne les conditions pour y recourir. On vous explique",2700000,3938,63,38,240000.0,0.31,17900,1,1,1,5
+10,konbini,"Les polluants éternels, c'est la plus grande crise de pollution à laquelle l’humanité ait eu à faire face dans son histoire @camilleetienne_, activiste écologiste, revient sur la présence de substances dangereuses dans nos produits du quotidien (alimentation maquillage etc.) : les polluants éternels ou PFAS. Ces molécules chimiques dites “indestructibles” apparaissent dans la composition de nombreux produits et sont nocives pour la santé et la planète. Le documentaire de Camille Etienne “PFAS : comment les industriels nous empoisonnent” est disponible sur YouTube.",2700000,84735,5450,948,2600000.0,0.31,17900,1,1,1,5
+11,hugodecrypte,La carte vitale et la carte d'identité fusionnées?,3500000,59728,164,1208,2800000.0,1.78,2120,1,1,1,5
+12,epicurieux,Allergie ou intolérance au gluten?,614000,2399,55,45,109000.0,0.31,1590,1,1,1,5
+13,konbini,"Charlotte Chopin est centenaire et elle pratique le yoga depuis plus de quarante ans. On l'avait rencontré il y a 2 ans, elle donnait alors 3 cours par semaine à des élèves de tous les âges, et nous a expliqué comment le yoga l’aide à se sentir bien dans son corps et dans sa tête.",2700000,44645,926,262,1200000.0,,17900,1,1,2,6
+14,rtl_france,Santé : consommer certains émulsifiants augmente-t-il le risque de devenir diabétique ? Chronique santé du Dr. Jimmy Mohamed dans #RTLMatin L’intégralité à réécouter sur rtl.fr et l’application RTL ! #JimmyMohamed #docteur #diabète #émulsifiant #santé,369000,117,3,0,297000.0,,11800,0,1,1,5
+15,dr.jimmy.mohamed,Le jeûne intermittent est-il vraiment dangereux pour la santé ?,1300000,16656,231,520,880000.0,0.0205,682,0,0,1,1
+16,demotivateur,Embrasser c'est bon pour la santé !,758000,26003,302,163,632000.0,0.54,7937,1,0,2,2
+17,hugodecrypte,L’inscription de la liberté d’avorter dans la Constitution adoptée par le Parlement.,3500000,134619,2132,2919,2800000.0,1.78,2120,1,1,1,5
+18,hugodecrypte,Un humain a controllé une souris d'ordinateur par la pensée. Le nouveau projet d’Elon Musk ⬆️,3500000,66055,584,269,4600000.0,1.78,2120,1,0,1,1
+19,le_gorafi,"Les enfants qui meurent de faim remercient Jules, 6 ans, d'avoir fini sa purée",515000,40485,289,706,632000.0,2.48,3185,1,0,1,1
+20,khaledbeydoun,"Yet unarmed protestors on America campuses are the terrorists.""",2300000,26000,185,400,,3.27,2435,1,1,2,6
+21,hugodecrypte,Les annonces de G. Attal sur la santé mentale des jeunes,3500000,67693,553,807,2400000.0,1.78,2120,1,0,1,1
+22,hugodecrypte,Le président américain Joe Biden a eu 81 ans en novembre dernier,3500000,68891,118,673,3000000.0,1.78,2120,1,1,1,5
+23,hugodecrypte,Voici pourquoi l’obésité augmente dans le monde,3500000,55702,459,877,2400000.0,1.78,2120,1,0,1,1
+24,hugodecrypte,Kate Middleton est âgée de 42 ans atteinte de cancer,3500000,89208,186,413,2900000.0,1.78,2120,1,1,2,6
+25,hugodecrypte,L’OMS a appelé la population à remettre le masque,3500000,65158,468,573,3300000.0,1.78,2120,1,0,1,1
+26,hugodecrypte,Pourquoi tout le monde a le nez bouché en ce moment ? De plus en plus de personnes sont allergiques au pollen en France,3500000,147442,2006,1769,3000000.0,1.78,2120,1,1,1,5
+27,hugodecrypte,Des Pastabox contaminées ? Des Pastabox retirés des supermarchés pour risque de Listéria,3500000,84611,855,1194,2400000.0,1.78,2120,1,1,1,5
+28,hugodecrypte,L’eau potable en France contaminée par un pesticide ?,3500000,99823,1410,908,2100000.0,1.78,2120,1,1,1,5
+29,hugodecrypte,Ces produits augmenteraient le risque de cancer: émulsifiants,3500000,85621,1039,691,3900000.0,1.78,2120,1,1,1,5
+30,hugodecrypte,Ces médicaments pourraient etre dangereux pour la santé,3500000,76246,1653,701,3800000.0,1.78,2120,1,1,1,5
+31,hugodecrypte,"Cerfs zombie, cette maladie interroges les scientifiques",3500000,179344,1029,1559,5500000.0,1.78,2120,1,1,1,5

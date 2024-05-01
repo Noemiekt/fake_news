@@ -3,7 +3,7 @@ import csv
 # Chemin du fichier CSV d'origine
 input_file = 'output.csv'
 # Chemin du fichier CSV de sortie sans certaines colonnes et avec une nouvelle colonne
-output_file = 'hugodecrypte.csv'
+output_file = 'secretmagoff.csv'
 
 # Ouvrir le fichier CSV en lecture
 with open(input_file, mode='r', encoding='utf-8') as infile, \
@@ -28,7 +28,7 @@ with open(input_file, mode='r', encoding='utf-8') as infile, \
             row.pop(column, None)
         
         # Ajouter la nouvelle colonne avec la valeur 'hugodecrypte'
-        row['followed_influenceur'] = 'hugodecrypte'
+        row['followed_influenceur'] = 'secretmagoff'
         
         # Écrire la ligne modifiée dans le fichier de sortie
         writer.writerow(row)
