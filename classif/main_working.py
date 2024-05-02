@@ -7,6 +7,9 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import ConfusionMatrixDisplay
+from matplotlib import cm
+
+cmap = cm.get_cmap('viridis')
 
 df = pd.read_csv('health_dataset.csv')
 df['Hyperlinks_exist'] = df['Hyperlinks_exist'].map({'no': 0, 'yes': 1})
@@ -158,7 +161,7 @@ for parameter in parameters:
     # Création de la plage de valeurs pour le paramètre
     min_value = X_train[parameter].min()
     max_value = X_train[parameter].max()
-    parameter_range = np.linspace(min_value, max_value, 100)  # 100 points dans la plage
+    parameter_range = np.linspace(min_value, max_value, 30)  # 100 points dans la plage
 
     # Stocker les prédictions pour ce paramètre
     predictions = []
@@ -178,4 +181,23 @@ for parameter in parameters:
     plt.ylabel('Probabilité de Classification')
     plt.title(f'Impact de {parameter} sur la prédiction de Classification')
     plt.legend()
+    plt.show()
+
+    # Tracé de l'histogramme pour ce paramètre
+    plt.figure(figsize=(10, 6)) 
+    bar_width = 0.9 * (parameter_range[1] - parameter_range[0])
+
+    # Création d'un colormap et normalisation
+    cmap = plt.get_cmap('coolwarm')  # Essayez 'coolwarm', 'cividis', ou 'spring' pour des effets différents
+    norm = plt.Normalize(min(predictions), max(predictions))
+
+    bars = plt.bar(parameter_range, predictions, width=bar_width, color=cmap(norm(predictions)))
+
+    plt.xlabel('Likes Count')  # Remplacer par le nom de votre paramètre
+    plt.ylabel('Probabilité de Classification')
+    plt.title(f'Impact de {parameter} sur la prédiction de Classification')
+    min_prob = min(predictions)
+    max_prob = max(predictions)
+    plt.ylim(min_prob - 0.1 * (max_prob - min_prob), max_prob + 0.1 * (max_prob - min_prob))
+    plt.grid(True)
     plt.show()

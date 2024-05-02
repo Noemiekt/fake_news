@@ -21,6 +21,14 @@ with open(source_file, 'r', encoding='utf-8') as source_csv, \
     for row in reader:
         # Créer un dictionnaire contenant uniquement les colonnes spécifiées
         filtered_row = {key: row[key] for key in columns_to_extract}
-        # Renommer la colonne is_a_fake_news en classif
-        filtered_row['is_a_fake_news'] = 9 - int(filtered_row.pop('total'))
+
+        # Modifier la valeur de 'is_a_fake_news' en fonction de la valeur de 'total'
+        if int(row['total']) <= 5:
+            filtered_row['is_a_fake_news'] = 1
+        else:
+            filtered_row['is_a_fake_news'] = 0
+
+        # Supprimer la clé 'total' du dictionnaire
+        filtered_row.pop('total', None)
+
         writer.writerow(filtered_row)

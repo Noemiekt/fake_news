@@ -9,6 +9,10 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.feature_extraction.text import TfidfVectorizer
 from googletrans import Translator, LANGUAGES
+from matplotlib import cm
+
+cmap = cm.get_cmap('viridis')
+
 
 df = pd.read_csv('final_prediction_total.csv')
 df['Text'] = df['post_content']
@@ -142,8 +146,10 @@ for parameter in parameters:
             prediction1 = models['total'].predict_proba(temp_scaled)[0][4]
             prediction2 = models['total'].predict_proba(temp_scaled)[0][5]
             prediction3 = models['total'].predict_proba(temp_scaled)[0][3]
-        
-            predictions.append((prediction1+prediction2+prediction3)/3)
+
+            # print((prediction1+prediction2+prediction3))
+
+            predictions.append((prediction1+prediction2+prediction3))
         else :
             predictions.append([])
         
@@ -154,8 +160,27 @@ for parameter in parameters:
     plt.ylabel('Probabilité de Classification')
     plt.title(f'Impact de {parameter} sur la prédiction de Classification')
     plt.legend()
+    # plt.ylim(0, 1)  # Définition de l'intervalle de l'axe des ordonnées
     plt.show()
 
+    # Tracé de l'histogramme pour ce paramètre
+    plt.figure(figsize=(10, 6)) 
+    bar_width = 0.9 * (parameter_range[1] - parameter_range[0])
+
+    # Création d'un colormap et normalisation
+    cmap = plt.get_cmap('coolwarm')  # Essayez 'coolwarm', 'cividis', ou 'spring' pour des effets différents
+    norm = plt.Normalize(min(predictions), max(predictions))
+
+    bars = plt.bar(parameter_range, predictions, width=bar_width, color=cmap(norm(predictions)))
+
+    plt.xlabel('Likes Count')  # Remplacer par le nom de votre paramètre
+    plt.ylabel('Probabilité de Classification')
+    plt.title(f'Impact de {parameter} sur la prédiction de Classification')
+    min_prob = min(predictions)
+    max_prob = max(predictions)
+    plt.ylim(min_prob - 0.1 * (max_prob - min_prob), max_prob + 0.1 * (max_prob - min_prob))
+    plt.grid(True)
+    plt.show()
 
 # Affichage du classement des mots les plus utilisés lorsque la classification est égale à 0
 if 'total' in df.columns:
