@@ -1,0 +1,6 @@
+influencer,followers_count,activity_rates,credibility_rates,engagement_rates,infections
+influencer1,1000,0.3,0.95,1.0,14
+influencer2,1000,0.3,0.96,1.5,2
+influencer3,1000,0.4,0.97,2.0,40
+influencer4,1000,0.4,0.98,2.5,10
+influencer5,1000,0.5,0.99,3.0,25

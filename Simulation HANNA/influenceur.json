@@ -1,0 +1,412 @@
+[
+    {
+        "influencer_id": "1",
+        "username": "hugodecrypte",
+        "followers_count": "3500000",
+        "post_count": "2120",
+        "post_count_week": "17",
+        "is_verified": "1",
+        "posts": [
+            {
+                "username": "hugodecrypte",
+                "post_content": "99% de la population contamin\u00e9e par le poison du si\u00e8cle",
+                "likes_count": "155951",
+                "shares_count": "1437",
+                "comments_count": "856",
+                "view_count": "4600000.0",
+                "is_a_fake_news": "0",
+                "post_id": 1
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Augmentation des cancers chez les - de 50 ans : voici pourquoi",
+                "likes_count": "82531",
+                "shares_count": "922",
+                "comments_count": "1025",
+                "view_count": "3600000.0",
+                "is_a_fake_news": "0",
+                "post_id": 2
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Voici l'IRM le + puissant du monde, cr\u00e9\u00e9 par le @cea_officiel et qui permettra de nombreuses d\u00e9couvertes sur le cerveau",
+                "likes_count": "229810",
+                "shares_count": "918",
+                "comments_count": "773",
+                "view_count": "4600000.0",
+                "is_a_fake_news": "0",
+                "post_id": 3
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "La carte vitale et la carte d'identit\u00e9 fusionn\u00e9es?",
+                "likes_count": "59728",
+                "shares_count": "164",
+                "comments_count": "1208",
+                "view_count": "2800000.0",
+                "is_a_fake_news": "0",
+                "post_id": 4
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "L\u2019inscription de la libert\u00e9 d\u2019avorter dans la Constitution adopt\u00e9e par le Parlement.",
+                "likes_count": "134619",
+                "shares_count": "2132",
+                "comments_count": "2919",
+                "view_count": "2800000.0",
+                "is_a_fake_news": "0",
+                "post_id": 5
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Un humain a controll\u00e9 une souris d'ordinateur par la pens\u00e9e. Le nouveau projet d\u2019Elon Musk \u2b06\ufe0f",
+                "likes_count": "66055",
+                "shares_count": "584",
+                "comments_count": "269",
+                "view_count": "4600000.0",
+                "is_a_fake_news": "1",
+                "post_id": 6
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Les annonces de G. Attal sur la sant\u00e9 mentale des jeunes",
+                "likes_count": "67693",
+                "shares_count": "553",
+                "comments_count": "807",
+                "view_count": "2400000.0",
+                "is_a_fake_news": "1",
+                "post_id": 7
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Le pr\u00e9sident am\u00e9ricain Joe Biden a eu 81 ans en novembre dernier",
+                "likes_count": "68891",
+                "shares_count": "118",
+                "comments_count": "673",
+                "view_count": "3000000.0",
+                "is_a_fake_news": "0",
+                "post_id": 8
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Voici pourquoi l\u2019ob\u00e9sit\u00e9 augmente dans le monde",
+                "likes_count": "55702",
+                "shares_count": "459",
+                "comments_count": "877",
+                "view_count": "2400000.0",
+                "is_a_fake_news": "1",
+                "post_id": 9
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Kate Middleton est \u00e2g\u00e9e de 42 ans atteinte de cancer",
+                "likes_count": "89208",
+                "shares_count": "186",
+                "comments_count": "413",
+                "view_count": "2900000.0",
+                "is_a_fake_news": "0",
+                "post_id": 10
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "L\u2019OMS a appel\u00e9 la population \u00e0 remettre le masque",
+                "likes_count": "65158",
+                "shares_count": "468",
+                "comments_count": "573",
+                "view_count": "3300000.0",
+                "is_a_fake_news": "1",
+                "post_id": 11
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Pourquoi tout le monde a le nez bouch\u00e9 en ce moment ? De plus en plus de personnes sont allergiques au pollen en France",
+                "likes_count": "147442",
+                "shares_count": "2006",
+                "comments_count": "1769",
+                "view_count": "3000000.0",
+                "is_a_fake_news": "0",
+                "post_id": 12
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Des Pastabox contamin\u00e9es ? Des Pastabox retir\u00e9s des supermarch\u00e9s pour risque de List\u00e9ria",
+                "likes_count": "84611",
+                "shares_count": "855",
+                "comments_count": "1194",
+                "view_count": "2400000.0",
+                "is_a_fake_news": "0",
+                "post_id": 13
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "L\u2019eau potable en France contamin\u00e9e par un pesticide ?",
+                "likes_count": "99823",
+                "shares_count": "1410",
+                "comments_count": "908",
+                "view_count": "2100000.0",
+                "is_a_fake_news": "0",
+                "post_id": 14
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Ces produits augmenteraient le risque de cancer: \u00e9mulsifiants",
+                "likes_count": "85621",
+                "shares_count": "1039",
+                "comments_count": "691",
+                "view_count": "3900000.0",
+                "is_a_fake_news": "0",
+                "post_id": 15
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Ces m\u00e9dicaments pourraient etre dangereux pour la sant\u00e9",
+                "likes_count": "76246",
+                "shares_count": "1653",
+                "comments_count": "701",
+                "view_count": "3800000.0",
+                "is_a_fake_news": "0",
+                "post_id": 16
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Cerfs zombie, cette maladie interroges les scientifiques",
+                "likes_count": "179344",
+                "shares_count": "1029",
+                "comments_count": "1559",
+                "view_count": "5500000.0",
+                "is_a_fake_news": "0",
+                "post_id": 17
+            }
+        ]
+    },
+    {
+        "influencer_id": "2",
+        "username": "le_gorafi",
+        "followers_count": "515000",
+        "post_count": "3185",
+        "post_count_week": "2",
+        "is_verified": "1",
+        "posts": [
+            {
+                "username": "le_gorafi",
+                "post_content": "La chouette de Duolingo condamn\u00e9e \u00e0 2 ans de prison ferme pour harc\u00e8lement",
+                "likes_count": "51195",
+                "shares_count": "492",
+                "comments_count": "399",
+                "view_count": "705000.0",
+                "is_a_fake_news": "2",
+                "post_id": 1
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Ob\u00e9sit\u00e9: la comission europ\u00e9enne souhaite diiser par 2 le diam\u00e8tre des crepes bretonnes",
+                "likes_count": "10126",
+                "shares_count": "158",
+                "comments_count": "210",
+                "view_count": "355000.0",
+                "is_a_fake_news": "1",
+                "post_id": 2
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Les enfants qui meurent de faim remercient Jules, 6 ans, d'avoir fini sa pur\u00e9e",
+                "likes_count": "40485",
+                "shares_count": "289",
+                "comments_count": "706",
+                "view_count": "632000.0",
+                "is_a_fake_news": "2",
+                "post_id": 3
+            }
+        ]
+    },
+    {
+        "influencer_id": "3",
+        "username": "demotivateur",
+        "followers_count": "758000",
+        "post_count": "7937",
+        "post_count_week": "46",
+        "is_verified": "1",
+        "posts": [
+            {
+                "username": "demotivateur",
+                "post_content": "Burger King t'offre un Whopper si t'as une calvitie!",
+                "likes_count": "34703",
+                "shares_count": "738",
+                "comments_count": "1412",
+                "view_count": "2900000.0",
+                "is_a_fake_news": "1",
+                "post_id": 1
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Apr\u00e8s une chimio, elle apprend qu'elle n'a pas de cancer",
+                "likes_count": "4703",
+                "shares_count": "39",
+                "comments_count": "141",
+                "view_count": "203000.0",
+                "is_a_fake_news": "1",
+                "post_id": 2
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Cette petite fran\u00e7aise a une maladie que seuls 6 autres enfants ont sur Terre...",
+                "likes_count": "7665",
+                "shares_count": "31",
+                "comments_count": "130",
+                "view_count": "369000.0",
+                "is_a_fake_news": "1",
+                "post_id": 3
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Embrasser c'est bon pour la sant\u00e9 !",
+                "likes_count": "26003",
+                "shares_count": "302",
+                "comments_count": "163",
+                "view_count": "632000.0",
+                "is_a_fake_news": "2",
+                "post_id": 4
+            }
+        ]
+    },
+    {
+        "influencer_id": "4",
+        "username": "secretmagoff",
+        "followers_count": "52100",
+        "post_count": "5117",
+        "post_count_week": "4",
+        "is_verified": "0",
+        "posts": [
+            {
+                "username": "secretmagoff",
+                "post_content": "Elon Musk a annonc\u00e9 que le premier humain implant\u00e9 avec la puce c\u00e9r\u00e9brale de Neuralink s'est compl\u00e8tement r\u00e9tabli. Le patient est d\u00e9sormais capable de contr\u00f4ler une souris d'ordinateur par la pens\u00e9e. \ud83c\udf1f\ud83d\uddb1\ufe0f\ud83e\udde0\ud83d\ude33 Votre avis sur cette nouvelle technologie ? \ud83e\udd14 Source : X Spaces #flash #elonmusk #neuralink #neurones #neurons #news #info #secretmag #neuron #neuroscience #technology #technologies #technologie #awesome #puce #musk #future #futur #announced #announcement #incredible #human #humain #world #capacity #brain #cerveau",
+                "likes_count": "445",
+                "shares_count": "9",
+                "comments_count": "6",
+                "view_count": "41300.0",
+                "is_a_fake_news": "1",
+                "post_id": 1
+            }
+        ]
+    },
+    {
+        "influencer_id": "5",
+        "username": "konbini",
+        "followers_count": "2700000",
+        "post_count": "17900",
+        "post_count_week": "61",
+        "is_verified": "1",
+        "posts": [
+            {
+                "username": "konbini",
+                "post_content": "Qui poura b\u00e9n\u00e9ficier de l'aide \u00e0 mourir? Ce mercredi, un projet de loi sur la fi de vie est pr\u00e9sent\u00e9 en Conseil des ministres et il mentionne les conditions pour y recourir. On vous explique",
+                "likes_count": "3938",
+                "shares_count": "63",
+                "comments_count": "38",
+                "view_count": "240000.0",
+                "is_a_fake_news": "0",
+                "post_id": 1
+            },
+            {
+                "username": "konbini",
+                "post_content": "Les polluants \u00e9ternels, c'est la plus grande crise de pollution \u00e0 laquelle l\u2019humanit\u00e9 ait eu \u00e0 faire face dans son histoire @camilleetienne_, activiste \u00e9cologiste, revient sur la pr\u00e9sence de substances dangereuses dans nos produits du quotidien (alimentation maquillage etc.) : les polluants \u00e9ternels ou PFAS. Ces mol\u00e9cules chimiques dites \u201cindestructibles\u201d apparaissent dans la composition de nombreux produits et sont nocives pour la sant\u00e9 et la plan\u00e8te. Le documentaire de Camille Etienne \u201cPFAS : comment les industriels nous empoisonnent\u201d est disponible sur YouTube.",
+                "likes_count": "84735",
+                "shares_count": "5450",
+                "comments_count": "948",
+                "view_count": "2600000.0",
+                "is_a_fake_news": "0",
+                "post_id": 2
+            },
+            {
+                "username": "konbini",
+                "post_content": "Charlotte Chopin est centenaire et elle pratique le yoga depuis plus de quarante ans. On l'avait rencontr\u00e9 il y a 2 ans, elle donnait alors 3 cours par semaine \u00e0 des \u00e9l\u00e8ves de tous les \u00e2ges, et nous a expliqu\u00e9 comment le yoga l\u2019aide \u00e0 se sentir bien dans son corps et dans sa t\u00eate.",
+                "likes_count": "44645",
+                "shares_count": "926",
+                "comments_count": "262",
+                "view_count": "1200000.0",
+                "is_a_fake_news": "0",
+                "post_id": 3
+            }
+        ]
+    },
+    {
+        "influencer_id": "6",
+        "username": "epicurieux",
+        "followers_count": "614000",
+        "post_count": "1590",
+        "post_count_week": "14",
+        "is_verified": "1",
+        "posts": [
+            {
+                "username": "epicurieux",
+                "post_content": "Allergie ou intol\u00e9rance au gluten?",
+                "likes_count": "2399",
+                "shares_count": "55",
+                "comments_count": "45",
+                "view_count": "109000.0",
+                "is_a_fake_news": "0",
+                "post_id": 1
+            }
+        ]
+    },
+    {
+        "influencer_id": "7",
+        "username": "rtl_france",
+        "followers_count": "369000",
+        "post_count": "11800",
+        "post_count_week": "100",
+        "is_verified": "0",
+        "posts": [
+            {
+                "username": "rtl_france",
+                "post_content": "Sant\u00e9 : consommer certains \u00e9mulsifiants augmente-t-il le risque de devenir diab\u00e9tique ? Chronique sant\u00e9 du Dr. Jimmy Mohamed dans #RTLMatin L\u2019int\u00e9gralit\u00e9 \u00e0 r\u00e9\u00e9couter sur rtl.fr et l\u2019application RTL ! #JimmyMohamed #docteur #diab\u00e8te #\u00e9mulsifiant #sant\u00e9",
+                "likes_count": "117",
+                "shares_count": "3",
+                "comments_count": "0",
+                "view_count": "297000.0",
+                "is_a_fake_news": "0",
+                "post_id": 1
+            }
+        ]
+    },
+    {
+        "influencer_id": "8",
+        "username": "dr.jimmy.mohamed",
+        "followers_count": "1300000",
+        "post_count": "682",
+        "post_count_week": "9",
+        "is_verified": "0",
+        "posts": [
+            {
+                "username": "dr.jimmy.mohamed",
+                "post_content": "Le je\u00fbne intermittent est-il vraiment dangereux pour la sant\u00e9 ?",
+                "likes_count": "16656",
+                "shares_count": "231",
+                "comments_count": "520",
+                "view_count": "880000.0",
+                "is_a_fake_news": "2",
+                "post_id": 1
+            }
+        ]
+    },
+    {
+        "influencer_id": "9",
+        "username": "khaledbeydoun",
+        "followers_count": "2300000",
+        "post_count": "2435",
+        "post_count_week": "16",
+        "is_verified": "1",
+        "posts": [
+            {
+                "username": "khaledbeydoun",
+                "post_content": "Yet unarmed protestors on America campuses are the terrorists.\"",
+                "likes_count": "26000",
+                "shares_count": "185",
+                "comments_count": "400",
+                "view_count": "",
+                "is_a_fake_news": "0",
+                "post_id": 1
+            }
+        ]
+    }
+]
