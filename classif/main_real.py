@@ -203,9 +203,13 @@ if 'total' in df.columns:
     # Créer un DataFrame pour le classement des mots
     words_ranking_df = pd.DataFrame({'Word': feature_names, 'Mean_TFIDF_Score': mean_tfidf_scores})
 
+    # Filtrer les mots ayant plus de 4 lettres
+    words_ranking_df = words_ranking_df[words_ranking_df['Word'].apply(lambda x: len(x) >= 4)]
+
     # Trier les mots par score TF-IDF moyen
     words_ranking_df = words_ranking_df.sort_values(by='Mean_TFIDF_Score', ascending=False)
 
     # Affichage des 10 premiers mots
-    print("Classement des mots les plus utilisés lorsque la classification est égale à 0:")
+    print("Classement des mots les plus utilisés lorsque la classification est égale à 0 avec plus de 4 lettres:")
     print(words_ranking_df.head(30))
+
