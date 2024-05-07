@@ -141,17 +141,22 @@ for parameter in parameters:
         # Transformation avec StandardScaler
         temp_scaled = scaler.transform([temp_full])
 
+        prediction = models['total'].predict_proba(temp_scaled)[0][2]  # Prédiction pour la classe positive
+        predictions.append(prediction)
+
         # Prédiction pour la classe positive)
-        if (models['total'].predict_proba(temp_scaled).shape[1] >= 6 ):
-            prediction1 = models['total'].predict_proba(temp_scaled)[0][4]
-            prediction2 = models['total'].predict_proba(temp_scaled)[0][5]
-            prediction3 = models['total'].predict_proba(temp_scaled)[0][3]
+        # if (models['total'].predict_proba(temp_scaled).shape[1] >= 6 ):
+        #     prediction1 = models['total'].predict_proba(temp_scaled)[0][4]
+        #     prediction2 = models['total'].predict_proba(temp_scaled)[0][5]
+        #     prediction3 = models['total'].predict_proba(temp_scaled)[0][3]
 
-            # print((prediction1+prediction2+prediction3))
+        #     # print((prediction1+prediction2+prediction3))
 
-            predictions.append((prediction1+prediction2+prediction3))
-        else :
-            predictions.append([])
+        #     predictions.append((prediction1+prediction2+prediction3))
+        # else :
+        #     predictions.append([])
+
+       
         
     # Tracé de la courbe pour ce paramètre
     plt.figure(figsize=(10, 6))
@@ -185,7 +190,7 @@ for parameter in parameters:
 # Affichage du classement des mots les plus utilisés lorsque la classification est égale à 0
 if 'total' in df.columns:
     # Filtrer les prédictions où la classification est égale à 0
-    classification_0_df = df[df['total'] <= 4]
+    classification_0_df = df[df['total'] == 0]
 
     # Concaténer tous les tweets lorsque la classification est égale à 0
     all_tweets_classification_0 = " ".join(classification_0_df['Text'])

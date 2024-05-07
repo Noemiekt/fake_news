@@ -25,8 +25,8 @@ def sum_account_classification(file1_path, file2_path, output_file):
     result = {}
     for influencer_id, account_types in fake_bot_data.items():
         if influencer_id in top_insta_data:
-            classifications = int(top_insta_data[influencer_id]['Total_Score'])
-            total = sum(account_types) + sum(account_types) + classifications
+            classifications = int(top_insta_data[influencer_id]['Classification'])
+            total = sum(account_types) + classifications
             result[influencer_id] = total
 
     # Écrire les résultats dans un nouveau fichier CSV

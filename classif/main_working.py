@@ -17,8 +17,34 @@ df['Media_exists'] = df['Media_exists'].map({'no': 0, 'yes': 1})
 df['Classification'] = df['Classification'].map({'Misinformation': 0, 'Information': 1})
 df['Sentiment'] = df['Sentiment'].map({'negative': 0, 'neutral': 1, 'positive': 2})
 
+# Séparer les données en deux DataFrame basés sur la classification
+df_0 = df[df['Classification'] == 0]
+df_1 = df[df['Classification'] == 1]
+
+# Compter le nombre de lignes avec 0 et 1 en Classification
+count_0 = df_0.shape[0]
+count_1 = df_1.shape[0]
+
+# Si le nombre de lignes avec 1 est supérieur, échantillonner aléatoirement le DataFrame de 1 pour avoir le même nombre de lignes que celui de 0
+if count_1 > count_0:
+    df_1_sampled = df_1.sample(n=count_0, replace=False)
+    # Concaténer les deux DataFrames pour obtenir un DataFrame équilibré
+    df_balanced = pd.concat([df_0, df_1_sampled])
+else:
+    df_balanced = pd.concat([df_0, df_1])
+
+# Mélanger aléatoirement les lignes du DataFrame équilibré
+df_balanced = df_balanced.sample(frac=1).reset_index(drop=True)
+
+# Vérifier que les classes sont équilibrées
+print(df_balanced['Classification'].value_counts())
+
+# Enregistrer le DataFrame équilibré dans un fichier CSV
+df_balanced.to_csv('health_dataset_balanced.csv', index=False)
+
+
 # Mélanger aléatoirement les lignes du DataFrame
-df_melange = df.sample(frac=1).reset_index(drop=True)
+df_melange = df_balanced.sample(frac=1).reset_index(drop=True)
 
 # Calcul de la taille de la première moitié
 taille_premiere_moitie = len(df_melange) // 2
@@ -29,7 +55,7 @@ test = df_melange[taille_premiere_moitie:]
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment'
 ])
 
 # X_train = pd.DataFrame(train, columns=[
@@ -42,12 +68,12 @@ chemin_fichier_train_csv = './train_health_dataset.csv'  # Ajustez le chemin sel
 X_train.to_csv(chemin_fichier_train_csv, index=False, sep=',')
 
 y_train = pd.DataFrame(train, columns= [
-    'Classification', 'Sentiment'
+    'Classification'
 ])
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment'
 ])
 # X_test = pd.DataFrame(test, columns= [
 #     'Favorites_count', 'Replies count'
@@ -58,7 +84,7 @@ chemin_fichier_test_csv = './test_health_datatest.csv'  # Ajustez le chemin selo
 X_test.to_csv(chemin_fichier_test_csv, index=False, sep=',')
 
 y_test = pd.DataFrame(test, columns= [
-    'Classification','Sentiment'
+    'Classification'
 ])
 
 
@@ -72,7 +98,7 @@ X_test_scaled = scaler.transform(X_test)
 
 
 # Define the vote types you want to train separate models for
-votes = ['Classification','Sentiment'] # Rename the repeated seizure_vote to something unique
+votes = ['Classification'] # Rename the repeated seizure_vote to something unique
 models = {}  
 confusion_matrices = {} 
 
@@ -109,7 +135,7 @@ df_tab_actual_test = pd.read_csv('health_datatest.csv')
 # df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
 
 X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-    'Favorites_count', 'Retweet_count', 'Replies count'
+    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment'
 ])
 # X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
 #     'Favorites_count', 'Replies count'
@@ -137,13 +163,13 @@ predictions_df.insert(0, 'post_content', df_tab_actual_test['Post content'])
 predictions_df.insert(0, 'username', df_tab_actual_test['Channel Name'])
 predictions_df.insert(0, 'influencer_id', df_tab_actual_test['ID'])
 
-def calculate_total(row):
-    if row['Classification'] == 1:
-        return row['Classification'] + row['Sentiment'] + 3
-    else:
-        return row['Classification'] + row['Sentiment']
+# def calculate_total(row):
+#     if row['Classification'] == 1:
+#         return row['Classification'] + row['Sentiment'] + 3
+#     else:
+#         return row['Classification'] + row['Sentiment']
 
-predictions_df['Total_Score'] = predictions_df.apply(calculate_total, axis=1)
+# predictions_df['Total_Score'] = predictions_df.apply(calculate_total, axis=1)
 
 
 # Exportation des prédictions en CSV
