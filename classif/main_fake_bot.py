@@ -23,7 +23,7 @@ test = df_melange[taille_premiere_moitie:]
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'Followers', 'Post count','Average number of media likes', 'Followings'
+    'Followers', 'Post count','Average number of media likes', 'Followings','Bio length'
 ])
 
 # X_train = pd.DataFrame(train, columns=[
@@ -41,7 +41,7 @@ y_train = pd.DataFrame(train, columns= [
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'Followers', 'Post count','Average number of media likes', 'Followings'
+    'Followers', 'Post count','Average number of media likes', 'Followings','Bio length'
 ])
 # X_test = pd.DataFrame(test, columns= [
 #     'Favorites_count', 'Replies count'
@@ -103,7 +103,7 @@ df_tab_actual_test = pd.read_csv('fake_bot_datatest.csv')
 # df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
 
 X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-    'Followers', 'Post count','Average number of media likes', 'Followings'
+    'Followers', 'Post count','Average number of media likes', 'Followings','Bio length'
 ])
 # X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
 #     'Favorites_count', 'Replies count'

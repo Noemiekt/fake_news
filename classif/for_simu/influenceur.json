@@ -14,7 +14,7 @@
                 "shares_count": "1437",
                 "comments_count": "856",
                 "view_count": "4600000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 1
             },
             {
@@ -34,7 +34,7 @@
                 "shares_count": "918",
                 "comments_count": "773",
                 "view_count": "4600000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 3
             },
             {
@@ -54,7 +54,7 @@
                 "shares_count": "2132",
                 "comments_count": "2919",
                 "view_count": "2800000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 5
             },
             {
@@ -64,7 +64,7 @@
                 "shares_count": "584",
                 "comments_count": "269",
                 "view_count": "4600000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 6
             },
             {
@@ -104,7 +104,7 @@
                 "shares_count": "186",
                 "comments_count": "413",
                 "view_count": "2900000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 10
             },
             {
@@ -124,7 +124,7 @@
                 "shares_count": "2006",
                 "comments_count": "1769",
                 "view_count": "3000000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 12
             },
             {
@@ -134,7 +134,7 @@
                 "shares_count": "855",
                 "comments_count": "1194",
                 "view_count": "2400000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 13
             },
             {
@@ -154,7 +154,7 @@
                 "shares_count": "1039",
                 "comments_count": "691",
                 "view_count": "3900000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 15
             },
             {
@@ -164,7 +164,7 @@
                 "shares_count": "1653",
                 "comments_count": "701",
                 "view_count": "3800000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 16
             },
             {
@@ -184,7 +184,7 @@
                 "shares_count": "132",
                 "comments_count": "575",
                 "view_count": "",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 18
             }
         ]
@@ -226,6 +226,156 @@
                 "view_count": "632000.0",
                 "is_a_fake_news": "1",
                 "post_id": 3
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Il meurt de vieillesse en tentant de fermer tous les onglets ouverts par ses parents",
+                "likes_count": "26000",
+                "shares_count": "209",
+                "comments_count": "216",
+                "view_count": "443000.0",
+                "is_a_fake_news": "1",
+                "post_id": 4
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Nutrition-Le corps du Christ obtient la note de 12/100 sur Yuka",
+                "likes_count": "22600",
+                "shares_count": "408",
+                "comments_count": "321",
+                "view_count": "402000.0",
+                "is_a_fake_news": "1",
+                "post_id": 5
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Ob\u00e9sit\u00e9: La commission europ\u00e9enne souhaite diviser par 2 le diametre des crepes bretonnes",
+                "likes_count": "10100",
+                "shares_count": "158",
+                "comments_count": "210",
+                "view_count": "355000.0",
+                "is_a_fake_news": "1",
+                "post_id": 6
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Dry January - Les meilleurs drogues pour compenser le manque d'alcool",
+                "likes_count": "8307",
+                "shares_count": "208",
+                "comments_count": "55",
+                "view_count": "250000.0",
+                "is_a_fake_news": "1",
+                "post_id": 7
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Vague de froid : Selon une \u00e9tude, l'hiver serait la saison la moins chaude de l'ann\u00e9e",
+                "likes_count": "25200",
+                "shares_count": "1066",
+                "comments_count": "238",
+                "view_count": "876000.0",
+                "is_a_fake_news": "1",
+                "post_id": 8
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Selon une \u00e9tude, le bonheur serait \u00e9troitement corr\u00e9l\u00e9 \u00e0 l'ajout de fromage fondu sur tout",
+                "likes_count": "78000",
+                "shares_count": "3583",
+                "comments_count": "1288",
+                "view_count": "3900000.0",
+                "is_a_fake_news": "1",
+                "post_id": 9
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Elle croit dur comme fer \u00e0 l'horoscope, l'hom\u00e9opathie et le m\u00e9ritocratie",
+                "likes_count": "7715",
+                "shares_count": "161",
+                "comments_count": "120",
+                "view_count": "233000.0",
+                "is_a_fake_news": "1",
+                "post_id": 10
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Daltonisme - Il voit les couleurs pour la premi\u00e8re fois et peut enfin devenir raciste",
+                "likes_count": "7715",
+                "shares_count": "161",
+                "comments_count": "120",
+                "view_count": "429000.0",
+                "is_a_fake_news": "1",
+                "post_id": 11
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Un Fran\u00e7ais va tenter de vivre pendant un an sans se plaindre",
+                "likes_count": "24900",
+                "shares_count": "817",
+                "comments_count": "334",
+                "view_count": "528000.0",
+                "is_a_fake_news": "1",
+                "post_id": 12
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Chine _ Une femme donne naissance \u00e0 2 magnifiques emply\u00e9s",
+                "likes_count": "4839",
+                "shares_count": "58",
+                "comments_count": "26",
+                "view_count": "122000.0",
+                "is_a_fake_news": "1",
+                "post_id": 13
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Depuis 10 ans il se fait passer pour un g\u00e9n\u00e9raliste en disant juste, y'a plein de virus qui trainent en ce moment",
+                "likes_count": "14000",
+                "shares_count": "200",
+                "comments_count": "181",
+                "view_count": "346000.0",
+                "is_a_fake_news": "1",
+                "post_id": 14
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Selon une coach de vie, le secret du bonheur consiste \u00e0 demander 150 euros de l'heurer",
+                "likes_count": "4654",
+                "shares_count": "79",
+                "comments_count": "52",
+                "view_count": "128000.0",
+                "is_a_fake_news": "1",
+                "post_id": 15
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Elle sombre dans la depression apr\u00e8s qu'Yves Rocher oublie de lui souhaiter un joyeux anniversaire",
+                "likes_count": "3765",
+                "shares_count": "37",
+                "comments_count": "54",
+                "view_count": "99400.0",
+                "is_a_fake_news": "1",
+                "post_id": 16
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Le bon vivant \u00e9tait en fait un alcoolique bourr\u00e9 de cholestr\u00e9rol",
+                "likes_count": "7740",
+                "shares_count": "144",
+                "comments_count": "119",
+                "view_count": "154000.0",
+                "is_a_fake_news": "1",
+                "post_id": 17
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Un dentiste menac\u00e9 de mort parce qu'il ne recommande pas Sensodyne",
+                "likes_count": "4070",
+                "shares_count": "25",
+                "comments_count": "33",
+                "view_count": "94900.0",
+                "is_a_fake_news": "1",
+                "post_id": 18
             }
         ]
     },
@@ -244,7 +394,7 @@
                 "shares_count": "738",
                 "comments_count": "1412",
                 "view_count": "2900000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 1
             },
             {
@@ -284,7 +434,7 @@
                 "shares_count": "29",
                 "comments_count": "52",
                 "view_count": "",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 5
             },
             {
@@ -354,7 +504,7 @@
                 "shares_count": "5450",
                 "comments_count": "948",
                 "view_count": "2600000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 2
             },
             {
@@ -364,8 +514,158 @@
                 "shares_count": "926",
                 "comments_count": "262",
                 "view_count": "1200000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 3
+            },
+            {
+                "username": "konbini",
+                "post_content": "Marie-Lys Bibeyran raconte son combat contre l'usage des pesticides dans le secteur viticole et ses cons\u00e9quences sur la sant\u00e9, apr\u00e8s le d\u00e9c\u00e8s de son fr\u00e8re Denis, victime d'un cancer. Son livre, On vous le dira dans vingt ans, est disponible aux \u00e9ditions BBD.",
+                "likes_count": "1391",
+                "shares_count": "22",
+                "comments_count": "13",
+                "view_count": "153000.0",
+                "is_a_fake_news": "1",
+                "post_id": 4
+            },
+            {
+                "username": "konbini",
+                "post_content": "Les jeunes se parfument \u00e0 l'odeur du sang, de la sueur et du latex.",
+                "likes_count": "13873",
+                "shares_count": "68",
+                "comments_count": "389",
+                "view_count": "1000000.0",
+                "is_a_fake_news": "1",
+                "post_id": 5
+            },
+            {
+                "username": "konbini",
+                "post_content": "Un prof qui checke votre temps d\u2019\u00e9cran ? C\u2019est ce que fait Erwan, prof d\u2019EPS, avec ses \u00e9l\u00e8ves : au-del\u00e0 de 4h par jour sur leur t\u00e9l\u00e9phone, ils doivent passer plus de temps au lyc\u00e9e pour faire du sport ou \u00e9tudier. Il nous explique sa m\u00e9thode, les r\u00e9sultats obtenus et la r\u00e9action des \u00e9l\u00e8ves.",
+                "likes_count": "46199",
+                "shares_count": "1421",
+                "comments_count": "383",
+                "view_count": "1700000.0",
+                "is_a_fake_news": "0",
+                "post_id": 6
+            },
+            {
+                "username": "konbini",
+                "post_content": "De la coca\u00efne dans les pharmacies\u2026 pour combattre le narcotrafic ?! C\u2019est l\u2019id\u00e9e de la maire d\u2019Amsterdam : r\u00e9guler le march\u00e9 de la drogue dure comme la coca\u00efne et la MDMA pour combattre le narcotrafic et ses cons\u00e9quences. On vous explique.",
+                "likes_count": "12326",
+                "shares_count": "235",
+                "comments_count": "241",
+                "view_count": "905000.0",
+                "is_a_fake_news": "1",
+                "post_id": 7
+            },
+            {
+                "username": "konbini",
+                "post_content": "Naomi a eu recours \u00e0 des injections \u00e0 l\u2019acide hyaluronique aux l\u00e8vres dans un cabinet clandestin. En cons\u00e9quence : des l\u00e8vres trop grosses, qu\u2019elle a regrett\u00e9es. Aujourd\u2019hui, elle a dissous le produit et sensibilise sur la pratique.",
+                "likes_count": "10501",
+                "shares_count": "24",
+                "comments_count": "222",
+                "view_count": "1100000.0",
+                "is_a_fake_news": "1",
+                "post_id": 8
+            },
+            {
+                "username": "konbini",
+                "post_content": "\u00c0 l\u2019h\u00f4pital de p\u00e9diatrie et de r\u00e9\u00e9ducation de Bullion, les enfants et adolescents malades peuvent suivre leur scolarit\u00e9 et des activit\u00e9s adapt\u00e9es \u00e0 leur pathologie pendant toute la dur\u00e9e de leur hospitalisation.",
+                "likes_count": "13148",
+                "shares_count": "225",
+                "comments_count": "55",
+                "view_count": "599000.0",
+                "is_a_fake_news": "1",
+                "post_id": 9
+            },
+            {
+                "username": "konbini",
+                "post_content": "Dans la derni\u00e8re \u00e9tude du CNL (Centre national du livre), on apprend que le temps d\u2019\u00e9cran des jeunes est 10 fois plus \u00e9lev\u00e9 que le temps de lecture par jour. Du coup, on a demand\u00e9 \u00e0 des jeunes combien de temps ils passent sur leur t\u00e9l\u00e9phone vs. quand date le dernier livre qu\u2019ils ont lu. Et vous, c\u2019est quoi le dernier livre que vous avez lu ?",
+                "likes_count": "11736",
+                "shares_count": "27",
+                "comments_count": "106",
+                "view_count": "667000.0",
+                "is_a_fake_news": "0",
+                "post_id": 10
+            },
+            {
+                "username": "konbini",
+                "post_content": "Quel est le risque de trop plaquer ses cheveux ? C\u2019est quoi une alop\u00e9cie de traction ? SCH va t-il finir chauve ? \ud83d\udc40 @dermato_drey, dermatologue, r\u00e9pond \u00e0 toutes nos questions !",
+                "likes_count": "24300",
+                "shares_count": "187",
+                "comments_count": "306",
+                "view_count": "2000000.0",
+                "is_a_fake_news": "1",
+                "post_id": 11
+            },
+            {
+                "username": "konbini",
+                "post_content": "On va \u00eatre sanctionn\u00e9 si on pose un lapin \u00e0 son m\u00e9decin ? \ud83d\ude33 Le 6 avril, le Premier Ministre Gabriel Attal a annonc\u00e9 une s\u00e9rie de mesures pour \u201cfaciliter l\u2019acc\u00e8s des Fran\u00e7ais aux soins\u201d, en voici quatre exemples \ud83e\ude7a",
+                "likes_count": "4692",
+                "shares_count": "57",
+                "comments_count": "449",
+                "view_count": "443000.0",
+                "is_a_fake_news": "1",
+                "post_id": 12
+            },
+            {
+                "username": "konbini",
+                "post_content": "Je ressens les \u00e9motions d\u2019une personne qui a perdu quelqu\u2019un, mais j\u2019ai une partie de moi qui s\u2019accroche \u00e0 des petits moments de lucidit\u00e9\u201d Sarah est proche aidante aupr\u00e8s de sa m\u00e8re atteinte de la maladie d\u2019Alzheimer. Elle raconte son quotidien avec le \u201cdeuil blanc\u201d",
+                "likes_count": "21400",
+                "shares_count": "270",
+                "comments_count": "304",
+                "view_count": "1100000.0",
+                "is_a_fake_news": "1",
+                "post_id": 13
+            },
+            {
+                "username": "konbini",
+                "post_content": "Quelles alternatives au sucre choisir ? Les alternatives au sucre blanc de betterave sont-elles vraiment meilleures pour la sant\u00e9 ? Elsa Abdoun, journaliste pour @ufcquechoisir, a enqu\u00eat\u00e9 sur les bienfaits mais aussi les fausses promesses derri\u00e8re ces nouveaux produits.",
+                "likes_count": "11438",
+                "shares_count": "167",
+                "comments_count": "146",
+                "view_count": "736000.0",
+                "is_a_fake_news": "1",
+                "post_id": 14
+            },
+            {
+                "username": "konbini",
+                "post_content": "Retour sur le t\u00e9moignage d\u2019@enoramalagre, \u00e0 l\u2019occasion de la journ\u00e9e contre l\u2019endom\u00e9triose. Non, l\u2019endom\u00e9triose ne disparait pas apr\u00e8s une grossesse. Et oui, elle est toujours difficile \u00e0 faire diagnostiquer. \u00c9nora Malagr\u00e9 continue de se battre au quotidien contre cette maladie. Il y a quelques ann\u00e9es, elle se confiait pour que \u00ab les choses \u00e9voluent, et vite \u00bb.",
+                "likes_count": "43900",
+                "shares_count": "2207",
+                "comments_count": "603",
+                "view_count": "1800000.0",
+                "is_a_fake_news": "1",
+                "post_id": 15
+            },
+            {
+                "username": "konbini",
+                "post_content": "Laura, porteuse de Trisomie 21, vit en colocation avec \u201cLe Club des 6\u201d. Un h\u00e9bergement qui facilite l\u2019autonomie, l\u2019ind\u00e9pendance et l\u2019insertion en soci\u00e9t\u00e9 des jeunes vivant avec un handicap. Laura nous en avait fait la visite !",
+                "likes_count": "19966",
+                "shares_count": "278",
+                "comments_count": "139",
+                "view_count": "638000.0",
+                "is_a_fake_news": "1",
+                "post_id": 16
+            },
+            {
+                "username": "konbini",
+                "post_content": "@lucie.retail s'est fait amputer des 4 membres suite \u00e0 un paludisme s\u00e9v\u00e8re. Elle t\u00e9moigne : Je n'ai jamais fait quoi que ce soit pour que \u00e7a arrive\".\"",
+                "likes_count": "47723",
+                "shares_count": "741",
+                "comments_count": "1068",
+                "view_count": "1800000.0",
+                "is_a_fake_news": "1",
+                "post_id": 17
+            },
+            {
+                "username": "konbini",
+                "post_content": "\u00ab Les unit\u00e9s de soins palliatifs, ce n\u2019est pas que des soins, c\u2019est porter des projets de vie. \u00bb Aller p\u00eacher une derni\u00e8re fois, se marier dans le service : Pierre est infirmier en soins palliatifs, il nous racontait comment cette unit\u00e9 accompagne les derniers jours des patients. Retrouvez le documentaire Vivants sur Public S\u00e9nat samedi 23 mars \u00e0 22h30, puis en replay. La diffusion sera suivie d\u2019un live Instagram sur le compte @vivants.lefilm en pr\u00e9sence du r\u00e9alisateur Victor Grange et d\u2019une partie des \u00e9quipes du film.",
+                "likes_count": "11847",
+                "shares_count": "366",
+                "comments_count": "164",
+                "view_count": "446000.0",
+                "is_a_fake_news": "1",
+                "post_id": 18
             }
         ]
     },
@@ -404,7 +704,7 @@
                 "shares_count": "3",
                 "comments_count": "0",
                 "view_count": "297000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 1
             }
         ]
@@ -424,7 +724,7 @@
                 "shares_count": "231",
                 "comments_count": "520",
                 "view_count": "880000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 1
             }
         ]
@@ -444,7 +744,27 @@
                 "shares_count": "185",
                 "comments_count": "400",
                 "view_count": "",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
+                "post_id": 1
+            }
+        ]
+    },
+    {
+        "influencer_id": "10",
+        "username": "brutofficiel",
+        "followers_count": "4000000",
+        "post_count": "11900",
+        "is_verified": "1",
+        "followers": "['']",
+        "posts": [
+            {
+                "username": "brutofficiel",
+                "post_content": "Pourquoi certains s'endorment avec un podcast sur une histoire criminelle dans les oreilles?\u2063 C'est une tendance qu'on voit sur les r\u00e9seaux. Flippant ou indispensable ? On a voulu comprendre concr\u00e8tement quels effets \u00e7a a sur notre sommeil et pourquoi certains ne peuvent pas s'en passer.",
+                "likes_count": "33004",
+                "shares_count": "257",
+                "comments_count": "676",
+                "view_count": "",
+                "is_a_fake_news": "1",
                 "post_id": 1
             }
         ]

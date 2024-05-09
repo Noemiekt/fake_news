@@ -23,10 +23,10 @@ with open(source_file, 'r', encoding='utf-8') as source_csv, \
         filtered_row = {key: row[key] for key in columns_to_extract}
 
         # Modifier la valeur de 'is_a_fake_news' en fonction de la valeur de 'total'
-        if int(row['total']) <= 5:
-            filtered_row['is_a_fake_news'] = 1
-        else:
+        if int(row['total']) == 2:
             filtered_row['is_a_fake_news'] = 0
+        else:
+            filtered_row['is_a_fake_news'] = 1
 
         # Supprimer la clé 'total' du dictionnaire
         filtered_row.pop('total', None)

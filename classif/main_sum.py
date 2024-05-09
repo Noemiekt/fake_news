@@ -21,6 +21,7 @@ def sum_account_classification(file1_path, file2_path, output_file):
             influencer_id = row['influencer_id']
             top_insta_data[influencer_id] = row
 
+
     # Calculer la somme de Account type et Classification pour chaque utilisateur
     result = {}
     for influencer_id, account_types in fake_bot_data.items():
