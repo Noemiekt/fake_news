@@ -32,7 +32,7 @@ def sum_account_classification(file1_path, file2_path, output_file):
 
     # Écrire les résultats dans un nouveau fichier CSV
     with open(output_file, 'w', newline='') as csvfile:
-        fieldnames = ['influencer_id','post_content', 'username', 'followers_count', 'likes_count', 'shares_count', 'comments_count', 'view_count', 'engagement_rate', 'posts_count', 'is_verified', 'total']
+        fieldnames = ['influencer_id','post_content', 'username', 'followers_count', 'likes_count', 'shares_count', 'comments_count', 'view_count', 'engagement_rate', 'posts_count', 'is_verified', 'Followings','sentiment','followings','total']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
         writer.writeheader()
@@ -49,8 +49,11 @@ def sum_account_classification(file1_path, file2_path, output_file):
                 'engagement_rate': top_insta_data[influencer_id]['engagement_rate'],
                 'posts_count': top_insta_data[influencer_id]['posts_count'],
                 'is_verified': top_insta_data[influencer_id]['is_verified'],
+                'followings': top_insta_data[influencer_id]['followings'],
+                'sentiment': top_insta_data[influencer_id]['sentiment'],
                 'total': total
             })
+
 
 # Appeler la fonction avec les chemins des fichiers CSV et le nom du fichier de sortie
 sum_account_classification('final_predictions_fake_bot.csv', 'final_predictions_top_insta.csv', 'final_prediction_total.csv')

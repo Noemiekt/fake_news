@@ -125,6 +125,7 @@ predictions_df = pd.DataFrame(predictions)
 # predictions_df.insert(0, 'shares_count', df_tab_actual_test['Retweet_count'])
 # predictions_df.insert(0, 'likes_count', df_tab_actual_test['Favorite_count'])
 # predictions_df.insert(0, 'followers_count', df_tab_actual_test['Followers'])
+predictions_df.insert(0, 'Followings', df_tab_actual_test['Followings'])
 predictions_df.insert(0, 'username', df_tab_actual_test['Channel Name'])
 predictions_df.insert(0, 'influencer_id', df_tab_actual_test['ID'])
 

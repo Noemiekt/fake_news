@@ -32,7 +32,7 @@ tweet_content_test = test['post_content']
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','is_verified'
+    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment'
 ])
 
 # Enregistrer df_tab dans un fichier CSV
@@ -45,7 +45,7 @@ y_train = pd.DataFrame(train, columns= [
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','is_verified'
+    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment'
 ])
 
 scaler = StandardScaler()
@@ -116,7 +116,7 @@ for vote in votes:
 reference = X_train.mean()
 
 # Définir les paramètres pour lesquels vous voulez étudier l'impact
-parameters = ['followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','is_verified']
+parameters = ['followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment']
 
 # Boucle sur chaque paramètre
 for parameter in parameters:
@@ -142,6 +142,7 @@ for parameter in parameters:
         temp_scaled = scaler.transform([temp_full])
 
         prediction = models['total'].predict_proba(temp_scaled)[0][2]  # Prédiction pour la classe positive
+        print(prediction)
         predictions.append(prediction)
 
         # Prédiction pour la classe positive)

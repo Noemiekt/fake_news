@@ -1,68 +1,83 @@
-influencer_id,username,Account type
-0,hugodecrypte,1
-1,hugodecrypte,1
-2,hugodecrypte,1
-3,le_gorafi,0
-4,demotivateur,0
-5,secretmagoff,0
-6,le_gorafi,0
-7,demotivateur,0
-8,demotivateur,0
-9,konbini,1
-10,konbini,1
-11,hugodecrypte,1
-12,epicurieux,1
-13,konbini,1
-14,rtl_france,1
-15,dr.jimmy.mohamed,0
-16,demotivateur,0
-17,hugodecrypte,1
-18,hugodecrypte,1
-19,le_gorafi,0
-20,khaledbeydoun,1
-21,hugodecrypte,1
-22,hugodecrypte,1
-23,hugodecrypte,1
-24,hugodecrypte,1
-25,hugodecrypte,1
-26,hugodecrypte,1
-27,hugodecrypte,1
-28,hugodecrypte,1
-29,hugodecrypte,1
-30,hugodecrypte,1
-31,hugodecrypte,1
-32,demotivateur,1
-33,demotivateur,1
-34,demotivateur,1
-35,hugodecrypte,1
-36,brutofficiel,1
-39,le_gorafi,0
-40,le_gorafi,0
-41,le_gorafi,0
-42,le_gorafi,0
-43,le_gorafi,0
-44,le_gorafi,0
-45,le_gorafi,0
-46,le_gorafi,0
-47,le_gorafi,0
-48,le_gorafi,0
-49,le_gorafi,0
-50,le_gorafi,0
-51,le_gorafi,0
-52,lle_gorafi,0
-53,le_gorafi,0
-54,konbini,1
-55,konbini,1
-56,konbini,1
-57,konbini,1
-58,konbini,1
-59,konbini,1
-60,konbini,1
-61,konbini,1
-62,konbini,1
-63,konbini,1
-64,konbini,1
-65,konbini,1
-66,konbini,1
-67,konbini,1
-68,konbini,1
+influencer_id,username,Followings,Account type
+0,hugodecrypte,900.0,1
+1,hugodecrypte,900.0,1
+2,hugodecrypte,900.0,1
+3,le_gorafi,0.0,0
+4,demotivateur,6.0,0
+5,secretmagoff,46.0,0
+6,le_gorafi,0.0,0
+7,demotivateur,6.0,0
+8,demotivateur,6.0,0
+9,konbini,194.0,1
+10,konbini,194.0,1
+11,hugodecrypte,,1
+12,epicurieux,900.0,1
+13,konbini,194.0,1
+14,rtl_france,320.0,1
+15,dr.jimmy.mohamed,236.0,1
+16,demotivateur,6.0,0
+17,hugodecrypte,900.0,1
+18,hugodecrypte,900.0,1
+19,le_gorafi,0.0,0
+20,khaledbeydoun,2437.0,1
+21,hugodecrypte,900.0,1
+22,hugodecrypte,900.0,1
+23,hugodecrypte,900.0,1
+24,hugodecrypte,900.0,1
+25,hugodecrypte,900.0,1
+26,hugodecrypte,900.0,1
+27,hugodecrypte,900.0,1
+28,hugodecrypte,900.0,1
+29,hugodecrypte,900.0,1
+30,hugodecrypte,900.0,1
+31,hugodecrypte,900.0,1
+32,demotivateur,,1
+33,demotivateur,,1
+34,demotivateur,,1
+35,hugodecrypte,,1
+36,brutofficiel,,1
+39,le_gorafi,0.0,0
+40,le_gorafi,0.0,0
+41,le_gorafi,0.0,0
+42,le_gorafi,0.0,0
+43,le_gorafi,0.0,0
+44,le_gorafi,0.0,0
+45,le_gorafi,0.0,0
+46,le_gorafi,0.0,0
+47,le_gorafi,0.0,0
+48,le_gorafi,0.0,0
+49,le_gorafi,0.0,0
+50,le_gorafi,0.0,0
+51,le_gorafi,0.0,0
+52,lle_gorafi,0.0,0
+53,le_gorafi,0.0,0
+54,konbini,194.0,1
+55,konbini,194.0,1
+56,konbini,194.0,1
+57,konbini,194.0,1
+58,konbini,194.0,1
+59,konbini,194.0,1
+60,konbini,194.0,1
+61,konbini,194.0,1
+62,konbini,194.0,1
+63,konbini,194.0,1
+64,konbini,194.0,1
+65,konbini,194.0,1
+66,konbini,194.0,1
+67,konbini,194.0,1
+68,konbini,194.0,1
+69, epicurieux,900.0,1
+70, epicurieux,900.0,1
+71, epicurieux,900.0,1
+72, epicurieux,900.0,1
+73, epicurieux,900.0,1
+74, epicurieux,900.0,1
+75, epicurieux,900.0,1
+76, epicurieux,900.0,1
+77, epicurieux,900.0,1
+78, epicurieux,900.0,1
+79, epicurieux,900.0,1
+80, epicurieux,900.0,1
+81, epicurieux,900.0,1
+82, epicurieux,900.0,1
+83, epicurieux,900.0,1

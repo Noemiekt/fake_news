@@ -25,26 +25,26 @@ df_1 = df[df['Classification'] == 1]
 count_0 = df_0.shape[0]
 count_1 = df_1.shape[0]
 
-# Si le nombre de lignes avec 1 est supérieur, échantillonner aléatoirement le DataFrame de 1 pour avoir le même nombre de lignes que celui de 0
-if count_1 > count_0:
-    df_1_sampled = df_1.sample(n=count_0, replace=False)
-    # Concaténer les deux DataFrames pour obtenir un DataFrame équilibré
-    df_balanced = pd.concat([df_0, df_1_sampled])
-else:
-    df_balanced = pd.concat([df_0, df_1])
+# # Si le nombre de lignes avec 1 est supérieur, échantillonner aléatoirement le DataFrame de 1 pour avoir le même nombre de lignes que celui de 0
+# if count_1 > count_0:
+#     df_1_sampled = df_1.sample(n=count_0, replace=False)
+#     # Concaténer les deux DataFrames pour obtenir un DataFrame équilibré
+#     df_balanced = pd.concat([df_0, df_1_sampled])
+# else:
+#     df_balanced = pd.concat([df_0, df_1])
 
-# Mélanger aléatoirement les lignes du DataFrame équilibré
-df_balanced = df_balanced.sample(frac=1).reset_index(drop=True)
+# # Mélanger aléatoirement les lignes du DataFrame équilibré
+# df_balanced = df_balanced.sample(frac=1).reset_index(drop=True)
 
 # Vérifier que les classes sont équilibrées
-print(df_balanced['Classification'].value_counts())
+print(df['Classification'].value_counts())
 
 # Enregistrer le DataFrame équilibré dans un fichier CSV
-df_balanced.to_csv('health_dataset_balanced.csv', index=False)
+df.to_csv('health_dataset_balanced.csv', index=False)
 
 
 # Mélanger aléatoirement les lignes du DataFrame
-df_melange = df_balanced.sample(frac=1).reset_index(drop=True)
+df_melange = df.sample(frac=1).reset_index(drop=True)
 
 # Calcul de la taille de la première moitié
 taille_premiere_moitie = len(df_melange) // 2
@@ -152,6 +152,8 @@ for vote, model in models.items():
 predictions_df = pd.DataFrame(predictions)
 
 predictions_df.insert(0, 'is_verified', df_tab_actual_test['Media_exists'])
+predictions_df.insert(0, 'followings', df_tab_actual_test['Followings'])
+predictions_df.insert(0, 'sentiment', df_tab_actual_test['Sentiment'])
 predictions_df.insert(0, 'posts_count', df_tab_actual_test['Posts'])
 predictions_df.insert(0, 'engagement_rate', df_tab_actual_test['Engagement Rate'])
 predictions_df.insert(0, 'view_count', df_tab_actual_test['View_count'])
