@@ -32,7 +32,7 @@ tweet_content_test = test['post_content']
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment'
+    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment','subjectivity'
 ])
 
 # Enregistrer df_tab dans un fichier CSV
@@ -45,7 +45,7 @@ y_train = pd.DataFrame(train, columns= [
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment'
+    'followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment','subjectivity'
 ])
 
 scaler = StandardScaler()
@@ -116,7 +116,7 @@ for vote in votes:
 reference = X_train.mean()
 
 # Définir les paramètres pour lesquels vous voulez étudier l'impact
-parameters = ['followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment']
+parameters = ['followers_count','likes_count','shares_count','comments_count','view_count','engagement_rate','posts_count','sentiment','subjectivity']
 
 # Boucle sur chaque paramètre
 for parameter in parameters:

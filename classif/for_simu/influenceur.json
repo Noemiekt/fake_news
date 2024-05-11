@@ -24,7 +24,7 @@
                 "shares_count": "922",
                 "comments_count": "1025.0",
                 "view_count": "3600000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 2
             },
             {
@@ -44,7 +44,7 @@
                 "shares_count": "164",
                 "comments_count": "1208.0",
                 "view_count": "2800000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 4
             },
             {
@@ -64,7 +64,7 @@
                 "shares_count": "584",
                 "comments_count": "269.0",
                 "view_count": "4600000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 6
             },
             {
@@ -74,7 +74,7 @@
                 "shares_count": "553",
                 "comments_count": "807.0",
                 "view_count": "2400000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 7
             },
             {
@@ -84,7 +84,7 @@
                 "shares_count": "118",
                 "comments_count": "673.0",
                 "view_count": "3000000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 8
             },
             {
@@ -94,7 +94,7 @@
                 "shares_count": "459",
                 "comments_count": "877.0",
                 "view_count": "2400000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 9
             },
             {
@@ -114,7 +114,7 @@
                 "shares_count": "468",
                 "comments_count": "573.0",
                 "view_count": "3300000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 11
             },
             {
@@ -144,7 +144,7 @@
                 "shares_count": "1410",
                 "comments_count": "908.0",
                 "view_count": "2100000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 14
             },
             {
@@ -174,7 +174,7 @@
                 "shares_count": "1029",
                 "comments_count": "1559.0",
                 "view_count": "5500000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 17
             },
             {
@@ -186,6 +186,176 @@
                 "view_count": "",
                 "is_a_fake_news": "1",
                 "post_id": 18
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Un enfant de 6 ans est mort apr\u00e8s que son p\u00e8re l'ait forc\u00e9 \u00e0 faire du sport pour perdre du poids.",
+                "likes_count": "147000",
+                "shares_count": "909",
+                "comments_count": "1620.0",
+                "view_count": "5200000.0",
+                "is_a_fake_news": "1",
+                "post_id": 19
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Bretagne : 49 personnes intoxiqu\u00e9es \u00e0 cause d'une farine contamin\u00e9e par une plante toxique.",
+                "likes_count": "63200",
+                "shares_count": "365",
+                "comments_count": "652.0",
+                "view_count": "3200000.0",
+                "is_a_fake_news": "1",
+                "post_id": 20
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Le ph\u00e9nom\u00e8ne La Ni\u00f1a pourrait revenir sur Terre...Je t'explique",
+                "likes_count": "94400",
+                "shares_count": "898",
+                "comments_count": "1261.0",
+                "view_count": "3600000.0",
+                "is_a_fake_news": "0",
+                "post_id": 21
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Un pilote a d\u00e9missionn\u00e9 \u00e0 cause de l'ampleur de la catastrophe climatique",
+                "likes_count": "63700",
+                "shares_count": "1333",
+                "comments_count": "372.0",
+                "view_count": "2300000.0",
+                "is_a_fake_news": "1",
+                "post_id": 22
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Un portail virtuel a \u00e9t\u00e9 install\u00e9 entre Dublin et New York",
+                "likes_count": "32500",
+                "shares_count": "159",
+                "comments_count": "0.0",
+                "view_count": "870000.0",
+                "is_a_fake_news": "0",
+                "post_id": 23
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Ce village dans les Ball\u00e9ares pourrait fermer ses portes, Voil\u00e0 pourquoi",
+                "likes_count": "41300",
+                "shares_count": "219",
+                "comments_count": "130.0",
+                "view_count": "2100000.0",
+                "is_a_fake_news": "0",
+                "post_id": 24
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "La prochaine \u00e9pid\u00e9mie mondiale pourrait etre une grippe...",
+                "likes_count": "68000",
+                "shares_count": "175",
+                "comments_count": "827.0",
+                "view_count": "2700000.0",
+                "is_a_fake_news": "0",
+                "post_id": 25
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Un bilan de fertilit\u00e9 \u00e0 l'age de 25 ans? Le gouvernement y r\u00e9fl\u00e9chit",
+                "likes_count": "92500",
+                "shares_count": "1691",
+                "comments_count": "3238.0",
+                "view_count": "4700000.0",
+                "is_a_fake_news": "0",
+                "post_id": 26
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "R\u00e9armement d\u00e9mographique Emmanuel Macron veut lutter contre la chute de natalit\u00e9 en France",
+                "likes_count": "84400",
+                "shares_count": "492",
+                "comments_count": "2317.0",
+                "view_count": "3800000.0",
+                "is_a_fake_news": "1",
+                "post_id": 27
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Aujourd\u2019hui serait le jour le + d\u00e9primant de l'ann\u00e9e... Mais c'est faux",
+                "likes_count": "111000",
+                "shares_count": "501",
+                "comments_count": "750.0",
+                "view_count": "3900000.0",
+                "is_a_fake_news": "1",
+                "post_id": 28
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Carottes rap\u00e9s, c\u00e9leris. Ces plats Casino auraient \u00e9t\u00e9 contamin\u00e9s par un produit chimique",
+                "likes_count": "42800",
+                "shares_count": "238",
+                "comments_count": "217.0",
+                "view_count": "3000000.0",
+                "is_a_fake_news": "0",
+                "post_id": 29
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Virus Nipah : je t'explique s'il peut arriver jusqu'en France",
+                "likes_count": "68000",
+                "shares_count": "175",
+                "comments_count": "827.0",
+                "view_count": "2700000.0",
+                "is_a_fake_news": "0",
+                "post_id": 30
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Un adolescents est mort apr\u00e8s avoir \u00e9t\u00e9 percut\u00e9 par une voiture de police",
+                "likes_count": "77800",
+                "shares_count": "310",
+                "comments_count": "2492.0",
+                "view_count": "1700000.0",
+                "is_a_fake_news": "0",
+                "post_id": 31
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Dimanche : certains ont eu du mal \u00e0 respirer apr\u00e8s l'orage ... Voici pourquoi",
+                "likes_count": "116000",
+                "shares_count": "528",
+                "comments_count": "857.0",
+                "view_count": "2400000.0",
+                "is_a_fake_news": "1",
+                "post_id": 32
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "Le HCC bientot interdit en France",
+                "likes_count": "29900",
+                "shares_count": "39",
+                "comments_count": "256.0",
+                "view_count": "1000000.0",
+                "is_a_fake_news": "0",
+                "post_id": 33
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "1 personnes sur 6 dans le monde n'arrive pas \u00e0 voir d'enfants",
+                "likes_count": "72500",
+                "shares_count": "644",
+                "comments_count": "1081.0",
+                "view_count": "1600000.0",
+                "is_a_fake_news": "0",
+                "post_id": 34
+            },
+            {
+                "username": "hugodecrypte",
+                "post_content": "1 jeune sur 5 pr\u00e9sente des troubles d\u00e9pressifs en France...",
+                "likes_count": "86800",
+                "shares_count": "83",
+                "comments_count": "947.0",
+                "view_count": "1500000.0",
+                "is_a_fake_news": "0",
+                "post_id": 35
             }
         ]
     },
@@ -376,6 +546,176 @@
                 "view_count": "94900.0",
                 "is_a_fake_news": "1",
                 "post_id": 18
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "95% des parisiens ne croient pas en la vie apr\u00e8s le p\u00e9riph\u00e9rique",
+                "likes_count": "10300",
+                "shares_count": "111",
+                "comments_count": "299.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 19
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Il meurt de vieillesse en tentant de fermer tous les onglets ouverts par ses parents",
+                "likes_count": "26200",
+                "shares_count": "216",
+                "comments_count": "211.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 20
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Le personnel soigant devra rembourser les applaudissements re\u00e7us pendant le premier confinement",
+                "likes_count": "8697",
+                "shares_count": "24",
+                "comments_count": "64.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 21
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Un joueur de ukul\u00e9l\u00e9 accus\u00e9 de maltraitance sur ses amis",
+                "likes_count": "3809",
+                "shares_count": "9",
+                "comments_count": "85.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 22
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Les pharmaciens autoris\u00e9s \u00e0 d\u00e9liver des antid\u00e9presseurs sur simple pr\u00e9station d'une simulation de retraite",
+                "likes_count": "5295",
+                "shares_count": "22",
+                "comments_count": "33.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 23
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "63% des Fran\u00e7ais projettent de remettre un masque cet hiver pour se chauffer",
+                "likes_count": "2450",
+                "shares_count": "27",
+                "comments_count": "16.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 24
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Il subit 8000 op\u00e9rations de chirurgie esth\u00e9tique pour ressembler \u00e0 du fromage de ch\u00e8vre",
+                "likes_count": "7035",
+                "shares_count": "216",
+                "comments_count": "211.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 25
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "\u00e9tude: la mort, 1\u00e8re cause de mortalit\u00e9 chez les Fran\u00e7ais de tous ages.",
+                "likes_count": "9080",
+                "shares_count": "12",
+                "comments_count": "132.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 26
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "La fondation Bill Gates rappelle pr\u00e8s d'un million de doses de vaccin en raison de nanopuces 5G d\u00e9faillantes",
+                "likes_count": "2985",
+                "shares_count": "11",
+                "comments_count": "79.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 27
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Sur son lit de mort, il se dit qu'il a vraiment bien boss\u00e9 pour son entreprise",
+                "likes_count": "5099",
+                "shares_count": "14",
+                "comments_count": "40.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 28
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Un milliardaire s'injecte du sang de millionnnaire pour paraitre plus proche du peuple",
+                "likes_count": "4827",
+                "shares_count": "53",
+                "comments_count": "24.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 29
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Canicule :  il oublie ses glaces dans la voiture \u00e0 cot\u00e9 du chien mort",
+                "likes_count": "6197",
+                "shares_count": "66",
+                "comments_count": "53.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 30
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "L'enfer se dote enfin d'un acc\u00e8s pour personne \u00e0 mobilit\u00e9 r\u00e9duite",
+                "likes_count": "11600",
+                "shares_count": "205",
+                "comments_count": "84.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 31
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Apr\u00e8s un week-end de 3 jours avec ses neveux, il prend rendez-vous pour une vasectomie",
+                "likes_count": "4573",
+                "shares_count": "72",
+                "comments_count": "54.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 32
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Paris - Un Qu\u00e9b\u00e9cois meurent de faim car personne n'arrivait \u00e0 le comprendre",
+                "likes_count": "5959",
+                "shares_count": "81",
+                "comments_count": "95.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 33
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Emmanuel Macron propose finalement la retraite \u00e0 63 ans et 12 mois",
+                "likes_count": "7036",
+                "shares_count": "156",
+                "comments_count": "95.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 34
+            },
+            {
+                "username": "le_gorafi",
+                "post_content": "Un happiness manager ne se sent pas capable d'organiser des tournois de baby-foot en open-space jusqu'\u00e0 64 ans",
+                "likes_count": "3101",
+                "shares_count": "5",
+                "comments_count": "17.0",
+                "view_count": "",
+                "is_a_fake_news": "1",
+                "post_id": 35
             }
         ]
     },
@@ -434,7 +774,7 @@
                 "shares_count": "29",
                 "comments_count": "52.0",
                 "view_count": "",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 5
             },
             {
@@ -444,7 +784,7 @@
                 "shares_count": "413",
                 "comments_count": "263.0",
                 "view_count": "",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 6
             },
             {
@@ -454,8 +794,288 @@
                 "shares_count": "32",
                 "comments_count": "212.0",
                 "view_count": "",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 7
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Une grand-m\u00e8re met du vin blanc dans le biberon, le b\u00e9b\u00e9 fait un coma \u00e9thylique!",
+                "likes_count": "5881",
+                "shares_count": "204",
+                "comments_count": "261.0",
+                "view_count": "362000.0",
+                "is_a_fake_news": "1",
+                "post_id": 8
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Top 10 des aliments que tu peux consommer apr\u00e8s leur date de p\u00e9remption!",
+                "likes_count": "6341",
+                "shares_count": "420",
+                "comments_count": "52.0",
+                "view_count": "209000.0",
+                "is_a_fake_news": "1",
+                "post_id": 9
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Pourquoi est-il dangereux pour la sant\u00e9 de r\u00e9chauffer cet aliment?",
+                "likes_count": "5572",
+                "shares_count": "207",
+                "comments_count": "110.0",
+                "view_count": "419000.0",
+                "is_a_fake_news": "1",
+                "post_id": 10
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Comment retarder l'arriv\u00e9e des cheveux blancs?",
+                "likes_count": "1180",
+                "shares_count": "29",
+                "comments_count": "21.0",
+                "view_count": "109000.0",
+                "is_a_fake_news": "1",
+                "post_id": 11
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "A 102 ans, son assurance d\u00e9c\u00e8s est annul\u00e9e car est trop vieille!",
+                "likes_count": "12300",
+                "shares_count": "122",
+                "comments_count": "761.0",
+                "view_count": "541000.0",
+                "is_a_fake_news": "1",
+                "post_id": 12
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Une fille est n\u00e9e avec 26 doigts!",
+                "likes_count": "256",
+                "shares_count": "1",
+                "comments_count": "2.0",
+                "view_count": "9896.0",
+                "is_a_fake_news": "1",
+                "post_id": 13
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Elle n'est pas anesth\u00e9si\u00e9e parce que le medecin part en pause d\u00e9jeuner!",
+                "likes_count": "5271",
+                "shares_count": "28",
+                "comments_count": "310.0",
+                "view_count": "291000.0",
+                "is_a_fake_news": "1",
+                "post_id": 14
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "On connait d\u00e9j\u00e0 la prochaine \u00e9pid\u00e9mie mondiale!",
+                "likes_count": "3175",
+                "shares_count": "52",
+                "comments_count": "222.0",
+                "view_count": "218000.0",
+                "is_a_fake_news": "1",
+                "post_id": 15
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Cette \u00e9pice vous empeche d'avoir la calvitie",
+                "likes_count": "11200",
+                "shares_count": "161",
+                "comments_count": "128.0",
+                "view_count": "486000.0",
+                "is_a_fake_news": "1",
+                "post_id": 16
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Les poeles ray\u00e9es sont dangereuses poru la sant\u00e9",
+                "likes_count": "2277",
+                "shares_count": "61",
+                "comments_count": "24.0",
+                "view_count": "111000.0",
+                "is_a_fake_news": "1",
+                "post_id": 17
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Selon une \u00e9tude, les maris seraient une \u00e9norme source de stress dans le couple!",
+                "likes_count": "32600",
+                "shares_count": "1119",
+                "comments_count": "2076.0",
+                "view_count": "1500000.0",
+                "is_a_fake_news": "1",
+                "post_id": 18
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Pourquoi est-il dangereux pour la sant\u00e9 de r\u00e9utiliser des bouteilles en plastique?",
+                "likes_count": "5795",
+                "shares_count": "194",
+                "comments_count": "138.0",
+                "view_count": "302000.0",
+                "is_a_fake_news": "1",
+                "post_id": 19
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Pourquoi on p\u00e8te plus dans l'avion?",
+                "likes_count": "1332",
+                "shares_count": "15",
+                "comments_count": "14.0",
+                "view_count": "94400.0",
+                "is_a_fake_news": "1",
+                "post_id": 20
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "C'est quoi la crise des 25 ans?",
+                "likes_count": "2120",
+                "shares_count": "33",
+                "comments_count": "32.0",
+                "view_count": "69500.0",
+                "is_a_fake_news": "1",
+                "post_id": 21
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Il force son fils \u00e0 faire du sport pour perdre du poids, l'enfant meurt...",
+                "likes_count": "5231",
+                "shares_count": "67",
+                "comments_count": "162.0",
+                "view_count": "194000.0",
+                "is_a_fake_news": "1",
+                "post_id": 22
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Ces jeunes ne sortent plus de chez eux pendant des ann\u00e9es!",
+                "likes_count": "5810",
+                "shares_count": "97",
+                "comments_count": "273.0",
+                "view_count": "210000.0",
+                "is_a_fake_news": "1",
+                "post_id": 23
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Rester au lit serait dangereux pour la sant\u00e9!",
+                "likes_count": "5939",
+                "shares_count": "142",
+                "comments_count": "99.0",
+                "view_count": "203000.0",
+                "is_a_fake_news": "1",
+                "post_id": 24
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Comment retarder l'arriv\u00e9e des cheveux blancs?",
+                "likes_count": "1180",
+                "shares_count": "29",
+                "comments_count": "21.0",
+                "view_count": "109000.0",
+                "is_a_fake_news": "1",
+                "post_id": 25
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Une femme serait plus heureuse si son mari est moche!",
+                "likes_count": "17400",
+                "shares_count": "1169",
+                "comments_count": "791.0",
+                "view_count": "1000000.0",
+                "is_a_fake_news": "1",
+                "post_id": 26
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "L'arnaque aux faux enterrements, c'est quoi?",
+                "likes_count": "1775",
+                "shares_count": "23",
+                "comments_count": "30.0",
+                "view_count": "12700.0",
+                "is_a_fake_news": "1",
+                "post_id": 27
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Combien de fois par jour tu dois aller aux toilettes?",
+                "likes_count": "4477",
+                "shares_count": "21",
+                "comments_count": "86.0",
+                "view_count": "313000.0",
+                "is_a_fake_news": "1",
+                "post_id": 28
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Voila les fruits et l\u00e9gumes de saison qu'il faut manger",
+                "likes_count": "978",
+                "shares_count": "6",
+                "comments_count": "17.0",
+                "view_count": "62300.0",
+                "is_a_fake_news": "1",
+                "post_id": 29
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Ivre, il n'est pas arret\u00e9 car il produit naturellement de l'alcool",
+                "likes_count": "2764",
+                "shares_count": "38",
+                "comments_count": "13.0",
+                "view_count": "98900.0",
+                "is_a_fake_news": "1",
+                "post_id": 30
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Quelles sont les attractions les plus dangereuses en fete forraine?",
+                "likes_count": "1529",
+                "shares_count": "7",
+                "comments_count": "17.0",
+                "view_count": "56300.0",
+                "is_a_fake_news": "1",
+                "post_id": 31
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Selon la science les ados sentent la ch\u00e8vre!",
+                "likes_count": "1747",
+                "shares_count": "13",
+                "comments_count": "30.0",
+                "view_count": "82900.0",
+                "is_a_fake_news": "1",
+                "post_id": 32
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Selon la science, le deuxi\u00e8me enfant serait le plus difficile!",
+                "likes_count": "6946",
+                "shares_count": "83",
+                "comments_count": "171.0",
+                "view_count": "383000.0",
+                "is_a_fake_news": "1",
+                "post_id": 33
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Un facteur jette 400 lettres parce qu'il a froid",
+                "likes_count": "3103",
+                "shares_count": "20",
+                "comments_count": "78.0",
+                "view_count": "134000.0",
+                "is_a_fake_news": "1",
+                "post_id": 34
+            },
+            {
+                "username": "demotivateur",
+                "post_content": "Faites le plein de gourmandises et de vitamines avec cette recette de planche mixte sucr\u00e9e 100% fruits!",
+                "likes_count": "856",
+                "shares_count": "2",
+                "comments_count": "4.0",
+                "view_count": "327000.0",
+                "is_a_fake_news": "1",
+                "post_id": 35
             }
         ]
     },
@@ -534,7 +1154,7 @@
                 "shares_count": "68",
                 "comments_count": "389.0",
                 "view_count": "1000000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 5
             },
             {
@@ -544,7 +1164,7 @@
                 "shares_count": "1421",
                 "comments_count": "383.0",
                 "view_count": "1700000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 6
             },
             {
@@ -564,7 +1184,7 @@
                 "shares_count": "24",
                 "comments_count": "222.0",
                 "view_count": "1100000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 8
             },
             {
@@ -584,7 +1204,7 @@
                 "shares_count": "27",
                 "comments_count": "106.0",
                 "view_count": "667000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 10
             },
             {
@@ -594,7 +1214,7 @@
                 "shares_count": "187",
                 "comments_count": "306.0",
                 "view_count": "2000000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 11
             },
             {
@@ -644,7 +1264,7 @@
                 "shares_count": "278",
                 "comments_count": "139.0",
                 "view_count": "638000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 16
             },
             {
@@ -666,6 +1286,176 @@
                 "view_count": "446000.0",
                 "is_a_fake_news": "1",
                 "post_id": 18
+            },
+            {
+                "username": "konbini",
+                "post_content": "Allez-vous vous baigner dans la Seine ? Et continuera-t-elle \u00e0 \u00eatre entretenue pour s'y baigner apr\u00e8s les JO ?",
+                "likes_count": "8744",
+                "shares_count": "88",
+                "comments_count": "866.0",
+                "view_count": "908000.0",
+                "is_a_fake_news": "0",
+                "post_id": 19
+            },
+            {
+                "username": "konbini",
+                "post_content": "Photo de profil de konbini Il faut avoir peur du VIH mais pas des personnes s\u00e9ropositives Le VIH/sida n\u2019a pas emp\u00each\u00e9 Andr\u00e9a de devenir m\u00e8re de trois enfants. Engag\u00e9e contre la s\u00e9rophobie, elle nous avait fait part de son t\u00e9moignage.",
+                "likes_count": "10500",
+                "shares_count": "233",
+                "comments_count": "129.0",
+                "view_count": "518000.0",
+                "is_a_fake_news": "0",
+                "post_id": 20
+            },
+            {
+                "username": "konbini",
+                "post_content": "Le journaliste Elliot Wax a enqu\u00eat\u00e9 sur le processus de radicalisation complotiste de son fr\u00e8re. Pendant la crise sanitaire, il d\u00e9cide de s\u2019infiltrer dans les organisations suivies par son fr\u00e8re afin de montrer l\u2019envers du d\u00e9cor du conspirationnisme et contrer ses croyances. Il t\u00e9moigne.",
+                "likes_count": "27900",
+                "shares_count": "198",
+                "comments_count": "981.0",
+                "view_count": "1200000.0",
+                "is_a_fake_news": "1",
+                "post_id": 21
+            },
+            {
+                "username": "konbini",
+                "post_content": "La rumeur dit que, depuis le tournage, @tristanlopin ne quitte plus son uniforme et sa fameuse trousse de secours. Cette vid\u00e9o n'est pas un tuto, pour vous former aux premiers secours ou devenir secouriste \u00e0 la Croix-Rouge fran\u00e7aise, rendez-vous sur @croixrougefr",
+                "likes_count": "3988",
+                "shares_count": "54",
+                "comments_count": "26.0",
+                "view_count": "275000.0",
+                "is_a_fake_news": "1",
+                "post_id": 22
+            },
+            {
+                "username": "konbini",
+                "post_content": "\u201cLe jeu est une drogue\u201d En abstinence depuis 17 ans, Anthony est addict aux jeux de course et au poker. Vie de famille, mensonges et d\u00e9penses excessives : il raconte l\u2019impact des jeux d\u2019argent sur son quotidien.",
+                "likes_count": "8651",
+                "shares_count": "44",
+                "comments_count": "42.0",
+                "view_count": "667000.0",
+                "is_a_fake_news": "0",
+                "post_id": 23
+            },
+            {
+                "username": "konbini",
+                "post_content": "Ma grossesse m'a sauv\u00e9 la vie. Virgilia Hess (@virgilia_h) a \u00e9t\u00e9 diagnostiqu\u00e9e d'un cancer du sein alors qu'elle \u00e9tait enceinte de 5 mois et demi. Elle nous expliquait comment elle a g\u00e9r\u00e9 sa grossesse, entre les chimios et les rendez-vous m\u00e9dicaux. ",
+                "likes_count": "7992",
+                "shares_count": "44",
+                "comments_count": "28.0",
+                "view_count": "738000.0",
+                "is_a_fake_news": "0",
+                "post_id": 24
+            },
+            {
+                "username": "konbini",
+                "post_content": "@anaiswerestchackoff, m\u00e9decin g\u00e9n\u00e9raliste et ancienne miss Auvergne, a pris la route \u00e0 bord de son van pour un \u00ab tour de France des d\u00e9serts m\u00e9dicaux \u00bb. Avec Brice Philippon, son compagnon kin\u00e9sith\u00e9rapeute, ils vont en aide aux praticiens qui ont du mal \u00e0 trouver des rempla\u00e7ants. On les a suivi.",
+                "likes_count": "7355",
+                "shares_count": "140",
+                "comments_count": "166.0",
+                "view_count": "349000.0",
+                "is_a_fake_news": "0",
+                "post_id": 25
+            },
+            {
+                "username": "konbini",
+                "post_content": "L\u2019aide m\u00e9dicale \u00e0 mourir (ou euthanasie), est aujourd\u2019hui ill\u00e9gale en France. Deux m\u00e9decins se confrontaient sur le sujet de sa l\u00e9galisation : Denis Labayle est pour : \u201cC\u2019est le malade qui doit \u00eatre ma\u00eetre de sa situation\u201d Sarah Halioui est contre : \u201cLe patient n\u2019a pas une r\u00e9ponse unique selon les jours, selon sa souffrance. Il faut le prendre en compte\u201d",
+                "likes_count": "11300",
+                "shares_count": "97",
+                "comments_count": "202.0",
+                "view_count": "439000.0",
+                "is_a_fake_news": "1",
+                "post_id": 26
+            },
+            {
+                "username": "konbini",
+                "post_content": "Le droit d'acc\u00e8s \u00e0 l'IVG et la libert\u00e9 d'acc\u00e8s \u00e0 l'IVG sont des termes compl\u00e8tement diff\u00e9rents. H\u00e9lo\u00efse, nous explique. @ledroitdecomprendreledroit",
+                "likes_count": "17100",
+                "shares_count": "270",
+                "comments_count": "995.0",
+                "view_count": "637000.0",
+                "is_a_fake_news": "1",
+                "post_id": 27
+            },
+            {
+                "username": "konbini",
+                "post_content": "Lorsque vous interdisez officiellement l\u2019avortement, les femmes vont trouver d\u2019autres moyens. Nous avions suivi Alisoa, une matrone, qui pratique des avortements clandestins \u00e0 Madagascar. Entre les complications suite aux avortements, l'impossibilit\u00e9 d'avorter en cas de malformation du foetus ou de viol et d'inceste, des pans de la soci\u00e9t\u00e9 malgache s'activent pour changer les choses.",
+                "likes_count": "13500",
+                "shares_count": "396",
+                "comments_count": "115.0",
+                "view_count": "445000.0",
+                "is_a_fake_news": "1",
+                "post_id": 28
+            },
+            {
+                "username": "konbini",
+                "post_content": "Syndrome du b\u00e9b\u00e9 secou\u00e9 : l\u2019histoire de Fr\u00e9d\u00e9rique, pr\u00e9sum\u00e9e coupable.",
+                "likes_count": "6499",
+                "shares_count": "19",
+                "comments_count": "57.0",
+                "view_count": "732000.0",
+                "is_a_fake_news": "0",
+                "post_id": 29
+            },
+            {
+                "username": "konbini",
+                "post_content": "Alena a avort\u00e9 lorsqu'elle avait 16 ans. Au-del\u00e0 de cette exp\u00e9rience, elle nous parlait de la sensationnalisation d'un acte m\u00e9dical par ses d\u00e9tracteurs, et la honte impos\u00e9e aux femmes qui avortent : \u201cQuand on avorte, la soci\u00e9t\u00e9 nous impose le silence et la honte\u201d",
+                "likes_count": "23900",
+                "shares_count": "269",
+                "comments_count": "1578.0",
+                "view_count": "1000000.0",
+                "is_a_fake_news": "1",
+                "post_id": 30
+            },
+            {
+                "username": "konbini",
+                "post_content": "\u201cLa femme qui vient d\u2019accoucher, c\u2019est vrai qu\u2019on n\u2019en parle pas beaucoup\u201dBaby blues, prise de poids, sexualit\u00e9 et r\u00e9seaux sociaux : @lenna.vivas , cr\u00e9atrice de contenus, d\u00e9voile la r\u00e9alit\u00e9 du post-partum.",
+                "likes_count": "23700",
+                "shares_count": "213",
+                "comments_count": "129.0",
+                "view_count": "1300000.0",
+                "is_a_fake_news": "1",
+                "post_id": 31
+            },
+            {
+                "username": "konbini",
+                "post_content": "C\u2019est fait : la France devient le premier pays au monde \u00e0 inscrire explicitement l\u2019IVG dans sa Constitution, suite au vote du Congr\u00e8s. On a suivi le r\u00e9sultat en direct au Trocad\u00e9ro !",
+                "likes_count": "84100",
+                "shares_count": "5359",
+                "comments_count": "1492.0",
+                "view_count": "2000000.0",
+                "is_a_fake_news": "0",
+                "post_id": 32
+            },
+            {
+                "username": "konbini",
+                "post_content": "Syndrome du b\u00e9b\u00e9 secou\u00e9 : l'histoire de Maria, ancienne assistante maternelle et pr\u00e9sum\u00e9e coupable.",
+                "likes_count": "15000",
+                "shares_count": "93",
+                "comments_count": "157.0",
+                "view_count": "1100000.0",
+                "is_a_fake_news": "0",
+                "post_id": 33
+            },
+            {
+                "username": "konbini",
+                "post_content": "La psycho-sociologue @christelealbaret explique comment vivre au quotidien avec une personne en d\u00e9pression et donne ses conseils aux aidants pour ne pas sombrer.",
+                "likes_count": "14900",
+                "shares_count": "668",
+                "comments_count": "177.0",
+                "view_count": "646000.0",
+                "is_a_fake_news": "1",
+                "post_id": 34
+            },
+            {
+                "username": "konbini",
+                "post_content": "\u00c0 l'occasion du mois de sensibilisation au my\u00e9lome multiple, un duo : Laurent Gillot, pr\u00e9sident de l'association @myelomefr, et le Pr. Mohamad Mohty, pour nous \u00e9clairer sur ce cancer du sang.",
+                "likes_count": "4468",
+                "shares_count": "22",
+                "comments_count": "28.0",
+                "view_count": "436000.0",
+                "is_a_fake_news": "1",
+                "post_id": 35
             }
         ]
     },
@@ -684,8 +1474,188 @@
                 "shares_count": "55",
                 "comments_count": "45.0",
                 "view_count": "109000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 1
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Pourquoi sommes nous allergiques aux chats?",
+                "likes_count": "1966",
+                "shares_count": "24",
+                "comments_count": "31.0",
+                "view_count": "80600.0",
+                "is_a_fake_news": "0",
+                "post_id": 2
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Connaissez-vous l\u2019existence des allergies crois\u00e9es ? \ud83e\udd14 Si non, cette vid\u00e9o est pour vous et vous allez peut-\u00eatre vous d\u00e9couvrir une nouvelle allergie\u2026 \ud83d\ude31",
+                "likes_count": "5372",
+                "shares_count": "113",
+                "comments_count": "89.0",
+                "view_count": "174000.0",
+                "is_a_fake_news": "0",
+                "post_id": 3
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Atchoum ! Les pollens sont de sortie \ud83e\udd27 Mais comment expliquer ces r\u00e9actions allergiques ?",
+                "likes_count": "3811",
+                "shares_count": "58",
+                "comments_count": "30.0",
+                "view_count": "155000.0",
+                "is_a_fake_news": "0",
+                "post_id": 4
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Quelle est la chose la plus folle que vous ayez faite gr\u00e2ce a l\u2019adr\u00e9naline ? \ud83d\ude09",
+                "likes_count": "1059",
+                "shares_count": "9",
+                "comments_count": "4.0",
+                "view_count": "52100.0",
+                "is_a_fake_news": "0",
+                "post_id": 5
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Si votre animal a une truffe chaude, signifie-t-il qu\u2019il est en train de tomber malade ? \ud83e\udd12\ud83d\udc36 @linstant_veto donne plus de d\u00e9tails sur cette croyance \ud83d\udc69\u200d\u2695\ufe0f",
+                "likes_count": "1866",
+                "shares_count": "15",
+                "comments_count": "5.0",
+                "view_count": "148000.0",
+                "is_a_fake_news": "0",
+                "post_id": 6
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Avez-vous d\u00e9j\u00e0 entendu parler de l\u2019antibior\u00e9sistance ? Jamy nous \u00e9claire sur ce ph\u00e9nom\u00e8ne ! \ud83e\udda0",
+                "likes_count": "1402",
+                "shares_count": "15",
+                "comments_count": "",
+                "view_count": "51300.0",
+                "is_a_fake_news": "0",
+                "post_id": 7
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "La lutte contre le cancer est un enjeu majeur et nous pouvons tous y contribuer \ud83e\udd13Tentez de gagner vos places pour les Jeux Olympiques de Paris 2024 gr\u00e2ce \u00e0 Allianz en soutenant la recherche m\u00e9dicale et la campagne Une Jonquille contre le Cancer ! D\u00e9tails et conditions sur @allianz_france ",
+                "likes_count": "4282",
+                "shares_count": "119",
+                "comments_count": "60.0",
+                "view_count": "925000.0",
+                "is_a_fake_news": "1",
+                "post_id": 8
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Neige ivernale: quels bienfaits",
+                "likes_count": "2778",
+                "shares_count": "27",
+                "comments_count": "35.0",
+                "view_count": "100000.0",
+                "is_a_fake_news": "0",
+                "post_id": 9
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Des volumes sonores excessifs peuvent endommager notre ou\u00efe \ud83d\udd0a\u274c Apprenons \u00e0 pr\u00e9server notre capital auditif avec @jamygourmaud ! ",
+                "likes_count": "3531",
+                "shares_count": "46",
+                "comments_count": "49.0",
+                "view_count": "147000.0",
+                "is_a_fake_news": "1",
+                "post_id": 10
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Depuis quand les antibiotiques existent-ils ? Jamy vous raconte l\u2019histoire de leur cr\u00e9ation ! Pour en apprendre plus sur le sujet, rendez-vous sur YouTube pour voir la suite de la vid\u00e9o ! \ud83e\udda0\ud83e\udda0.",
+                "likes_count": "1805",
+                "shares_count": "18",
+                "comments_count": "15.0",
+                "view_count": "63800.0",
+                "is_a_fake_news": "0",
+                "post_id": 11
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Antibiotiques = bact\u00e9rie et non virus ! Mais alors, c'est quoi la diff\u00e9rence entre les deux ? \ud83e\udd14\ud83e\udda0 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",
+                "likes_count": "3575",
+                "shares_count": "38",
+                "comments_count": "13.0",
+                "view_count": "146000.0",
+                "is_a_fake_news": "0",
+                "post_id": 12
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Nous vous avons prescrit une ordonnance pour avoir un rendez-vous dans le cabinet de Jamy dimanche \u00e0 10H, afin qu\u2019il vous apprenne tout sur les antibiotiques \ud83d\udc8a\ud83d\udc8a",
+                "likes_count": "1782",
+                "shares_count": "6",
+                "comments_count": "6.0",
+                "view_count": "82100.0",
+                "is_a_fake_news": "0",
+                "post_id": 13
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Photo de profil de epicurieuxanimaux Un petit bout de chocolat est toujours un plaisir r\u00e9confortant \ud83c\udf6b\ud83e\udd70 mais pour un chien, il peut \u00eatre fatal\ud83d\ude36 @linstant_veto vous explique pourquoi \ud83d\udc69\u200d\u2695\ufe0f",
+                "likes_count": "3656",
+                "shares_count": "52",
+                "comments_count": "45.0",
+                "view_count": "190000.0",
+                "is_a_fake_news": "1",
+                "post_id": 14
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Comment aider les salari\u00e9s souffrant de p\u00e9nibilit\u00e9 au travail ? D\u00e9couvrons avec @allianz_france une solution qui permet de soulager leurs maux \ud83e\udd13\ud83d\udc68\u200d\ud83d\udd2c",
+                "likes_count": "1819",
+                "shares_count": "11",
+                "comments_count": "37.0",
+                "view_count": "118000.0",
+                "is_a_fake_news": "0",
+                "post_id": 15
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Le coup de foudre : mythe ou r\u00e9alit\u00e9 ? Terence et Renaud de @explorersfr nous \u00e9clairent sur le sujet ! \u2764 Pour d\u00e9couvrir la suite, rendez-vous sur notre cha\u00eene Youtube ",
+                "likes_count": "2108",
+                "shares_count": "15",
+                "comments_count": "8.0",
+                "view_count": "141000.0",
+                "is_a_fake_news": "0",
+                "post_id": 16
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Qu\u2019est ce qui est plus sale entre un t\u00e9l\u00e9phone et la lunette des toilettes ? \ud83d\udcf1\ud83d\udebd The Sciencoder nous donne la r\u00e9ponse gr\u00e2ce aux bo\u00eetes de petri g\u00e9los\u00e9es ! \ud83d\udd2c.",
+                "likes_count": "10000",
+                "shares_count": "121",
+                "comments_count": "100.0",
+                "view_count": "160000.0",
+                "is_a_fake_news": "0",
+                "post_id": 17
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Antibiotiques = bact\u00e9rie et non virus ! Mais alors, c'est quoi la diff\u00e9rence entre les deux ? \ud83e\udd14\ud83e\udda0 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",
+                "likes_count": "3575",
+                "shares_count": "38",
+                "comments_count": "13.0",
+                "view_count": "146000.0",
+                "is_a_fake_news": "0",
+                "post_id": 18
+            },
+            {
+                "username": "epicurieux",
+                "post_content": "Antibiotiques = bact\u00e9rie et non virus ! Mais alors, c'est quoi la diff\u00e9rence entre les deux ? \ud83e\udd14\ud83e\udda0 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",
+                "likes_count": "3575",
+                "shares_count": "38",
+                "comments_count": "13.0",
+                "view_count": "146000.0",
+                "is_a_fake_news": "0",
+                "post_id": 19
             }
         ]
     },
@@ -706,6 +1676,336 @@
                 "view_count": "297000.0",
                 "is_a_fake_news": "0",
                 "post_id": 1
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Un enfant meurt du chol\u00e9ra \u00e0 Mayotte",
+                "likes_count": "174",
+                "shares_count": "13",
+                "comments_count": "8.0",
+                "view_count": "16500.0",
+                "is_a_fake_news": "1",
+                "post_id": 2
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Un enfant meurt du chol\u00e9ra \u00e0 Mayotte",
+                "likes_count": "174",
+                "shares_count": "13",
+                "comments_count": "8.0",
+                "view_count": "16500.0",
+                "is_a_fake_news": "1",
+                "post_id": 3
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Somnolence au volant : prenez un nappuccino ! Calvi ",
+                "likes_count": "2593",
+                "shares_count": "28",
+                "comments_count": "19.0",
+                "view_count": "282000.0",
+                "is_a_fake_news": "1",
+                "post_id": 4
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u201cUn exercice bref mais suffisamment intense : prendre les escaliers\u201d",
+                "likes_count": "353",
+                "shares_count": "10",
+                "comments_count": "6.0",
+                "view_count": "25500.0",
+                "is_a_fake_news": "1",
+                "post_id": 5
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "C\u2019est quoi une bonne tension art\u00e9rielle ? .",
+                "likes_count": "5117",
+                "shares_count": "89",
+                "comments_count": "73.0",
+                "view_count": "434000.0",
+                "is_a_fake_news": "1",
+                "post_id": 6
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "M\u00e9fiez-vous de toutes ces histoires de centenaires : \u00ab Il y en aurait sans doute beaucoup moins qu\u2019on ne le dit... des fraudes \u00e0 la pension de retraite ! \u00bb ",
+                "likes_count": "21000",
+                "shares_count": "1042",
+                "comments_count": "299.0",
+                "view_count": "1400000.0",
+                "is_a_fake_news": "0",
+                "post_id": 7
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Jardiner, c\u2019est bon pour la sant\u00e9 !",
+                "likes_count": "21000",
+                "shares_count": "1042",
+                "comments_count": "299.0",
+                "view_count": "1400000.0",
+                "is_a_fake_news": "1",
+                "post_id": 8
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Apr\u00e8s la naissance de sa fille, Lorie, atteinte d'endom\u00e9triose, d\u00e9cide de se faire retirer l'ut\u00e9rus. Elle se confie sur ce choix au micro d'Ana\u00efs Bouton \u00e9gralit\u00e9 !",
+                "likes_count": "3245",
+                "shares_count": "21",
+                "comments_count": "47.0",
+                "view_count": "251000.0",
+                "is_a_fake_news": "1",
+                "post_id": 9
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Une prise de sang pour d\u00e9tecter l'arthrose ! ",
+                "likes_count": "3447",
+                "shares_count": "52",
+                "comments_count": "56.0",
+                "view_count": "293000.0",
+                "is_a_fake_news": "1",
+                "post_id": 10
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "S\u00e9dentarit\u00e9 : prendre l\u2019escalier plut\u00f4t que l\u2019ascenseur pour vivre plus longtemps ! ",
+                "likes_count": "2031",
+                "shares_count": "47",
+                "comments_count": "15.0",
+                "view_count": "170000.0",
+                "is_a_fake_news": "1",
+                "post_id": 11
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u201cChers ados, gr\u00e2ce aux \u00e9crans, vous serez gros et aveugles !\u201d ",
+                "likes_count": "4384",
+                "shares_count": "58",
+                "comments_count": "117.0",
+                "view_count": "169000.0",
+                "is_a_fake_news": "1",
+                "post_id": 12
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u00ab Pas d\u2019\u00e9cran avant 3 ans, et d\u00e9conseill\u00e9 avant 6 ans \u00bb ",
+                "likes_count": "517",
+                "shares_count": "22",
+                "comments_count": "21.0",
+                "view_count": "43300.0",
+                "is_a_fake_news": "1",
+                "post_id": 13
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Crudivorisme : \u00ab Les cons\u00e9quences peuvent \u00eatre terribles \u00bb ",
+                "likes_count": "292",
+                "shares_count": "2",
+                "comments_count": "6.0",
+                "view_count": "41300.0",
+                "is_a_fake_news": "1",
+                "post_id": 14
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Un m\u00e9dicament antidiab\u00e9tique capable de ralentir l\u2019\u00e9volution de la maladie de Parkinson ? \ud83d\udc8a",
+                "likes_count": "186",
+                "shares_count": "4",
+                "comments_count": "3.0",
+                "view_count": "16100.0",
+                "is_a_fake_news": "1",
+                "post_id": 15
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Pourquoi le sirop de menthe ne devrait jamais \u00eatre vert ? \ud83d\udfe2",
+                "likes_count": "235",
+                "shares_count": "2",
+                "comments_count": "8.0",
+                "view_count": "24900.0",
+                "is_a_fake_news": "1",
+                "post_id": 16
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Recrudescence de la coqueluche en Europe, appel \u00e0 une vigilance renforc\u00e9e en France ! ",
+                "likes_count": "210",
+                "shares_count": "3",
+                "comments_count": "3.0",
+                "view_count": "18100.0",
+                "is_a_fake_news": "1",
+                "post_id": 17
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Sant\u00e9 : consommer certains \u00e9mulsifiants augmente-t-il le risque de devenir diab\u00e9tique ?",
+                "likes_count": "2660",
+                "shares_count": "62",
+                "comments_count": "54.0",
+                "view_count": "311000.0",
+                "is_a_fake_news": "1",
+                "post_id": 18
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Les cr\u00e8mes solaires mentent-elles sur leur indice de protection ? ",
+                "likes_count": "6337",
+                "shares_count": "127",
+                "comments_count": "273.0",
+                "view_count": "596000.0",
+                "is_a_fake_news": "1",
+                "post_id": 19
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Un Belge \u00e9chappe \u00e0 une condamnation pour ivresse en prouvant que son corps produit naturellement de l\u2019alcool ! ",
+                "likes_count": "2280",
+                "shares_count": "31",
+                "comments_count": "25.0",
+                "view_count": "313000.0",
+                "is_a_fake_news": "1",
+                "post_id": 20
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u201cSvp pas de coca\u00efne dans la flamme olympique !\u201d Philippe Caverivi\u00e8re en direct de Marseille et face au pr\u00e9fet de Police, Pierre-Edouard Colliex \ud83d\ude02",
+                "likes_count": "2396",
+                "shares_count": "29",
+                "comments_count": "35.0",
+                "view_count": "84400.0",
+                "is_a_fake_news": "1",
+                "post_id": 21
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Les oeufs \u00e0 la coke",
+                "likes_count": "1483",
+                "shares_count": "1",
+                "comments_count": "25.0",
+                "view_count": "117000.0",
+                "is_a_fake_news": "1",
+                "post_id": 22
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Sant\u00e9 mentale : On ne se rend pas compte \u00e0 quel point la jeunesse souffre\"\"",
+                "likes_count": "2080",
+                "shares_count": "152",
+                "comments_count": "75.0",
+                "view_count": "71600.0",
+                "is_a_fake_news": "1",
+                "post_id": 23
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Me Too H\u00f4pital : \u00ab Ces femmes me d\u00e9crivent les agressions, les actes, la participation des chefs \u00e0 ce syst\u00e8me... Et finissent toujours par me dire, \u00ab surtout n\u2019en parle pas \u00bb \u00bb  Marine Silvestre, interne en m\u00e9decine, explique l\u2019omerta qui r\u00e8gne \u00e0 l\u2019h\u00f4pital \u00e0 propos des violences sexistes et sexuelles. ",
+                "likes_count": "441",
+                "shares_count": "9",
+                "comments_count": "15.0",
+                "view_count": "45900.0",
+                "is_a_fake_news": "1",
+                "post_id": 24
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "L\u2019importance du vaccin contre le papillomavirus, il faut vacciner les filles et les gar\u00e7ons ",
+                "likes_count": "4328",
+                "shares_count": "197",
+                "comments_count": "341.0",
+                "view_count": "427000.0",
+                "is_a_fake_news": "1",
+                "post_id": 25
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u00ab J\u2019ai continu\u00e9 \u00e0 courir pour me sentir vivante et penser \u00e0 autre chose que la maladie \u00bb",
+                "likes_count": "2594",
+                "shares_count": "45",
+                "comments_count": "28.0",
+                "view_count": "103000.0",
+                "is_a_fake_news": "1",
+                "post_id": 26
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Une Am\u00e9ricaine a re\u00e7u un mauvais diagnostic de cancer : Stevie Wonder reconvertit en oncologue ! \ud83d\ude0e,0,0,,,2024-04-25 16:40:00+00:00,,,294,2,8,,,320,34700\n208,rtl_france,FR,https://www.instagram.com/rtl_france,,,,,11800,369000,,,,,,,,,0.21,,L'astuce hydratation de Jennifer Aniston: la vaseline!\"",
+                "likes_count": "2013",
+                "shares_count": "2",
+                "comments_count": "167.0",
+                "view_count": "450000.0",
+                "is_a_fake_news": "1",
+                "post_id": 27
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u00ab Si on interdit la cigarette, interdisons aussi les frites \u00bb ",
+                "likes_count": "172",
+                "shares_count": "1",
+                "comments_count": "10.0",
+                "view_count": "17000.0",
+                "is_a_fake_news": "1",
+                "post_id": 28
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u00ab L\u2019intelligence artificielle et la Silicon Valley veulent tuer la mort, et ce n\u2019est pas une m\u00e9taphore \u00bb ",
+                "likes_count": "559",
+                "shares_count": "26",
+                "comments_count": "155.0",
+                "view_count": "57200.0",
+                "is_a_fake_news": "1",
+                "post_id": 29
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\ud83e\udd23 #MeToo \u00e0 l\u2019h\u00f4pital : \u00ab Le jeu Docteur Maboul va devenir Docteur Mes boules ! \u00bb",
+                "likes_count": "271",
+                "shares_count": "10",
+                "comments_count": "12.0",
+                "view_count": "22400.0",
+                "is_a_fake_news": "1",
+                "post_id": 30
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "L'orgelet c'est comme un bouton",
+                "likes_count": "2923",
+                "shares_count": "11",
+                "comments_count": "78.0",
+                "view_count": "460000.0",
+                "is_a_fake_news": "1",
+                "post_id": 31
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Bonne nouvelle pour les amateurs de pain : manger deux baguettes par jour ne serait pas mauvais pour la sant\u00e9 pour le m\u00e9decin nutritionniste Jean-Michel Cohen ! \ud83e\udd56",
+                "likes_count": "3726",
+                "shares_count": "42",
+                "comments_count": "488.0",
+                "view_count": "475000.0",
+                "is_a_fake_news": "1",
+                "post_id": 32
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "\u00ab Il n\u2019y a pas une fa\u00e7on de parler \u00e0 une personne en situation de handicap \u00bb",
+                "likes_count": "28800",
+                "shares_count": "609",
+                "comments_count": "158.0",
+                "view_count": "1000000.0",
+                "is_a_fake_news": "1",
+                "post_id": 33
+            },
+            {
+                "username": "rtl_france",
+                "post_content": "Le tabagisme passif augmenterait le risque d'arythmie caridiaque",
+                "likes_count": "2014",
+                "shares_count": "34",
+                "comments_count": "27.0",
+                "view_count": "256000.0",
+                "is_a_fake_news": "1",
+                "post_id": 34
             }
         ]
     },
@@ -744,7 +2044,7 @@
                 "shares_count": "185",
                 "comments_count": "400.0",
                 "view_count": "",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 1
             }
         ]
@@ -771,161 +2071,51 @@
     },
     {
         "influencer_id": "11",
-        "username": " epicurieux",
-        "followers_count": "614000",
-        "post_count": "1590",
+        "username": "redapple.life",
+        "followers_count": "269000",
+        "post_count": "503",
         "is_verified": "1",
         "followers": "['']",
         "posts": [
             {
-                "username": " epicurieux",
-                "post_content": "Pourquoi sommes nous allergiques aux chats?",
-                "likes_count": "1966",
-                "shares_count": "24",
-                "comments_count": "31.0",
-                "view_count": "80600.0",
+                "username": "redapple.life",
+                "post_content": "This video reveals how food is engineered to make it more addictive",
+                "likes_count": "109000",
+                "shares_count": "1695",
+                "comments_count": "80800.0",
+                "view_count": "2700000.0",
                 "is_a_fake_news": "1",
                 "post_id": 1
             },
             {
-                "username": " epicurieux",
-                "post_content": "Connaissez-vous l\u2019existence des allergies crois\u00e9es ? \ud83e\udd14 Si non, cette vid\u00e9o est pour vous et vous allez peut-\u00eatre vous d\u00e9couvrir une nouvelle allergie\u2026 \ud83d\ude31",
-                "likes_count": "5372",
-                "shares_count": "113",
-                "comments_count": "89.0",
-                "view_count": "174000.0",
+                "username": "redapple.life",
+                "post_content": "Here's why so many people are confused about healthy eating",
+                "likes_count": "939",
+                "shares_count": "23",
+                "comments_count": "373.0",
+                "view_count": "27000.0",
                 "is_a_fake_news": "1",
                 "post_id": 2
             },
             {
-                "username": " epicurieux",
-                "post_content": "Atchoum ! Les pollens sont de sortie \ud83e\udd27 Mais comment expliquer ces r\u00e9actions allergiques ?",
-                "likes_count": "3811",
-                "shares_count": "58",
-                "comments_count": "30.0",
-                "view_count": "155000.0",
+                "username": "redapple.life",
+                "post_content": "Science may never prove this but it could be the secret to health and longevity",
+                "likes_count": "23900",
+                "shares_count": "232",
+                "comments_count": "5785.0",
+                "view_count": "427000.0",
                 "is_a_fake_news": "1",
                 "post_id": 3
             },
             {
-                "username": " epicurieux",
-                "post_content": "Quelle est la chose la plus folle que vous ayez faite gr\u00e2ce a l\u2019adr\u00e9naline ? \ud83d\ude09",
-                "likes_count": "1059",
-                "shares_count": "9",
-                "comments_count": "4.0",
-                "view_count": "52100.0",
-                "is_a_fake_news": "0",
+                "username": "redapple.life",
+                "post_content": "It's hidden in most food and 95% of people have no idea",
+                "likes_count": "1122",
+                "shares_count": "35",
+                "comments_count": "406.0",
+                "view_count": "38100.0",
+                "is_a_fake_news": "1",
                 "post_id": 4
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Si votre animal a une truffe chaude, signifie-t-il qu\u2019il est en train de tomber malade ? \ud83e\udd12\ud83d\udc36 @linstant_veto donne plus de d\u00e9tails sur cette croyance \ud83d\udc69\u200d\u2695\ufe0f",
-                "likes_count": "1866",
-                "shares_count": "15",
-                "comments_count": "5.0",
-                "view_count": "148000.0",
-                "is_a_fake_news": "0",
-                "post_id": 5
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Avez-vous d\u00e9j\u00e0 entendu parler de l\u2019antibior\u00e9sistance ? Jamy nous \u00e9claire sur ce ph\u00e9nom\u00e8ne ! \ud83e\udda0",
-                "likes_count": "1402",
-                "shares_count": "15",
-                "comments_count": "",
-                "view_count": "51300.0",
-                "is_a_fake_news": "1",
-                "post_id": 6
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "La lutte contre le cancer est un enjeu majeur et nous pouvons tous y contribuer \ud83e\udd13Tentez de gagner vos places pour les Jeux Olympiques de Paris 2024 gr\u00e2ce \u00e0 Allianz en soutenant la recherche m\u00e9dicale et la campagne Une Jonquille contre le Cancer ! D\u00e9tails et conditions sur @allianz_france ",
-                "likes_count": "4282",
-                "shares_count": "119",
-                "comments_count": "60.0",
-                "view_count": "925000.0",
-                "is_a_fake_news": "1",
-                "post_id": 7
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Neige ivernale: quels bienfaits",
-                "likes_count": "2778",
-                "shares_count": "27",
-                "comments_count": "35.0",
-                "view_count": "100000.0",
-                "is_a_fake_news": "1",
-                "post_id": 8
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Des volumes sonores excessifs peuvent endommager notre ou\u00efe \ud83d\udd0a\u274c Apprenons \u00e0 pr\u00e9server notre capital auditif avec @jamygourmaud ! ",
-                "likes_count": "3531",
-                "shares_count": "46",
-                "comments_count": "49.0",
-                "view_count": "147000.0",
-                "is_a_fake_news": "1",
-                "post_id": 9
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Depuis quand les antibiotiques existent-ils ? Jamy vous raconte l\u2019histoire de leur cr\u00e9ation ! Pour en apprendre plus sur le sujet, rendez-vous sur YouTube pour voir la suite de la vid\u00e9o ! \ud83e\udda0\ud83e\udda0.",
-                "likes_count": "1805",
-                "shares_count": "18",
-                "comments_count": "15.0",
-                "view_count": "63800.0",
-                "is_a_fake_news": "1",
-                "post_id": 10
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Antibiotiques = bact\u00e9rie et non virus ! Mais alors, c'est quoi la diff\u00e9rence entre les deux ? \ud83e\udd14\ud83e\udda0 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",
-                "likes_count": "3575",
-                "shares_count": "38",
-                "comments_count": "13.0",
-                "view_count": "146000.0",
-                "is_a_fake_news": "1",
-                "post_id": 11
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Nous vous avons prescrit une ordonnance pour avoir un rendez-vous dans le cabinet de Jamy dimanche \u00e0 10H, afin qu\u2019il vous apprenne tout sur les antibiotiques \ud83d\udc8a\ud83d\udc8a",
-                "likes_count": "1782",
-                "shares_count": "6",
-                "comments_count": "6.0",
-                "view_count": "82100.0",
-                "is_a_fake_news": "0",
-                "post_id": 12
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Photo de profil de epicurieuxanimaux Un petit bout de chocolat est toujours un plaisir r\u00e9confortant \ud83c\udf6b\ud83e\udd70 mais pour un chien, il peut \u00eatre fatal\ud83d\ude36 @linstant_veto vous explique pourquoi \ud83d\udc69\u200d\u2695\ufe0f",
-                "likes_count": "3656",
-                "shares_count": "52",
-                "comments_count": "45.0",
-                "view_count": "190000.0",
-                "is_a_fake_news": "1",
-                "post_id": 13
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Comment aider les salari\u00e9s souffrant de p\u00e9nibilit\u00e9 au travail ? D\u00e9couvrons avec @allianz_france une solution qui permet de soulager leurs maux \ud83e\udd13\ud83d\udc68\u200d\ud83d\udd2c",
-                "likes_count": "1819",
-                "shares_count": "11",
-                "comments_count": "37.0",
-                "view_count": "118000.0",
-                "is_a_fake_news": "1",
-                "post_id": 14
-            },
-            {
-                "username": " epicurieux",
-                "post_content": "Le coup de foudre : mythe ou r\u00e9alit\u00e9 ? Terence et Renaud de @explorersfr nous \u00e9clairent sur le sujet ! \u2764 Pour d\u00e9couvrir la suite, rendez-vous sur notre cha\u00eene Youtube ",
-                "likes_count": "2108",
-                "shares_count": "15",
-                "comments_count": "8.0",
-                "view_count": "141000.0",
-                "is_a_fake_news": "0",
-                "post_id": 15
             }
         ]
     }

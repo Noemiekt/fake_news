@@ -1,31 +1,32 @@
 from deep_translator import GoogleTranslator
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import pandas as pd
+from textblob import TextBlob
 
-# Load the dataset (replace with your actual file path)
+# Charger le dataset
 df = pd.read_csv('health_datatest_nocompound.csv')
 
-# Initialize the VADER sentiment analyzer
+# Initialiser l'analyseur de sentiment VADER
 analyzer = SentimentIntensityAnalyzer()
 
-# Function to analyze sentiment after translation
+# Fonction pour analyser le sentiment après traduction
 def analyze_french_sentiment(text):
-    # Translate French to English using Google Translator via deep-translator
+    # Traduire le français en anglais
     translated_text = GoogleTranslator(source='fr', target='en').translate(text)
-    # Analyze sentiment using VADER
+    # Analyser le sentiment avec VADER
     scores = analyzer.polarity_scores(translated_text)
-    # Determine sentiment label based on compound score
-    if scores['compound'] < 0:
-        sentiment = 0  # Negative
-    elif scores['compound'] == 0:
-        sentiment = 1  # Neutral
-    else:
-        sentiment = 2  # Positive
-    # Return the compound score and the sentiment label
-    return scores['compound'], sentiment
+    # Déterminer l'étiquette de sentiment basée sur le score composé
+    sentiment = 2 if scores['compound'] > 0 else (0 if scores['compound'] < 0 else 1)
+    # Créer un objet TextBlob avec le texte traduit
+    blob = TextBlob(translated_text)
+    # Calculer la subjectivité
+    subjectivity = blob.sentiment.subjectivity
+    # Retourner le score composé, l'étiquette de sentiment, et la subjectivité
+    return scores['compound'], sentiment, subjectivity
 
-# Ensure the column name matches your dataset
-df[['Compound', 'Sentiment']] = df['Post content'].apply(analyze_french_sentiment).apply(pd.Series)
+# Appliquer la fonction et séparer les résultats en trois colonnes
+df[['Compound', 'Sentiment', 'Subjectivity']] = df['Post content'].apply(analyze_french_sentiment).apply(pd.Series)
 
-output_path = 'health_datatest.csv'  # Change this to your desired file name/path
+# Enregistrer le DataFrame modifié
+output_path = 'health_datatest.csv'
 df.to_csv(output_path, index=False)

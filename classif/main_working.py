@@ -55,7 +55,7 @@ test = df_melange[taille_premiere_moitie:]
 
 # Convertir tab en DataFrame pandas
 X_train = pd.DataFrame(train, columns=[
-    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment'
+    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment','Subjectivity'
 ])
 
 # X_train = pd.DataFrame(train, columns=[
@@ -73,7 +73,7 @@ y_train = pd.DataFrame(train, columns= [
 
 # Convertir tab en DataFrame pandas
 X_test = pd.DataFrame(test, columns= [
-    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment'
+    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment','Subjectivity'
 ])
 # X_test = pd.DataFrame(test, columns= [
 #     'Favorites_count', 'Replies count'
@@ -135,7 +135,7 @@ df_tab_actual_test = pd.read_csv('health_datatest.csv')
 # df_tab_actual_test = pd.read_csv('top_200_instagrammers.csv')
 
 X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
-    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment'
+    'Favorites_count', 'Retweet_count', 'Replies count', 'Compound', 'Sentiment','Subjectivity'
 ])
 # X_actual_test = pd.DataFrame(df_tab_actual_test, columns=[
 #     'Favorites_count', 'Replies count'
@@ -153,6 +153,7 @@ predictions_df = pd.DataFrame(predictions)
 
 predictions_df.insert(0, 'is_verified', df_tab_actual_test['Media_exists'])
 predictions_df.insert(0, 'followings', df_tab_actual_test['Followings'])
+predictions_df.insert(0, 'subjectivity', df_tab_actual_test['Subjectivity'])
 predictions_df.insert(0, 'sentiment', df_tab_actual_test['Sentiment'])
 predictions_df.insert(0, 'posts_count', df_tab_actual_test['Posts'])
 predictions_df.insert(0, 'engagement_rate', df_tab_actual_test['Engagement Rate'])
