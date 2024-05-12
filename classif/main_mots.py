@@ -5,14 +5,14 @@ from wordcloud import WordCloud
 # Data preparation
 data = {
     "Word": [
-        "musk", "humain", "neuralink", "certains", "projet", "puce", "pensée", "ordinateur", "pourquoi", "souris",
-        "elon", "avec", "technologie", "nouveau", "neurons", "poura", "pour", "neurones", "podcast", "peuvent",
-        "patient", "passer", "oreilles", "neuroscience", "neuron", "news", "notre", "nouvelle", "aide", "premier"
+        "santé", "selon", "serait", "dangereux", "pourquoi", "être", "science", 
+        "conditions", "contre", "décès", "plus", "enfin", "peut", "personne", "explique", "faim", "paris",
+        "notre", "français", "fromage", "mort", "meurent", "cancer", "mais", "sont", "bonheur"
     ],
     "Mean_TFIDF_Score": [
-        0.181902, 0.181902, 0.121268, 0.121268, 0.121268, 0.121268, 0.121268, 0.121268, 0.121268, 0.121268,
-        0.121268, 0.121268, 0.121268, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634,
-        0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634, 0.060634
+        0.139320, 0.111456, 0.083592, 0.083592, 0.083592, 0.055728, 0.055728,
+        0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728,
+        0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728, 0.055728
     ]
 }
 df = pd.DataFrame(data)

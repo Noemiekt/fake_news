@@ -134,7 +134,7 @@
                 "shares_count": "855",
                 "comments_count": "1194.0",
                 "view_count": "2400000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 13
             },
             {
@@ -354,7 +354,7 @@
                 "shares_count": "83",
                 "comments_count": "947.0",
                 "view_count": "1500000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 35
             }
         ]
@@ -774,7 +774,7 @@
                 "shares_count": "29",
                 "comments_count": "52.0",
                 "view_count": "",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 5
             },
             {
@@ -784,7 +784,7 @@
                 "shares_count": "413",
                 "comments_count": "263.0",
                 "view_count": "",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 6
             },
             {
@@ -794,7 +794,7 @@
                 "shares_count": "32",
                 "comments_count": "212.0",
                 "view_count": "",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 7
             },
             {
@@ -804,7 +804,7 @@
                 "shares_count": "204",
                 "comments_count": "261.0",
                 "view_count": "362000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 8
             },
             {
@@ -1214,7 +1214,7 @@
                 "shares_count": "187",
                 "comments_count": "306.0",
                 "view_count": "2000000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 11
             },
             {
@@ -1264,7 +1264,7 @@
                 "shares_count": "278",
                 "comments_count": "139.0",
                 "view_count": "638000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 16
             },
             {
@@ -1474,7 +1474,7 @@
                 "shares_count": "55",
                 "comments_count": "45.0",
                 "view_count": "109000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 1
             },
             {
@@ -1484,7 +1484,7 @@
                 "shares_count": "24",
                 "comments_count": "31.0",
                 "view_count": "80600.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 2
             },
             {
@@ -1494,7 +1494,7 @@
                 "shares_count": "113",
                 "comments_count": "89.0",
                 "view_count": "174000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 3
             },
             {
@@ -1504,7 +1504,7 @@
                 "shares_count": "58",
                 "comments_count": "30.0",
                 "view_count": "155000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 4
             },
             {
@@ -1514,7 +1514,7 @@
                 "shares_count": "9",
                 "comments_count": "4.0",
                 "view_count": "52100.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 5
             },
             {
@@ -1524,7 +1524,7 @@
                 "shares_count": "15",
                 "comments_count": "5.0",
                 "view_count": "148000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 6
             },
             {
@@ -1534,7 +1534,7 @@
                 "shares_count": "15",
                 "comments_count": "",
                 "view_count": "51300.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 7
             },
             {
@@ -1554,7 +1554,7 @@
                 "shares_count": "27",
                 "comments_count": "35.0",
                 "view_count": "100000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 9
             },
             {
@@ -1574,7 +1574,7 @@
                 "shares_count": "18",
                 "comments_count": "15.0",
                 "view_count": "63800.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 11
             },
             {
@@ -1584,7 +1584,7 @@
                 "shares_count": "38",
                 "comments_count": "13.0",
                 "view_count": "146000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 12
             },
             {
@@ -1594,7 +1594,7 @@
                 "shares_count": "6",
                 "comments_count": "6.0",
                 "view_count": "82100.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 13
             },
             {
@@ -1614,7 +1614,7 @@
                 "shares_count": "11",
                 "comments_count": "37.0",
                 "view_count": "118000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 15
             },
             {
@@ -1624,7 +1624,7 @@
                 "shares_count": "15",
                 "comments_count": "8.0",
                 "view_count": "141000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 16
             },
             {
@@ -1634,7 +1634,7 @@
                 "shares_count": "121",
                 "comments_count": "100.0",
                 "view_count": "160000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 17
             },
             {
@@ -1644,7 +1644,7 @@
                 "shares_count": "38",
                 "comments_count": "13.0",
                 "view_count": "146000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 18
             },
             {
@@ -1654,7 +1654,7 @@
                 "shares_count": "38",
                 "comments_count": "13.0",
                 "view_count": "146000.0",
-                "is_a_fake_news": "0",
+                "is_a_fake_news": "1",
                 "post_id": 19
             }
         ]
@@ -1694,7 +1694,7 @@
                 "shares_count": "13",
                 "comments_count": "8.0",
                 "view_count": "16500.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 3
             },
             {
@@ -1704,7 +1704,7 @@
                 "shares_count": "28",
                 "comments_count": "19.0",
                 "view_count": "282000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 4
             },
             {
@@ -1714,7 +1714,7 @@
                 "shares_count": "10",
                 "comments_count": "6.0",
                 "view_count": "25500.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 5
             },
             {
@@ -1724,7 +1724,7 @@
                 "shares_count": "89",
                 "comments_count": "73.0",
                 "view_count": "434000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 6
             },
             {
@@ -1754,7 +1754,7 @@
                 "shares_count": "21",
                 "comments_count": "47.0",
                 "view_count": "251000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 9
             },
             {
@@ -1764,7 +1764,7 @@
                 "shares_count": "52",
                 "comments_count": "56.0",
                 "view_count": "293000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 10
             },
             {
@@ -1774,7 +1774,7 @@
                 "shares_count": "47",
                 "comments_count": "15.0",
                 "view_count": "170000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 11
             },
             {
@@ -1794,7 +1794,7 @@
                 "shares_count": "22",
                 "comments_count": "21.0",
                 "view_count": "43300.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 13
             },
             {
@@ -1804,7 +1804,7 @@
                 "shares_count": "2",
                 "comments_count": "6.0",
                 "view_count": "41300.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 14
             },
             {
@@ -1814,7 +1814,7 @@
                 "shares_count": "4",
                 "comments_count": "3.0",
                 "view_count": "16100.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 15
             },
             {
@@ -1824,7 +1824,7 @@
                 "shares_count": "2",
                 "comments_count": "8.0",
                 "view_count": "24900.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 16
             },
             {
@@ -1834,7 +1834,7 @@
                 "shares_count": "3",
                 "comments_count": "3.0",
                 "view_count": "18100.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 17
             },
             {
@@ -1844,7 +1844,7 @@
                 "shares_count": "62",
                 "comments_count": "54.0",
                 "view_count": "311000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 18
             },
             {
@@ -1854,7 +1854,7 @@
                 "shares_count": "127",
                 "comments_count": "273.0",
                 "view_count": "596000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 19
             },
             {
@@ -1864,7 +1864,7 @@
                 "shares_count": "31",
                 "comments_count": "25.0",
                 "view_count": "313000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 20
             },
             {
@@ -1874,7 +1874,7 @@
                 "shares_count": "29",
                 "comments_count": "35.0",
                 "view_count": "84400.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 21
             },
             {
@@ -1884,7 +1884,7 @@
                 "shares_count": "1",
                 "comments_count": "25.0",
                 "view_count": "117000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 22
             },
             {
@@ -1944,7 +1944,7 @@
                 "shares_count": "1",
                 "comments_count": "10.0",
                 "view_count": "17000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 28
             },
             {
@@ -1954,7 +1954,7 @@
                 "shares_count": "26",
                 "comments_count": "155.0",
                 "view_count": "57200.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 29
             },
             {
@@ -1964,7 +1964,7 @@
                 "shares_count": "10",
                 "comments_count": "12.0",
                 "view_count": "22400.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 30
             },
             {
@@ -1974,7 +1974,7 @@
                 "shares_count": "11",
                 "comments_count": "78.0",
                 "view_count": "460000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 31
             },
             {
@@ -1984,7 +1984,7 @@
                 "shares_count": "42",
                 "comments_count": "488.0",
                 "view_count": "475000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 32
             },
             {
@@ -1994,7 +1994,7 @@
                 "shares_count": "609",
                 "comments_count": "158.0",
                 "view_count": "1000000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 33
             },
             {
@@ -2004,7 +2004,7 @@
                 "shares_count": "34",
                 "comments_count": "27.0",
                 "view_count": "256000.0",
-                "is_a_fake_news": "1",
+                "is_a_fake_news": "0",
                 "post_id": 34
             }
         ]

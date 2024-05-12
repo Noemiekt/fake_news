@@ -144,19 +144,6 @@ for parameter in parameters:
         prediction = models['total'].predict_proba(temp_scaled)[0][2]  # Prédiction pour la classe positive
         print(prediction)
         predictions.append(prediction)
-
-        # Prédiction pour la classe positive)
-        # if (models['total'].predict_proba(temp_scaled).shape[1] >= 6 ):
-        #     prediction1 = models['total'].predict_proba(temp_scaled)[0][4]
-        #     prediction2 = models['total'].predict_proba(temp_scaled)[0][5]
-        #     prediction3 = models['total'].predict_proba(temp_scaled)[0][3]
-
-        #     # print((prediction1+prediction2+prediction3))
-
-        #     predictions.append((prediction1+prediction2+prediction3))
-        # else :
-        #     predictions.append([])
-
        
         
     # Tracé de la courbe pour ce paramètre
@@ -166,7 +153,6 @@ for parameter in parameters:
     plt.ylabel('Probabilité de Classification')
     plt.title(f'Impact de {parameter} sur la prédiction de Classification')
     plt.legend()
-    # plt.ylim(0, 1)  # Définition de l'intervalle de l'axe des ordonnées
     plt.show()
 
     # Tracé de l'histogramme pour ce paramètre
@@ -179,9 +165,10 @@ for parameter in parameters:
 
     bars = plt.bar(parameter_range, predictions, width=bar_width, color=cmap(norm(predictions)))
 
-    plt.xlabel('Likes Count')  # Remplacer par le nom de votre paramètre
-    plt.ylabel('Probabilité de Classification')
-    plt.title(f'Impact de {parameter} sur la prédiction de Classification')
+    plt.xlabel(f'{parameter}', fontsize=12)  # Modifier la taille pour l'étiquette de l'axe x
+    plt.ylabel('Probability of Classification', fontsize=12)  # Modifier la taille pour l'étiquette de l'axe y
+    plt.title(f'Impact of {parameter} on the prediction for the value 2 (real news)', fontsize=14)  # Modifier la taille pour le titre
+
     min_prob = min(predictions)
     max_prob = max(predictions)
     plt.ylim(min_prob - 0.1 * (max_prob - min_prob), max_prob + 0.1 * (max_prob - min_prob))

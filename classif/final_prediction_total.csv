@@ -8,17 +8,17 @@ influencer_id,post_content,username,followers_count,likes_count,shares_count,com
 6,Obésité: la comission européenne souhaite diiser par 2 le diamètre des crepes bretonnes,le_gorafi,515000,10126,158,210.0,355000.0,2.48,3185,1,,1.0,0.0,0.05,1
 7,"Après une chimio, elle apprend qu'elle n'a pas de cancer",demotivateur,758000,4703,39,141.0,203000.0,0.54,7937,1,,2.0,6.0,0.0,1
 8,Cette petite française a une maladie que seuls 6 autres enfants ont sur Terre...,demotivateur,758000,7665,31,130.0,369000.0,0.54,7937,1,,1.0,6.0,0.46875,1
-9,"Qui poura bénéficier de l'aide à mourir? Ce mercredi, un projet de loi sur la fi de vie est présenté en Conseil des ministres et il mentionne les conditions pour y recourir. On vous explique",konbini,2700000,3938,63,38.0,240000.0,0.31,17900,1,,2.0,194.0,0.625,1
+9,"Qui poura bénéficier de l'aide à mourir? Ce mercredi, un projet de loi sur la fi de vie est présenté en Conseil des ministres et il mentionne les conditions pour y recourir. On vous explique",konbini,2700000,3938,63,38.0,240000.0,0.31,17900,1,,2.0,194.0,0.625,0
 10,"Les polluants éternels, c'est la plus grande crise de pollution à laquelle l’humanité ait eu à faire face dans son histoire @camilleetienne_, activiste écologiste, revient sur la présence de substances dangereuses dans nos produits du quotidien (alimentation maquillage etc.) : les polluants éternels ou PFAS. Ces molécules chimiques dites “indestructibles” apparaissent dans la composition de nombreux produits et sont nocives pour la santé et la planète. Le documentaire de Camille Etienne “PFAS : comment les industriels nous empoisonnent” est disponible sur YouTube.",konbini,2700000,84735,5450,948.0,2600000.0,0.31,17900,1,,0.0,194.0,0.5666666666666667,1
 11,La carte vitale et la carte d'identité fusionnées?,hugodecrypte,3500000,59728,164,1208.0,2800000.0,1.78,2120,1,,2.0,900.0,0.4,2
-12,Allergie ou intolérance au gluten?,epicurieux,614000,2399,55,45.0,109000.0,0.31,1590,1,,1.0,55.0,0.0,2
+12,Allergie ou intolérance au gluten?,epicurieux,614000,2399,55,45.0,109000.0,0.31,1590,1,,1.0,55.0,0.0,1
 13,"Charlotte Chopin est centenaire et elle pratique le yoga depuis plus de quarante ans. On l'avait rencontré il y a 2 ans, elle donnait alors 3 cours par semaine à des élèves de tous les âges, et nous a expliqué comment le yoga l’aide à se sentir bien dans son corps et dans sa tête.",konbini,2700000,44645,926,262.0,1200000.0,,17900,1,,2.0,194.0,0.4,1
 14,Santé : consommer certains émulsifiants augmente-t-il le risque de devenir diabétique ? Chronique santé du Dr. Jimmy Mohamed dans #RTLMatin L’intégralité à réécouter sur rtl.fr et l’application RTL ! #JimmyMohamed #docteur #diabète #émulsifiant #santé,rtl_france,369000,117,3,0.0,297000.0,,11800,0,,2.0,320.0,0.6071428571428572,2
-15,Le jeûne intermittent est-il vraiment dangereux pour la santé ?,dr.jimmy.mohamed,1300000,16656,231,520.0,880000.0,0.0205,682,0,,0.0,236.0,0.9,0
+15,Le jeûne intermittent est-il vraiment dangereux pour la santé ?,dr.jimmy.mohamed,1300000,16656,231,520.0,880000.0,0.0205,682,0,,0.0,236.0,0.9,1
 16,Embrasser c'est bon pour la santé !,demotivateur,758000,26003,302,163.0,632000.0,0.54,7937,1,,2.0,6.0,0.6000000000000001,0
 17,L’inscription de la liberté d’avorter dans la Constitution adoptée par le Parlement.,hugodecrypte,3500000,134619,2132,2919.0,2800000.0,1.78,2120,1,,2.0,900.0,0.0,1
 18,Un humain a controllé une souris d'ordinateur par la pensée. Le nouveau projet d’Elon Musk ⬆️,hugodecrypte,3500000,66055,584,269.0,4600000.0,1.78,2120,1,,1.0,900.0,0.2772727272727273,2
-19,"Les enfants qui meurent de faim remercient Jules, 6 ans, d'avoir fini sa purée",le_gorafi,515000,40485,289,706.0,632000.0,2.48,3185,1,,2.0,0.0,0.2,1
+19,"Les enfants qui meurent de faim remercient Jules, 6 ans, d'avoir fini sa purée",le_gorafi,515000,40485,289,706.0,632000.0,2.48,3185,1,,2.0,0.0,0.2,0
 20,"Yet unarmed protestors on America campuses are the terrorists.""",khaledbeydoun,2300000,26000,185,400.0,,3.27,2435,1,,0.0,2437.0,0.0,2
 21,Les annonces de G. Attal sur la santé mentale des jeunes,hugodecrypte,3500000,67693,553,807.0,2400000.0,1.78,2120,1,,1.0,900.0,0.3,2
 22,Le président américain Joe Biden a eu 81 ans en novembre dernier,hugodecrypte,3500000,68891,118,673.0,3000000.0,1.78,2120,1,,1.0,900.0,0.0666666666666666,2
@@ -26,14 +26,14 @@ influencer_id,post_content,username,followers_count,likes_count,shares_count,com
 24,Kate Middleton est âgée de 42 ans atteinte de cancer,hugodecrypte,3500000,89208,186,413.0,2900000.0,1.78,2120,1,,0.0,900.0,0.2,1
 25,L’OMS a appelé la population à remettre le masque,hugodecrypte,3500000,65158,468,573.0,3300000.0,1.78,2120,1,,1.0,900.0,0.0,2
 26,Pourquoi tout le monde a le nez bouché en ce moment ? De plus en plus de personnes sont allergiques au pollen en France,hugodecrypte,3500000,147442,2006,1769.0,3000000.0,1.78,2120,1,,0.0,900.0,0.5119047619047619,1
-27,Des Pastabox contaminées ? Des Pastabox retirés des supermarchés pour risque de Listéria,hugodecrypte,3500000,84611,855,1194.0,2400000.0,1.78,2120,1,,0.0,900.0,0.375,1
+27,Des Pastabox contaminées ? Des Pastabox retirés des supermarchés pour risque de Listéria,hugodecrypte,3500000,84611,855,1194.0,2400000.0,1.78,2120,1,,0.0,900.0,0.375,2
 28,L’eau potable en France contaminée par un pesticide ?,hugodecrypte,3500000,99823,1410,908.0,2100000.0,1.78,2120,1,,1.0,900.0,0.0,2
 29,Ces produits augmenteraient le risque de cancer: émulsifiants,hugodecrypte,3500000,85621,1039,691.0,3900000.0,1.78,2120,1,,0.0,900.0,0.0,1
 30,Ces médicaments pourraient etre dangereux pour la santé,hugodecrypte,3500000,76246,1653,701.0,3800000.0,1.78,2120,1,,0.0,900.0,0.9,1
 31,"Cerfs zombie, cette maladie interroges les scientifiques",hugodecrypte,3500000,179344,1029,1559.0,5500000.0,1.78,2120,1,,1.0,900.0,0.0,2
-32,"Selon la science, faire de longues études diminue le risque de décès!",demotivateur,758000,2206,29,52.0,,0.54,7937,1,,0.0,,0.4,2
-33,Voilà les 5 aliments qui accélèrent le vieillissement du corps!,demotivateur,758000,13649,413,263.0,,0.54,7937,1,,1.0,,0.0,2
-34,Il se fait vacciner 217 fois contre le Covid!,demotivateur,758000,3521,32,212.0,,0.54,7937,1,,1.0,,0.0,2
+32,"Selon la science, faire de longues études diminue le risque de décès!",demotivateur,758000,2206,29,52.0,,0.54,7937,1,,0.0,,0.4,0
+33,Voilà les 5 aliments qui accélèrent le vieillissement du corps!,demotivateur,758000,13649,413,263.0,,0.54,7937,1,,1.0,,0.0,1
+34,Il se fait vacciner 217 fois contre le Covid!,demotivateur,758000,3521,32,212.0,,0.54,7937,1,,1.0,,0.0,1
 35,"Ce produit contre contre la gueule de bois poserait problème ⚠️, ce produit ne serait pas efficace ⬆️",hugodecrypte,3500000,70396,132,575.0,,0.54,2120,1,,0.0,,0.8,1
 36,Pourquoi certains s'endorment avec un podcast sur une histoire criminelle dans les oreilles?⁣ C'est une tendance qu'on voit sur les réseaux. Flippant ou indispensable ? On a voulu comprendre concrètement quels effets ça a sur notre sommeil et pourquoi certains ne peuvent pas s'en passer.,brutofficiel,4000000,33004,257,676.0,,,11900,1,,0.0,,0.5375000000000001,1
 39,Il meurt de vieillesse en tentant de fermer tous les onglets ouverts par ses parents,le_gorafi,515000,26000,209,216.0,443000.0,2.48,3185,1,,1.0,0.0,0.2,1
@@ -58,32 +58,32 @@ influencer_id,post_content,username,followers_count,likes_count,shares_count,com
 58,"Naomi a eu recours à des injections à l’acide hyaluronique aux lèvres dans un cabinet clandestin. En conséquence : des lèvres trop grosses, qu’elle a regrettées. Aujourd’hui, elle a dissous le produit et sensibilise sur la pratique.",konbini,2700000,10501,24,222.0,1100000.0,0.31,17900,1,,0.0,194.0,0.1,2
 59,"À l’hôpital de pédiatrie et de rééducation de Bullion, les enfants et adolescents malades peuvent suivre leur scolarité et des activités adaptées à leur pathologie pendant toute la durée de leur hospitalisation.",konbini,2700000,13148,225,55.0,599000.0,0.31,17900,1,,0.0,194.0,0.8571428571428571,1
 60,"Dans la dernière étude du CNL (Centre national du livre), on apprend que le temps d’écran des jeunes est 10 fois plus élevé que le temps de lecture par jour. Du coup, on a demandé à des jeunes combien de temps ils passent sur leur téléphone vs. quand date le dernier livre qu’ils ont lu. Et vous, c’est quoi le dernier livre que vous avez lu ?",konbini,2700000,11736,27,106.0,667000.0,0.31,17900,1,,1.0,194.0,0.3291666666666667,2
-61,"Quel est le risque de trop plaquer ses cheveux ? C’est quoi une alopécie de traction ? SCH va t-il finir chauve ? 👀 @dermato_drey, dermatologue, répond à toutes nos questions !",konbini,2700000,24300,187,306.0,2000000.0,0.31,17900,1,,0.0,194.0,0.2,2
-62,"On va être sanctionné si on pose un lapin à son médecin ? 😳 Le 6 avril, le Premier Ministre Gabriel Attal a annoncé une série de mesures pour “faciliter l’accès des Français aux soins”, en voici quatre exemples 🩺",konbini,2700000,4692,57,449.0,443000.0,0.31,17900,1,,0.0,194.0,0.0,1
+61,"Quel est le risque de trop plaquer ses cheveux ? C’est quoi une alopécie de traction ? SCH va t-il finir chauve ? 👀 @dermato_drey, dermatologue, répond à toutes nos questions !",konbini,2700000,24300,187,306.0,2000000.0,0.31,17900,1,,0.0,194.0,0.2,1
+62,"On va être sanctionné si on pose un lapin à son médecin ? 😳 Le 6 avril, le Premier Ministre Gabriel Attal a annoncé une série de mesures pour “faciliter l’accès des Français aux soins”, en voici quatre exemples 🩺",konbini,2700000,4692,57,449.0,443000.0,0.31,17900,1,,0.0,194.0,0.0,0
 63,"Je ressens les émotions d’une personne qui a perdu quelqu’un, mais j’ai une partie de moi qui s’accroche à des petits moments de lucidité” Sarah est proche aidante auprès de sa mère atteinte de la maladie d’Alzheimer. Elle raconte son quotidien avec le “deuil blanc”",konbini,2700000,21400,270,304.0,1100000.0,0.31,17900,1,,0.0,194.0,0.275,1
 64,"Quelles alternatives au sucre choisir ? Les alternatives au sucre blanc de betterave sont-elles vraiment meilleures pour la santé ? Elsa Abdoun, journaliste pour @ufcquechoisir, a enquêté sur les bienfaits mais aussi les fausses promesses derrière ces nouveaux produits.",konbini,2700000,11438,167,146.0,736000.0,0.31,17900,1,,2.0,194.0,0.4509090909090908,1
 65,"Retour sur le témoignage d’@enoramalagre, à l’occasion de la journée contre l’endométriose. Non, l’endométriose ne disparait pas après une grossesse. Et oui, elle est toujours difficile à faire diagnostiquer. Énora Malagré continue de se battre au quotidien contre cette maladie. Il y a quelques années, elle se confiait pour que « les choses évoluent, et vite ».",konbini,2700000,43900,2207,603.0,1800000.0,0.31,17900,1,,0.0,194.0,0.4,1
-66,"Laura, porteuse de Trisomie 21, vit en colocation avec “Le Club des 6”. Un hébergement qui facilite l’autonomie, l’indépendance et l’insertion en société des jeunes vivant avec un handicap. Laura nous en avait fait la visite !",konbini,2700000,19966,278,139.0,638000.0,0.31,17900,1,,2.0,194.0,0.3444444444444444,2
+66,"Laura, porteuse de Trisomie 21, vit en colocation avec “Le Club des 6”. Un hébergement qui facilite l’autonomie, l’indépendance et l’insertion en société des jeunes vivant avec un handicap. Laura nous en avait fait la visite !",konbini,2700000,19966,278,139.0,638000.0,0.31,17900,1,,2.0,194.0,0.3444444444444444,1
 67,"@lucie.retail s'est fait amputer des 4 membres suite à un paludisme sévère. Elle témoigne : Je n'ai jamais fait quoi que ce soit pour que ça arrive"".""",konbini,2700000,47723,741,1068.0,1800000.0,0.31,17900,1,,0.0,194.0,0.1,1
 68,"« Les unités de soins palliatifs, ce n’est pas que des soins, c’est porter des projets de vie. » Aller pêcher une dernière fois, se marier dans le service : Pierre est infirmier en soins palliatifs, il nous racontait comment cette unité accompagne les derniers jours des patients. Retrouvez le documentaire Vivants sur Public Sénat samedi 23 mars à 22h30, puis en replay. La diffusion sera suivie d’un live Instagram sur le compte @vivants.lefilm en présence du réalisateur Victor Grange et d’une partie des équipes du film.",konbini,2700000,11847,366,164.0,446000.0,0.31,17900,1,,2.0,194.0,0.1583333333333333,1
-69,Pourquoi sommes nous allergiques aux chats?,epicurieux,614000,1966,24,31.0,80600.0,0.31,1590,1,,0.0,55.0,0.0,2
-70,"Connaissez-vous l’existence des allergies croisées ? 🤔 Si non, cette vidéo est pour vous et vous allez peut-être vous découvrir une nouvelle allergie… 😱",epicurieux,614000,5372,113,89.0,174000.0,0.31,1590,1,,1.0,55.0,0.2272727272727272,2
-71,Atchoum ! Les pollens sont de sortie 🤧 Mais comment expliquer ces réactions allergiques ?,epicurieux,614000,3811,58,30.0,155000.0,0.31,1590,1,,0.0,55.0,0.0,2
-72,Quelle est la chose la plus folle que vous ayez faite grâce a l’adrénaline ? 😉,epicurieux,614000,1059,9,4.0,52100.0,0.31,1590,1,,0.0,55.0,0.0,2
-73,"Si votre animal a une truffe chaude, signifie-t-il qu’il est en train de tomber malade ? 🤒🐶 @linstant_veto donne plus de détails sur cette croyance 👩‍⚕️",epicurieux,614000,1866,15,5.0,148000.0,0.31,1590,1,,0.0,55.0,0.7236607142857143,2
-74,Avez-vous déjà entendu parler de l’antibiorésistance ? Jamy nous éclaire sur ce phénomène ! 🦠,epicurieux,614000,1402,15,,51300.0,0.31,1590,1,,2.0,55.0,0.0,2
-75,La lutte contre le cancer est un enjeu majeur et nous pouvons tous y contribuer 🤓Tentez de gagner vos places pour les Jeux Olympiques de Paris 2024 grâce à Allianz en soutenant la recherche médicale et la campagne Une Jonquille contre le Cancer ! Détails et conditions sur @allianz_france ,epicurieux,614000,4282,119,60.0,925000.0,0.31,1590,1,,0.0,55.0,0.27,1
-76,Neige ivernale: quels bienfaits,epicurieux,614000,2778,27,35.0,100000.0,0.31,1590,1,,2.0,55.0,0.0,2
-77,Des volumes sonores excessifs peuvent endommager notre ouïe 🔊❌ Apprenons à préserver notre capital auditif avec @jamygourmaud ! ,epicurieux,614000,3531,46,49.0,147000.0,0.31,1590,1,,0.0,55.0,0.7,1
-78,"Depuis quand les antibiotiques existent-ils ? Jamy vous raconte l’histoire de leur création ! Pour en apprendre plus sur le sujet, rendez-vous sur YouTube pour voir la suite de la vidéo ! 🦠🦠.",epicurieux,614000,1805,18,15.0,63800.0,0.31,1590,1,,2.0,55.0,0.4111111111111111,2
-79,"Antibiotiques = bactérie et non virus ! Mais alors, c'est quoi la différence entre les deux ? 🤔🦠 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",epicurieux,614000,3575,38,13.0,146000.0,0.31,1590,1,,1.0,55.0,0.0,2
-80,"Nous vous avons prescrit une ordonnance pour avoir un rendez-vous dans le cabinet de Jamy dimanche à 10H, afin qu’il vous apprenne tout sur les antibiotiques 💊💊",epicurieux,614000,1782,6,6.0,82100.0,0.31,1590,1,,1.0,55.0,0.0,2
-81,"Photo de profil de epicurieuxanimaux Un petit bout de chocolat est toujours un plaisir réconfortant 🍫🥰 mais pour un chien, il peut être fatal😶 @linstant_veto vous explique pourquoi 👩‍⚕️",epicurieux,614000,3656,52,45.0,190000.0,0.31,1590,1,,2.0,55.0,0.5,1
-82,Comment aider les salariés souffrant de pénibilité au travail ? Découvrons avec @allianz_france une solution qui permet de soulager leurs maux 🤓👨‍🔬,epicurieux,614000,1819,11,37.0,118000.0,0.31,1590,1,,2.0,55.0,0.85,2
-83,"Le coup de foudre : mythe ou réalité ? Terence et Renaud de @explorersfr nous éclairent sur le sujet ! ❤ Pour découvrir la suite, rendez-vous sur notre chaîne Youtube ",epicurieux,614000,2108,15,8.0,141000.0,0.31,1590,1,,2.0,55.0,0.4416666666666666,2
-84,Qu’est ce qui est plus sale entre un téléphone et la lunette des toilettes ? 📱🚽 The Sciencoder nous donne la réponse grâce aux boîtes de petri gélosées ! 🔬.,epicurieux,614000,10000,121,100.0,160000.0,0.31,1590,1,,2.0,255.0,0.1,2
-85,"Antibiotiques = bactérie et non virus ! Mais alors, c'est quoi la différence entre les deux ? 🤔🦠 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",epicurieux,614000,3575,38,13.0,146000.0,0.31,1590,1,,1.0,255.0,0.0,2
-86,"Antibiotiques = bactérie et non virus ! Mais alors, c'est quoi la différence entre les deux ? 🤔🦠 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",epicurieux,614000,3575,38,13.0,146000.0,0.31,1590,1,,1.0,255.0,0.0,2
+69,Pourquoi sommes nous allergiques aux chats?,epicurieux,614000,1966,24,31.0,80600.0,0.31,1590,1,,0.0,55.0,0.0,1
+70,"Connaissez-vous l’existence des allergies croisées ? 🤔 Si non, cette vidéo est pour vous et vous allez peut-être vous découvrir une nouvelle allergie… 😱",epicurieux,614000,5372,113,89.0,174000.0,0.31,1590,1,,1.0,55.0,0.2272727272727272,1
+71,Atchoum ! Les pollens sont de sortie 🤧 Mais comment expliquer ces réactions allergiques ?,epicurieux,614000,3811,58,30.0,155000.0,0.31,1590,1,,0.0,55.0,0.0,0
+72,Quelle est la chose la plus folle que vous ayez faite grâce a l’adrénaline ? 😉,epicurieux,614000,1059,9,4.0,52100.0,0.31,1590,1,,0.0,55.0,0.0,1
+73,"Si votre animal a une truffe chaude, signifie-t-il qu’il est en train de tomber malade ? 🤒🐶 @linstant_veto donne plus de détails sur cette croyance 👩‍⚕️",epicurieux,614000,1866,15,5.0,148000.0,0.31,1590,1,,0.0,55.0,0.7236607142857143,1
+74,Avez-vous déjà entendu parler de l’antibiorésistance ? Jamy nous éclaire sur ce phénomène ! 🦠,epicurieux,614000,1402,15,,51300.0,0.31,1590,1,,2.0,55.0,0.0,1
+75,La lutte contre le cancer est un enjeu majeur et nous pouvons tous y contribuer 🤓Tentez de gagner vos places pour les Jeux Olympiques de Paris 2024 grâce à Allianz en soutenant la recherche médicale et la campagne Une Jonquille contre le Cancer ! Détails et conditions sur @allianz_france ,epicurieux,614000,4282,119,60.0,925000.0,0.31,1590,1,,0.0,55.0,0.27,0
+76,Neige ivernale: quels bienfaits,epicurieux,614000,2778,27,35.0,100000.0,0.31,1590,1,,2.0,55.0,0.0,1
+77,Des volumes sonores excessifs peuvent endommager notre ouïe 🔊❌ Apprenons à préserver notre capital auditif avec @jamygourmaud ! ,epicurieux,614000,3531,46,49.0,147000.0,0.31,1590,1,,0.0,55.0,0.7,0
+78,"Depuis quand les antibiotiques existent-ils ? Jamy vous raconte l’histoire de leur création ! Pour en apprendre plus sur le sujet, rendez-vous sur YouTube pour voir la suite de la vidéo ! 🦠🦠.",epicurieux,614000,1805,18,15.0,63800.0,0.31,1590,1,,2.0,55.0,0.4111111111111111,1
+79,"Antibiotiques = bactérie et non virus ! Mais alors, c'est quoi la différence entre les deux ? 🤔🦠 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",epicurieux,614000,3575,38,13.0,146000.0,0.31,1590,1,,1.0,55.0,0.0,1
+80,"Nous vous avons prescrit une ordonnance pour avoir un rendez-vous dans le cabinet de Jamy dimanche à 10H, afin qu’il vous apprenne tout sur les antibiotiques 💊💊",epicurieux,614000,1782,6,6.0,82100.0,0.31,1590,1,,1.0,55.0,0.0,1
+81,"Photo de profil de epicurieuxanimaux Un petit bout de chocolat est toujours un plaisir réconfortant 🍫🥰 mais pour un chien, il peut être fatal😶 @linstant_veto vous explique pourquoi 👩‍⚕️",epicurieux,614000,3656,52,45.0,190000.0,0.31,1590,1,,2.0,55.0,0.5,0
+82,Comment aider les salariés souffrant de pénibilité au travail ? Découvrons avec @allianz_france une solution qui permet de soulager leurs maux 🤓👨‍🔬,epicurieux,614000,1819,11,37.0,118000.0,0.31,1590,1,,2.0,55.0,0.85,1
+83,"Le coup de foudre : mythe ou réalité ? Terence et Renaud de @explorersfr nous éclairent sur le sujet ! ❤ Pour découvrir la suite, rendez-vous sur notre chaîne Youtube ",epicurieux,614000,2108,15,8.0,141000.0,0.31,1590,1,,2.0,55.0,0.4416666666666666,1
+84,Qu’est ce qui est plus sale entre un téléphone et la lunette des toilettes ? 📱🚽 The Sciencoder nous donne la réponse grâce aux boîtes de petri gélosées ! 🔬.,epicurieux,614000,10000,121,100.0,160000.0,0.31,1590,1,,2.0,255.0,0.1,1
+85,"Antibiotiques = bactérie et non virus ! Mais alors, c'est quoi la différence entre les deux ? 🤔🦠 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",epicurieux,614000,3575,38,13.0,146000.0,0.31,1590,1,,1.0,255.0,0.0,1
+86,"Antibiotiques = bactérie et non virus ! Mais alors, c'est quoi la différence entre les deux ? 🤔🦠 #Epicurieux #Jamy #culturegenerale #vulgarisation #microbe #bacterie #antibiotiques",epicurieux,614000,3575,38,13.0,146000.0,0.31,1590,1,,1.0,255.0,0.0,1
 87,Un enfant de 6 ans est mort après que son père l'ait forcé à faire du sport pour perdre du poids.,hugodecrypte,3500000,147000,909,1620.0,5200000.0,1.78,2120,1,,0.0,900.0,0.2,1
 88,Bretagne : 49 personnes intoxiquées à cause d'une farine contaminée par une plante toxique.,hugodecrypte,3500000,63200,365,652.0,3200000.0,1.78,2120,1,,0.0,900.0,0.375,1
 89,Le phénomène La Niña pourrait revenir sur Terre...Je t'explique,hugodecrypte,3500000,94400,898,1261.0,3600000.0,1.78,2120,1,,1.0,900.0,0.0,2
@@ -96,34 +96,34 @@ influencer_id,post_content,username,followers_count,likes_count,shares_count,com
 96,Here's why so many people are confused about healthy eating,redapple.life,269000,939,23,373.0,27000.0,0.54,503,1,,2.0,150.0,0.5666666666666667,1
 97,Science may never prove this but it could be the secret to health and longevity,redapple.life,269000,23900,232,5785.0,427000.0,0.54,503,1,,1.0,150.0,0.7,1
 98,It's hidden in most food and 95% of people have no idea,redapple.life,269000,1122,35,406.0,38100.0,0.54,503,1,,0.0,150.0,0.4166666666666666,1
-99,"Une grand-mère met du vin blanc dans le biberon, le bébé fait un coma éthylique!",demotivateur,758000,5881,204,261.0,362000.0,0.54,7937,1,,1.0,6.0,0.1666666666666666,1
+99,"Une grand-mère met du vin blanc dans le biberon, le bébé fait un coma éthylique!",demotivateur,758000,5881,204,261.0,362000.0,0.54,7937,1,,1.0,6.0,0.1666666666666666,2
 100,Un enfant meurt du choléra à Mayotte,rtl_france,369000,174,13,8.0,16500.0,0.21,11800,0,,1.0,320.0,0.0,1
 101,Top 10 des aliments que tu peux consommer après leur date de péremption!,demotivateur,758000,6341,420,52.0,209000.0,0.54,7937,1,,2.0,6.0,0.5,1
 102,Pourquoi est-il dangereux pour la santé de réchauffer cet aliment?,demotivateur,758000,5572,207,110.0,419000.0,0.54,7937,1,,0.0,6.0,0.9,0
 103,Comment retarder l'arrivée des cheveux blancs?,demotivateur,758000,1180,29,21.0,109000.0,0.54,7937,1,,0.0,6.0,0.0,1
-104,"A 102 ans, son assurance décès est annulée car est trop vieille!",demotivateur,758000,12300,122,761.0,541000.0,0.54,7937,1,,0.0,6.0,0.2,1
+104,"A 102 ans, son assurance décès est annulée car est trop vieille!",demotivateur,758000,12300,122,761.0,541000.0,0.54,7937,1,,0.0,6.0,0.2,0
 105,Une fille est née avec 26 doigts!,demotivateur,758000,256,1,2.0,9896.0,0.54,7937,1,,1.0,6.0,0.0,1
 106,Elle n'est pas anesthésiée parce que le medecin part en pause déjeuner!,demotivateur,758000,5271,28,310.0,291000.0,0.54,7937,1,,1.0,6.0,0.0,1
 107,On connait déjà la prochaine épidémie mondiale!,demotivateur,758000,3175,52,222.0,218000.0,0.54,7937,1,,1.0,6.0,0.0,1
 108,Cette épice vous empeche d'avoir la calvitie,demotivateur,758000,11200,161,128.0,486000.0,0.54,7937,1,,2.0,6.0,0.0,1
 109,Les poeles rayées sont dangereuses poru la santé,demotivateur,758000,2277,61,24.0,111000.0,0.54,7937,1,,0.0,6.0,0.9,0
-110,"Selon une étude, les maris seraient une énorme source de stress dans le couple!",demotivateur,758000,32600,1119,2076.0,1500000.0,0.54,7937,1,,0.0,6.0,0.9,0
-111,Un enfant meurt du choléra à Mayotte,rtl_france,369000,174,13,8.0,16500.0,0.21,11800,0,,1.0,320.0,0.0,1
-112,Somnolence au volant : prenez un nappuccino ! Calvi ,rtl_france,369000,2593,28,19.0,282000.0,0.21,11800,0,,1.0,320.0,0.0,1
-113,“Un exercice bref mais suffisamment intense : prendre les escaliers”,rtl_france,369000,353,10,6.0,25500.0,0.21,11800,0,,2.0,320.0,0.6666666666666666,1
-114,C’est quoi une bonne tension artérielle ? .,rtl_france,369000,5117,89,73.0,434000.0,0.21,11800,0,,2.0,320.0,0.6000000000000001,1
+110,"Selon une étude, les maris seraient une énorme source de stress dans le couple!",demotivateur,758000,32600,1119,2076.0,1500000.0,0.54,7937,1,,0.0,6.0,0.9,1
+111,Un enfant meurt du choléra à Mayotte,rtl_france,369000,174,13,8.0,16500.0,0.21,11800,0,,1.0,320.0,0.0,2
+112,Somnolence au volant : prenez un nappuccino ! Calvi ,rtl_france,369000,2593,28,19.0,282000.0,0.21,11800,0,,1.0,320.0,0.0,2
+113,“Un exercice bref mais suffisamment intense : prendre les escaliers”,rtl_france,369000,353,10,6.0,25500.0,0.21,11800,0,,2.0,320.0,0.6666666666666666,2
+114,C’est quoi une bonne tension artérielle ? .,rtl_france,369000,5117,89,73.0,434000.0,0.21,11800,0,,2.0,320.0,0.6000000000000001,2
 115,Méfiez-vous de toutes ces histoires de centenaires : « Il y en aurait sans doute beaucoup moins qu’on ne le dit... des fraudes à la pension de retraite ! » ,rtl_france,369000,21000,1042,299.0,1400000.0,0.21,11800,0,,1.0,320.0,0.0,2
 116,"Jardiner, c’est bon pour la santé !",rtl_france,369000,21000,1042,299.0,1400000.0,0.21,11800,0,,2.0,320.0,0.6000000000000001,1
-117,"Après la naissance de sa fille, Lorie, atteinte d'endométriose, décide de se faire retirer l'utérus. Elle se confie sur ce choix au micro d'Anaïs Bouton égralité !",rtl_france,369000,3245,21,47.0,251000.0,0.21,11800,0,,0.0,320.0,0.0,1
-118,Une prise de sang pour détecter l'arthrose ! ,rtl_france,369000,3447,52,56.0,293000.0,0.21,11800,0,,1.0,320.0,0.0,1
-119,Sédentarité : prendre l’escalier plutôt que l’ascenseur pour vivre plus longtemps ! ,rtl_france,369000,2031,47,15.0,170000.0,0.21,11800,0,,1.0,320.0,0.5,1
-120,"“Chers ados, grâce aux écrans, vous serez gros et aveugles !” ",rtl_france,369000,4384,58,117.0,169000.0,0.21,11800,0,,2.0,320.0,0.4333333333333333,0
-121,"« Pas d’écran avant 3 ans, et déconseillé avant 6 ans » ",rtl_france,369000,517,22,21.0,43300.0,0.21,11800,0,,0.0,320.0,0.0,1
-122,Crudivorisme : « Les conséquences peuvent être terribles » ,rtl_france,369000,292,2,6.0,41300.0,0.21,11800,0,,1.0,320.0,0.7307692307692308,1
-123,Un médicament antidiabétique capable de ralentir l’évolution de la maladie de Parkinson ? 💊,rtl_france,369000,186,4,3.0,16100.0,0.21,11800,0,,2.0,320.0,0.4,1
-124,Pourquoi le sirop de menthe ne devrait jamais être vert ? 🟢,rtl_france,369000,235,2,8.0,24900.0,0.21,11800,0,,1.0,320.0,0.3,1
-125,"Recrudescence de la coqueluche en Europe, appel à une vigilance renforcée en France ! ",rtl_france,369000,210,3,3.0,18100.0,0.21,11800,0,,2.0,320.0,0.0,1
-126,Santé : consommer certains émulsifiants augmente-t-il le risque de devenir diabétique ?,rtl_france,369000,2660,62,54.0,311000.0,0.21,11800,0,,2.0,320.0,0.7107142857142857,1
+117,"Après la naissance de sa fille, Lorie, atteinte d'endométriose, décide de se faire retirer l'utérus. Elle se confie sur ce choix au micro d'Anaïs Bouton égralité !",rtl_france,369000,3245,21,47.0,251000.0,0.21,11800,0,,0.0,320.0,0.0,2
+118,Une prise de sang pour détecter l'arthrose ! ,rtl_france,369000,3447,52,56.0,293000.0,0.21,11800,0,,1.0,320.0,0.0,2
+119,Sédentarité : prendre l’escalier plutôt que l’ascenseur pour vivre plus longtemps ! ,rtl_france,369000,2031,47,15.0,170000.0,0.21,11800,0,,1.0,320.0,0.5,2
+120,"“Chers ados, grâce aux écrans, vous serez gros et aveugles !” ",rtl_france,369000,4384,58,117.0,169000.0,0.21,11800,0,,2.0,320.0,0.4333333333333333,1
+121,"« Pas d’écran avant 3 ans, et déconseillé avant 6 ans » ",rtl_france,369000,517,22,21.0,43300.0,0.21,11800,0,,0.0,320.0,0.0,2
+122,Crudivorisme : « Les conséquences peuvent être terribles » ,rtl_france,369000,292,2,6.0,41300.0,0.21,11800,0,,1.0,320.0,0.7307692307692308,2
+123,Un médicament antidiabétique capable de ralentir l’évolution de la maladie de Parkinson ? 💊,rtl_france,369000,186,4,3.0,16100.0,0.21,11800,0,,2.0,320.0,0.4,2
+124,Pourquoi le sirop de menthe ne devrait jamais être vert ? 🟢,rtl_france,369000,235,2,8.0,24900.0,0.21,11800,0,,1.0,320.0,0.3,2
+125,"Recrudescence de la coqueluche en Europe, appel à une vigilance renforcée en France ! ",rtl_france,369000,210,3,3.0,18100.0,0.21,11800,0,,2.0,320.0,0.0,2
+126,Santé : consommer certains émulsifiants augmente-t-il le risque de devenir diabétique ?,rtl_france,369000,2660,62,54.0,311000.0,0.21,11800,0,,2.0,320.0,0.7107142857142857,2
 127,La prochaine épidémie mondiale pourrait etre une grippe...,hugodecrypte,3500000,68000,175,827.0,2700000.0,1.78,2120,1,,1.0,900.0,0.0,2
 128,Un bilan de fertilité à l'age de 25 ans? Le gouvernement y réfléchit,hugodecrypte,3500000,92500,1691,3238.0,4700000.0,1.78,2120,1,,1.0,900.0,0.0,2
 129,Réarmement démographique Emmanuel Macron veut lutter contre la chute de natalité en France,hugodecrypte,3500000,84400,492,2317.0,3800000.0,1.78,2120,1,,0.0,900.0,0.1,1
@@ -134,27 +134,27 @@ influencer_id,post_content,username,followers_count,likes_count,shares_count,com
 134,Dimanche : certains ont eu du mal à respirer après l'orage ... Voici pourquoi,hugodecrypte,3500000,116000,528,857.0,2400000.0,1.78,2120,1,,0.0,900.0,0.0,1
 135,Le HCC bientot interdit en France,hugodecrypte,3500000,29900,39,256.0,1000000.0,1.78,2120,1,,0.0,900.0,0.0,2
 136,1 personnes sur 6 dans le monde n'arrive pas à voir d'enfants,hugodecrypte,3500000,72500,644,1081.0,1600000.0,1.78,2120,1,,1.0,900.0,0.5,2
-137,1 jeune sur 5 présente des troubles dépressifs en France...,hugodecrypte,3500000,86800,83,947.0,1500000.0,1.78,2120,1,,0.0,900.0,0.4,2
+137,1 jeune sur 5 présente des troubles dépressifs en France...,hugodecrypte,3500000,86800,83,947.0,1500000.0,1.78,2120,1,,0.0,900.0,0.4,1
 138,Le personnel soigant devra rembourser les applaudissements reçus pendant le premier confinement,le_gorafi,515000,8697,24,64.0,,2.48,3185,1,,2.0,175000.0,0.3333333333333333,1
 139,Un joueur de ukulélé accusé de maltraitance sur ses amis,le_gorafi,515000,3809,9,85.0,,2.48,3185,1,,2.0,164000.0,0.0,1
 140,Les pharmaciens autorisés à déliver des antidépresseurs sur simple préstation d'une simulation de retraite,le_gorafi,515000,5295,22,33.0,,2.48,3185,1,,1.0,119000.0,0.3571428571428571,1
 141,63% des Français projettent de remettre un masque cet hiver pour se chauffer,le_gorafi,515000,2450,27,16.0,,2.48,3185,1,,2.0,78400.0,0.3,1
-142,Il subit 8000 opérations de chirurgie esthétique pour ressembler à du fromage de chèvre,le_gorafi,515000,7035,216,211.0,,2.48,3185,1,,2.0,445000.0,0.0,1
-143,"étude: la mort, 1ère cause de mortalité chez les Français de tous ages.",le_gorafi,515000,9080,12,132.0,,2.48,3185,1,,0.0,123000.0,0.0,1
+142,Il subit 8000 opérations de chirurgie esthétique pour ressembler à du fromage de chèvre,le_gorafi,515000,7035,216,211.0,,2.48,3185,1,,2.0,445000.0,0.0,0
+143,"étude: la mort, 1ère cause de mortalité chez les Français de tous ages.",le_gorafi,515000,9080,12,132.0,,2.48,3185,1,,0.0,123000.0,0.0,0
 145,La fondation Bill Gates rappelle près d'un million de doses de vaccin en raison de nanopuces 5G défaillantes,le_gorafi,515000,2985,11,79.0,,2.48,3185,1,,0.0,94800.0,0.3875,1
 146,"Sur son lit de mort, il se dit qu'il a vraiment bien bossé pour son entreprise",le_gorafi,515000,5099,14,40.0,,2.48,3185,1,,2.0,65800.0,0.2,1
 147,Un milliardaire s'injecte du sang de millionnnaire pour paraitre plus proche du peuple,le_gorafi,515000,4827,53,24.0,,2.48,3185,1,,1.0,137000.0,0.0,1
-148,Canicule :  il oublie ses glaces dans la voiture à coté du chien mort,le_gorafi,515000,6197,66,53.0,,2.48,3185,1,,0.0,169000.0,0.2,1
+148,Canicule :  il oublie ses glaces dans la voiture à coté du chien mort,le_gorafi,515000,6197,66,53.0,,2.48,3185,1,,0.0,169000.0,0.2,0
 149,L'enfer se dote enfin d'un accès pour personne à mobilité réduite,le_gorafi,515000,11600,205,84.0,,2.48,3185,1,,0.0,253000.0,1.0,0
 150,"Après un week-end de 3 jours avec ses neveux, il prend rendez-vous pour une vasectomie",le_gorafi,515000,4573,72,54.0,,2.48,3185,1,,1.0,117000.0,0.0,1
-151,Paris - Un Québécois meurent de faim car personne n'arrivait à le comprendre,le_gorafi,515000,5959,81,95.0,,2.48,3185,1,,0.0,144000.0,0.0,1
+151,Paris - Un Québécois meurent de faim car personne n'arrivait à le comprendre,le_gorafi,515000,5959,81,95.0,,2.48,3185,1,,0.0,144000.0,0.0,0
 152,Emmanuel Macron propose finalement la retraite à 63 ans et 12 mois,le_gorafi,515000,7036,156,95.0,,2.48,3185,1,,1.0,157000.0,1.0,1
 153,Un happiness manager ne se sent pas capable d'organiser des tournois de baby-foot en open-space jusqu'à 64 ans,le_gorafi,515000,3101,5,17.0,,2.48,3185,1,,2.0,95500.0,0.3,1
 156,Pourquoi est-il dangereux pour la santé de réutiliser des bouteilles en plastique?,demotivateur,758000,5795,194,138.0,302000.0,0.54,7937,1,,0.0,6.0,0.9,0
 157,Pourquoi on pète plus dans l'avion?,demotivateur,758000,1332,15,14.0,94400.0,0.54,7937,1,,1.0,6.0,0.5,1
 158,C'est quoi la crise des 25 ans?,demotivateur,758000,2120,33,32.0,69500.0,0.54,7937,1,,0.0,6.0,0.0,1
 159,"Il force son fils à faire du sport pour perdre du poids, l'enfant meurt...",demotivateur,758000,5231,67,162.0,194000.0,0.54,7937,1,,0.0,6.0,0.0,1
-160,Ces jeunes ne sortent plus de chez eux pendant des années!,demotivateur,758000,5810,97,273.0,210000.0,0.54,7937,1,,0.0,6.0,0.4,1
+160,Ces jeunes ne sortent plus de chez eux pendant des années!,demotivateur,758000,5810,97,273.0,210000.0,0.54,7937,1,,0.0,6.0,0.4,0
 170,Rester au lit serait dangereux pour la santé!,demotivateur,758000,5939,142,99.0,203000.0,0.54,7937,1,,0.0,6.0,0.9,0
 171,Comment retarder l'arrivée des cheveux blancs?,demotivateur,758000,1180,29,21.0,109000.0,0.54,7937,1,,0.0,6.0,0.0,1
 172,Une femme serait plus heureuse si son mari est moche!,demotivateur,758000,17400,1169,791.0,1000000.0,0.54,7937,1,,2.0,6.0,1.0,1
@@ -184,20 +184,20 @@ influencer_id,post_content,username,followers_count,likes_count,shares_count,com
 196,"Syndrome du bébé secoué : l'histoire de Maria, ancienne assistante maternelle et présumée coupable.",konbini,2700000,15000,93,157.0,1100000.0,0.31,17900,1,,0.0,194.0,0.0,2
 197,La psycho-sociologue @christelealbaret explique comment vivre au quotidien avec une personne en dépression et donne ses conseils aux aidants pour ne pas sombrer.,konbini,2700000,14900,668,177.0,646000.0,0.31,17900,1,,0.0,194.0,0.25,1
 198,"À l'occasion du mois de sensibilisation au myélome multiple, un duo : Laurent Gillot, président de l'association @myelomefr, et le Pr. Mohamad Mohty, pour nous éclairer sur ce cancer du sang.",konbini,2700000,4468,22,28.0,436000.0,0.31,17900,1,,0.0,194.0,0.0,1
-199,Les crèmes solaires mentent-elles sur leur indice de protection ? ,rtl_france,369000,6337,127,273.0,596000.0,0.21,11800,0,,1.0,320.0,0.0,1
-200,Un Belge échappe à une condamnation pour ivresse en prouvant que son corps produit naturellement de l’alcool ! ,rtl_france,369000,2280,31,25.0,313000.0,0.21,11800,0,,2.0,320.0,0.4,1
-201,"“Svp pas de cocaïne dans la flamme olympique !” Philippe Caverivière en direct de Marseille et face au préfet de Police, Pierre-Edouard Colliex 😂",rtl_france,369000,2396,29,35.0,84400.0,0.21,11800,0,,0.0,320.0,0.5,1
-202,Les oeufs à la coke,rtl_france,369000,1483,1,25.0,117000.0,0.21,11800,0,,1.0,320.0,0.0,1
-203,"Santé mentale : On ne se rend pas compte à quel point la jeunesse souffre""""",rtl_france,369000,2080,152,75.0,71600.0,0.21,11800,0,,0.0,320.0,0.3,0
+199,Les crèmes solaires mentent-elles sur leur indice de protection ? ,rtl_france,369000,6337,127,273.0,596000.0,0.21,11800,0,,1.0,320.0,0.0,2
+200,Un Belge échappe à une condamnation pour ivresse en prouvant que son corps produit naturellement de l’alcool ! ,rtl_france,369000,2280,31,25.0,313000.0,0.21,11800,0,,2.0,320.0,0.4,2
+201,"“Svp pas de cocaïne dans la flamme olympique !” Philippe Caverivière en direct de Marseille et face au préfet de Police, Pierre-Edouard Colliex 😂",rtl_france,369000,2396,29,35.0,84400.0,0.21,11800,0,,0.0,320.0,0.5,2
+202,Les oeufs à la coke,rtl_france,369000,1483,1,25.0,117000.0,0.21,11800,0,,1.0,320.0,0.0,2
+203,"Santé mentale : On ne se rend pas compte à quel point la jeunesse souffre""""",rtl_france,369000,2080,152,75.0,71600.0,0.21,11800,0,,0.0,320.0,0.3,1
 204,"Me Too Hôpital : « Ces femmes me décrivent les agressions, les actes, la participation des chefs à ce système... Et finissent toujours par me dire, « surtout n’en parle pas » »  Marine Silvestre, interne en médecine, explique l’omerta qui règne à l’hôpital à propos des violences sexistes et sexuelles. ",rtl_france,369000,441,9,15.0,45900.0,0.21,11800,0,,0.0,320.0,0.3111111111111111,1
 205,"L’importance du vaccin contre le papillomavirus, il faut vacciner les filles et les garçons ",rtl_france,369000,4328,197,341.0,427000.0,0.21,11800,0,,2.0,320.0,0.0,1
 206,« J’ai continué à courir pour me sentir vivante et penser à autre chose que la maladie »,rtl_france,369000,2594,45,28.0,103000.0,0.21,11800,0,,2.0,320.0,0.3875,1
 207,"Une Américaine a reçu un mauvais diagnostic de cancer : Stevie Wonder reconvertit en oncologue ! 😎,0,0,,,2024-04-25 16:40:00+00:00,,,294,2,8,,,320,34700
 208,rtl_france,FR,https://www.instagram.com/rtl_france,,,,,11800,369000,,,,,,,,,0.21,,L'astuce hydratation de Jennifer Aniston: la vaseline!""",rtl_france,369000,2013,2,167.0,450000.0,0.21,11800,0,,0.0,320.0,0.45,1
-209,"« Si on interdit la cigarette, interdisons aussi les frites » ",rtl_france,369000,172,1,10.0,17000.0,0.21,11800,0,,0.0,320.0,0.0,1
-210,"« L’intelligence artificielle et la Silicon Valley veulent tuer la mort, et ce n’est pas une métaphore » ",rtl_france,369000,559,26,155.0,57200.0,0.21,11800,0,,0.0,320.0,1.0,1
-211,🤣 #MeToo à l’hôpital : « Le jeu Docteur Maboul va devenir Docteur Mes boules ! »,rtl_france,369000,271,10,12.0,22400.0,0.21,11800,0,,1.0,320.0,0.4,1
-212,L'orgelet c'est comme un bouton,rtl_france,369000,2923,11,78.0,460000.0,0.21,11800,0,,2.0,320.0,0.0,1
-213,Bonne nouvelle pour les amateurs de pain : manger deux baguettes par jour ne serait pas mauvais pour la santé pour le médecin nutritionniste Jean-Michel Cohen ! 🥖,rtl_france,369000,3726,42,488.0,475000.0,0.21,11800,0,,2.0,320.0,0.6333333333333333,1
-214,« Il n’y a pas une façon de parler à une personne en situation de handicap »,rtl_france,369000,28800,609,158.0,1000000.0,0.21,11800,0,,0.0,320.0,0.0,1
-215,Le tabagisme passif augmenterait le risque d'arythmie caridiaque,rtl_france,369000,2014,34,27.0,256000.0,0.21,11800,0,,0.0,320.0,0.0,1
+209,"« Si on interdit la cigarette, interdisons aussi les frites » ",rtl_france,369000,172,1,10.0,17000.0,0.21,11800,0,,0.0,320.0,0.0,2
+210,"« L’intelligence artificielle et la Silicon Valley veulent tuer la mort, et ce n’est pas une métaphore » ",rtl_france,369000,559,26,155.0,57200.0,0.21,11800,0,,0.0,320.0,1.0,2
+211,🤣 #MeToo à l’hôpital : « Le jeu Docteur Maboul va devenir Docteur Mes boules ! »,rtl_france,369000,271,10,12.0,22400.0,0.21,11800,0,,1.0,320.0,0.4,2
+212,L'orgelet c'est comme un bouton,rtl_france,369000,2923,11,78.0,460000.0,0.21,11800,0,,2.0,320.0,0.0,2
+213,Bonne nouvelle pour les amateurs de pain : manger deux baguettes par jour ne serait pas mauvais pour la santé pour le médecin nutritionniste Jean-Michel Cohen ! 🥖,rtl_france,369000,3726,42,488.0,475000.0,0.21,11800,0,,2.0,320.0,0.6333333333333333,2
+214,« Il n’y a pas une façon de parler à une personne en situation de handicap »,rtl_france,369000,28800,609,158.0,1000000.0,0.21,11800,0,,0.0,320.0,0.0,2
+215,Le tabagisme passif augmenterait le risque d'arythmie caridiaque,rtl_france,369000,2014,34,27.0,256000.0,0.21,11800,0,,0.0,320.0,0.0,2
